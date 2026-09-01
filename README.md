@@ -18,36 +18,43 @@ course material and it is not in Canvas, it has not been released yet.
 
 ---
 
-## Setup
+## Setup — three steps
 
 The course notebooks you download from Canvas are meant to be **run from a
-clone of this repository**: they read their data from the week folders here
-(with a URL fallback to this repo on GitHub, so they also work in Colab), and
-they expect this repo's `uv` environment.
+clone of this repository**: they read their data from the week folders here,
+and they expect this repo's pinned Python environment.
+
+**Step 0 — get a terminal with `git` and `bash`:**
+
+- **macOS:** nothing to install. Open **Terminal**. (The first time you run
+  `git`, macOS may offer to install its command-line tools — accept and wait.)
+- **Windows:** install **Git for Windows** from
+  [gitforwindows.org](https://gitforwindows.org/) with the default options,
+  then do everything below in **Git Bash** (it is installed alongside Git and
+  provides the `bash` that the setup script needs).
+
+**Step 1 — clone this repository:**
 
 ```bash
-# 1. Install uv (one-time)
-curl -LsSf https://astral.sh/uv/install.sh | sh     # or: brew install uv
-# Windows (PowerShell): powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-
-# 2. Clone this repository and enter it
 git clone https://github.com/prof-tcsmith/6564F26-DATA.git
 cd 6564F26-DATA
-
-# 3. Install Python 3.12 + every package the course uses, into ./.venv
-uv sync
-
-# 4. Download the language data the early labs need
-uv run python -m spacy download en_core_web_sm
-uv run python -m nltk.downloader punkt punkt_tab stopwords wordnet averaged_perceptron_tagger_eng
-
-# 5. Verify
-uv run python -c "import torch, transformers, sklearn, tiktoken; print('torch', torch.__version__, '| MPS', torch.backends.mps.is_available())"
 ```
 
-First run takes ~3–5 minutes (PyTorch is large); later syncs take seconds.
-**Step 4 is not optional** — Week 1's notebook raises an error on a fresh
-install without it.
+**Step 2 — run the setup script:**
+
+```bash
+./setup.sh
+```
+
+That's it. The script installs [`uv`](https://docs.astral.sh/uv/) if you don't
+have it, builds the exact pinned course environment into `./.venv` (Python
+3.12 and every package, first run 3–5 minutes), downloads the spaCy/NLTK
+language data the early notebooks require, and verifies the result. It is
+**safe to re-run at any time** — if anything ever looks broken, delete the
+`.venv` folder and run `./setup.sh` again.
+
+> If the script says uv was installed but cannot be seen yet, close the
+> window, open a fresh Terminal / Git Bash, and run `./setup.sh` once more.
 
 **Working on a notebook from Canvas:** save it into the matching week folder
 of this clone (for example `week-02-vectors-similarity/`), open it in VS Code,
