@@ -1,0 +1,101 @@
+[project]
+name = "ism6564f26"
+version = "0.0.0"
+description = "ISM 6564 — Text Analytics (Fall 26) — course content"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+  # --- Core data / viz ---
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "scipy",                    # W2: scipy.spatial.distance is the teaching
+                              # surface for the distance-metrics block.
+
+  # --- Notebook tooling ---
+  "jupyterlab",
+  "ipykernel",
+  "ipywidgets",
+  "python-dotenv",            # W6+: API keys via .env (already gitignored).
+
+  # --- NLP utilities (Weeks 1–2) ---
+  "nltk",
+  "spacy",
+  "gensim",                   # W2: word2vec / GloVe vectors.
+  "regex",                    # W1: Unicode-aware tokenizer patterns.
+
+  # --- Tokenization (Week 1) ---
+  "tokenizers",               # HF fast tokenizers; training a tokenizer.
+  "tiktoken",                 # OpenAI BPE; token budgeting / cost.
+  "sentencepiece",            # Llama/Mistral/T5 tokenizers fail without it.
+
+  # --- Classical ML (Week 3) ---
+  "scikit-learn",
+  "xgboost",                  # W3 names it explicitly; not in scikit-learn.
+
+  # --- Deep learning (Weeks 3–7) ---
+  # On macOS arm64 the standard PyPI wheel ships the MPS backend for Apple
+  # Silicon GPU acceleration — no special index needed. On Windows + NVIDIA
+  # the PyPI wheel is CPU-only; see README for the CUDA index URL.
+  "torch>=2.2",
+
+  # --- LLM ecosystem (Weeks 5–7) ---
+  "transformers",
+  "datasets",
+  "accelerate",
+  "huggingface-hub",          # W5: snapshot download, `hf auth login`.
+  "peft",                     # W6: LoRA adapters.
+  "trl",                      # W6: SFTTrainer — peft has no training loop.
+  "sentence-transformers",
+
+  # --- Structured output (Week 6) ---
+  "openai",
+  "anthropic",                # W6 covers frontier APIs, plural.
+  "pydantic",
+  "jsonschema",
+
+  # --- Retrieval / RAG (Week 7) ---
+  "chromadb",
+  "faiss-cpu",                # what a vector index actually does, before
+                              # handing students a managed service.
+  "rank-bm25",                # lexical half of hybrid search.
+
+  # --- Agents (Weeks 8–9) ---
+  "mcp==1.9.4",               # PINNED: the labs touch SDK internals that move
+                              # between minor versions. Do not loosen.
+  "langgraph",                # explicit graph orchestration for the agent loop.
+
+  # --- Evaluation & guardrails (Week 10) ---
+  "evaluate",
+  "ragas",                    # retrieval + faithfulness metrics.
+  "presidio-analyzer",        # PII detection for the guardrail lab.
+]
+
+[dependency-groups]
+dev = [
+  "ruff",
+]
+
+# QLoRA only. bitsandbytes has no Apple Silicon build, so the 4-bit half of
+# the Week 6 fine-tuning lab runs on Colab/CUDA. Install with:
+#   uv sync --extra qlora        (Linux/Windows + NVIDIA only)
+[project.optional-dependencies]
+qlora = [
+  "bitsandbytes; platform_machine == 'x86_64'",
+]
+
+[tool.uv]
+# Pin uv minimum and treat this as a dependency-only project (not a buildable
+# package — we never want `uv build` or wheel publication; the repo is course
+# content, not a library).
+required-version = ">=0.5"
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]   # long lines are common in teaching notebooks

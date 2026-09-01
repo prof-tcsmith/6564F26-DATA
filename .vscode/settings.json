@@ -1,0 +1,43 @@
+{
+  // Always use the project's uv-managed virtualenv. Run `uv sync` once before
+  // opening this project.
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+
+  // When you open a new terminal in VS Code, auto-activate the venv.
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+
+  // Format + lint with Ruff (recommended in extensions.json). The Python
+  // extension has not bundled a formatter since the 2023 split, so a
+  // `[python]` block without an explicit defaultFormatter is a no-op.
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": { "source.organizeImports": "explicit" }
+  },
+
+  // Ignore the built single-file decks during file watches — they're ~2 MB
+  // each and rewritten on every build, which makes the watcher noisy.
+  "files.watcherExclude": {
+    "**/.venv/**": true,
+    "**/node_modules/**": true,
+    "**/dist-singles/**": true,
+    "**/ism6564-*.html": true
+  },
+
+  // Don't search inside the venv, node_modules, or the built decks.
+  "search.exclude": {
+    "**/.venv": true,
+    "**/node_modules": true,
+    "**/dist-singles": true,
+    "**/ism6564-*.html": true,
+    "**/uv.lock": true,
+    "**/package-lock.json": true
+  }
+
+  // NOTE: do NOT add "jupyter.kernels.excludePythonEnvironments" with the
+  // project venv in it. That setting hides ./.venv/bin/python from the
+  // notebook kernel picker — i.e. it hides the one kernel every student is
+  // told to select.
+}
