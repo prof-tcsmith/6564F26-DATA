@@ -1,0 +1,901 @@
+ticket_id,channel,subject,body,queue
+T-90001,email,Double charged,"Hello Northwind, I was charged twice for order NW-45210 - there are two $249.50 charges on my card. Order number is NW-46280 if that helps. Thank you.",billing
+T-90002,webform,Double charged,"Hello, Can I get an itemized receipt or invoice for order NW-47647 - I need it for my expense report. I placed the order on the 3rd. Thanks in advance.",billing
+T-90003,webform,Urgent,The promo code BASECAMP10 did not apply at checkout and I was charged full price. I have been a customer for three seasons and this is the first problem I have had. Please advise.,billing
+T-90004,webform,Need assistance,"Hi, There is a charge from Northwind on my statement for $79.99 that I do not recogznie. This is ffor ac upcoming thru-hike.",billing
+T-90005,webform,2FA problem,"Hey, I changed phones and can no longer get the two factor authentication code. The order had the Lumen 400 headlamp and some smaller items in it. Thanks in advance.",account-access
+T-90006,webform,Account security concern,"Good morning, The email receipt went to my old address - I need to update where my invoices get sent. The order had the Drifter 10 kayak and some smaller items in it. Hope you can help.",account-access
+T-90007,email,Promo code problem,"Good morning, Please cancel my Trail Club membership - I am still being billed $12.99 a month. I need this sorted before the weekend. Please advise. — Quinn Silva",billing
+T-90008,email,Password reset not working,"Hey, Please delete my account and all my personal data. — Quinn Kaur",account-access
+T-90009,email,Help,USPS tracking shows my package has been sitting in a sort facility for two weeks. i cancelled order nw-66916 an hour after placing it but the charge of $89.95 still went through. i returned the merino trail socks and the refund i got was $79.95 short of what i paid. This is for an upcoming backpacking trip. Thanks.,shipping
+T-90010,email,Need assistance,"Hi, I returned the Torrent rain pants and the refund I got was $42.95 short of what I paid. I have been a customer for years and this is the first problem I have had. Please advise. — Reese Okafor",billing
+T-90011,email,Question,"Hi there, Customs is asking me to pay $129.99 i nimport fees for order NW-44720 - was that supposed to happen. I have beqn a customor for years and his is the first problem I have had. Thanks. — Morgan Haddad",shipping
+T-90012,webform,Payment issue,"Hi there, I was charged sales tax on order NW-65864 but my state does not tax clothing. where is my order? the voltpack 20k power bank was supposed to arrive on monday. I already looked through the help center and could not find an answer.",billing
+T-90013,chat,2FA problem,My account seems to be locked after too many login attempts. I already looked through the help center and could not find an answer.,account-access
+T-90014,email,Support request,"Hi, Can o hold the shipment at a nSPS pickup point instead of delivering to my door. Thaks. — Reese Chen",shipping
+T-90015,webform,Urgent,"Hey, I cancelled ordwr NW-64566 an hour after placing it but the charg eof $42.95 still went through. Thanks in advance.",billing
+T-90016,webform,Account locked,"Good morning, The verification link in the signup email says it has expired. This is for an upcoming backpacking trip.",account-access
+T-90017,webform,Support request,"Hello Northwind, I was charged twiec for orderN W-48862 - there are two $42.00c harges on my card. I tried calling but the wait itme was over 30 minutes. Thanks in advance.",billing
+T-90018,chat,Need assistance,i was charged sales tax on order NW-70970 but my state does not tax clothing. Order number is NW-45732 if that helps?,billing
+T-90019,webform,Cannot log in,"Hi there, I cannot log in to my account - it keeps saying my password is wrong even after I reset it. I need this sorted before the weekend.",account-access
+T-90020,webform,Help,see attached screenshot for order NW-53052,shipping
+T-90021,email,Supprot request,I kee pgetting logged oute very time the app updates. I need this sorted beffore the end of the month. Thank yol. — Taylor Silva,account-access
+T-90022,email,Problem with my order,"Good morning, I keep getting logged out every time the app updates. I placed thee ordder about ten days ago .Appreciate it. — Taylor Silva",account-access
+T-90023,email,Double charged,"Hello Northwind, Can I get an itemized receipt or invoice for order NW-79619 - I need it for my expense report. I need this sorted before the end of the month. Thank you. — Rowan Larsen",billing
+T-90024,chat,Tracking question,the invoice in the box lists a Basecamp camp chair that is not whhatI  was charged for online - which one is actually shipping to mm. I paid with the card ending 9828,shipping
+T-90025,email,Supprt request,"Hi there, My order history disappeared after I merged my old account with my new email. I contacted you a few days ago about this and never heard back. Thanks in advance. — Casey Silva",account-access
+T-90026,email,Delivery problem,"Good morning, UPS tracking shows my package has been sitting in a sort facility for two days. Appreciate it.",shipping
+T-90027,email,2FA problem,"Hi there, I changed phones and can no lnger get the two factor authentication cod. I already looked through the help center and could not find an answer. — Jordan Garcia",account-access
+T-90028,chat,Invvoice request,You charged the wrong card - the order should have gone on the card ending 1766. I already looked through the help center and could not find an answer?,billing
+T-90029,email,Problem with my order,"Hi, My return was received four days ago but the refund of $89.00 still is not back on my card. — Reese aLrsen",billing
+T-90030,chat,Need assistance,my order NW-68498 was placed four days ago and the tracking still says label created. I placed the order on the 3rd.,shipping
+T-90031,email,Where is my order,"Good morning, My package arrived with the box torn open and the Torrent rain jacket inside looks damaged. you refunded the item but not the original shipping cost on order nw-96299. I paid with the card ending 2748. Hope you can help. — Rowan Novak",shipping
+T-90032,chat,Tracking question,you split my order into two shipments and only one has any tracking movement?,shipping
+T-90033,webform,Help,"Hello, There is a charge fohm Northwind on my statement for $249.99 that  do not recognnize. Order number is NW-55381 if that helps. Hope you can help.",billing
+T-90034,email,Late order,"Hi there, The invoiec in the box lists a Trailhead hiking boots that is not what I was charged for online - whicv one is actualy shipping to me. This is for an upcmoing thru-hike. Thanks in advance.",shipping
+T-90035,email,Package missing,"Hello, The tracking page says delivered but there is no packag anywhere at my address. I placed the order during the sale. — Sam Haddad",shipping
+T-90036,webform,Question,"Hi, I need the Ember fuel canister beforee Saturday - can you expedite shipping. I tried calling but the wait time was over 45 minutes. Hope you can help.",shipping
+T-90037,email,Support request,The tracking page says delivered but there is no package anywhere at my address. Thank you. — Jordan Silva,shipping
+T-90038,chat,Membership billing,Please cancel my Trail Club membership - I am still being billed $9.99 a month. I already looked through the help center and could not find an answer?,billing
+T-90039,email,Billing question,I was charged twice for order NW-62919 - there are two $19.00 hcarges on my card. Appreciate it. — Dana Whitfield,billing
+T-90040,email,Account locked,"Hello Northwind, The email receipt went to my old address - I need to update where my invoices get sent. I already looked through the help center and could not find an answer. Thanks in advance. — Rowan Okafor",account-access
+T-90041,webform,Need assistance,"Good morning, The password reset email never arrives - I have checked spam twice. I contacted you last week about this and never heard back. Thanks in advance.",account-access
+T-90042,email,Urgent,"Hello Northwind, I paid $149.99 extra for two day shipping and mt has been a week. The package was a gift for my partner. Hope you can help.",shipping
+T-90043,email,Problem with my order,"Good morning, How do I change the email address on my account - I no longer have access to the old one. I have been a customer for years and this is the first problem I have had. Hope you can help. — Casey Ortiz",account-access
+T-90044,chat,Support request,My account shows an order I already cancelled and the charge is still pending on my card. the tracking page says delivered but there is no package anywhere at my address??,billing
+T-90045,chat,Suport request,I cannot log in to my account - it keeps saying my password is wrong even after I reset it. the tracking page says delivered but there is no package anywhere at my address,account-access
+T-90046,email,Quuestion,"Hello Northwind, I was charged twice for order NW-57996 - there are two $189.99 charges on my card. how do i change the email address on my account - i no longer have access to the old one. Please advise. — Devon Haddad",billing
+T-90047,email,Where ism y order,"Hello Northwind, Can you hold the shipment at a UPS pickup point instead of delivering to my door. This is for an upcoming camping trip. — Avery Ortiz",shipping
+T-90048,chat,Urgent,resending this - You charged the wrong card - the order should have gone o the card gnding 495.6 The pacfage was a gift for my son?,billing
+T-90049,chat,Question,i paid $249.99 extra for two day shipping and it has been two weeks. I paid with the card ending 4595??,shipping
+T-90050,email,Double charged,"Hey, I was charged sales tax on order NW-56239 but my state does not tax clothing. The order had the Drifter 10 kayak and some smaller items in it. Thanks in advance. — Reese Whitfield",billing
+T-90051,chat,Support request,My gift card balance shows $118.95 but checkout would not let me use it. I contacted you a few days ago about this and never heard back,billing
+T-90052,email,Urgent,"Hey, When I log in my order history shows someone else's orders and charges. my account shows an order i already cancelled and the charge is still pending on my card. Thanks.",account-access
+T-90053,chat,Order not delivered,if I refuse the package at delivery do I still have to pay return shipping. i cancelled order nw-67530 an hour after placing it but the charge of $249.50 still went through??,shipping
+T-90054,chat,Delivery problem,Only half of order NW-41470 showed up - the Drifter paddle is missing from the box.,shipping
+T-90055,email,,?????!!,billing
+T-90056,chat,Cannot log in,When I log in my order history shows someone else's orders and charges. I already looked through the help center and could not find an answer,account-access
+T-90057,webform,Help,"Good morning, You refunded the item but not the original shipping cost on order NW-63397. I already looked through the help center and could not find an answer. Thank you.",billing
+T-90058,webform,Charge I do not recognize,following up - There is a charge from Nortthwind on my statement for $35.00 that I d not recognize. Please advise.,billing
+T-90059,chat,Delivery problem,the invoice in the box lists a Cascade 20 sleeping bag that is not what I was charged for online - which one is actually shipping to me. Order number is NW-56951 if that helps,shipping
+T-90060,email,Urgent,"Hello Northwind, I need the Lumen 800 headlamp before this weekend - can you expedite shipping. I already looked thruough the help center and could not find an answer. Pleas advise. — Riley Okafor",shipping
+T-90061,email,Refund not received,"Hi there, Please cancel my Trail Club membership - I am still being billed $9.99 a month. I contacted you last week about this and never heard back. Please advise. — Riley Larsen",billing
+T-90062,email,Package missing,"Hi there, The tracking page says delivered but there is no package anywhere at my address. Appreciatei t.",shipping
+T-90063,email,Support request,The invoice in the box lists a Voltpack 20K power bank that is not what I was charged for online - which one is actually shipping to me. I tried calling but the wait time was over 30 minutes. Hope you can help. — Casey Ortiz,shipping
+T-90064,email,Password reset not working,"Hello, The password reset email never arrives - I have checked spam several times. I have been a customer for years and this is the first problem I have had. Please advise.",account-access
+T-90065,webform,Help,Please delete my account and all my personal data. Thank you.,account-access
+T-90066,email,Support request,"Hey, Can  Iget an itemized receipt or invoice for order NW-52704 - I need it for woork. I placed the order during the sale. Thanks in advance.",billing
+T-90067,email,Package issing,Can I change the delivery address on order NW-69699 before it ships. there is a charge from northwind on my statement for $312.50 that i do not recognize. I have been a customer for years and this is the first problem I have had. Appreciate it. — Casey Whitfield,shipping
+T-90068,webform,Double charged,"Hi, I cancelled order NW-66133 minutes after placing it but the charge of $214.99 still went through. I tried calling but the wait time was over 45 minutes. Thanks in advance.",billing
+T-90069,chat,Question,if I refuset he package at delivery do I still have to pay return shipping. I paid with the card ending 8211?,shipping
+T-90070,email,Support reqeust,"Hello Northwind, My order history disappeared after I merged my old account with my new email. my account shows an order i already cancelled and the charge is still pending on my card. the price of the aurora camp lantern dropped to $118.99 the day after i bought it - do you do price adjustments. I paid with the card ending 6500. — Riley Whitfield",account-access
+T-90071,email,Late roder,"Hi there, Only half of order NW-41476 showed up - the Otter dry bag is missing from the box. The order had the Cascade 20 sleeping bag and some smaller items in it. Thanks. — Taylor Okafor",shipping
+T-90072,webform,Delivery problem,Customs is asking me to pay $129.95 in import fees for order NW-65447 - was that supposed to happen. my order history disappeared after i merged my old account with my new email. I contacted you last week about this and never heard back. Thanks in advance.,shipping
+T-90073,email,Billing question,"Hi there, I was charged sales tax on order NW-71035 but my state does not tax clothing. I placed the order about ten days ago. Hope you can help. — Kai Ortiz",billing
+T-90074,chat,Question,I returne dteh Windbreak fleece and the refund I got was $58.50 short of what I paid. The package was a gift for a friend?,billing
+T-90075,chat,Password reset not working,my account seems to be locked after too many login attempts. Order number is NW-48649 if that helps.,account-access
+T-90076,email,Membership billing,"Hey, My return was received two days ago but the refund of $129.00 still is not back on my card. I tried calling but the wait time was over 45 minutes. Appreciate it. — Reese Nguyen",billing
+T-90077,chat,Suport request,I cannot log in to my account - it keeps saying my password is wrong even after I reset it. the tracking page says delivered but there is no package anywhere at my address,account-access
+T-90078,email,Support request,"Good morning, Can I change the delivery address on order NW-50390 before it ships. please cancel my trail club membership - i am still being billed $9.99 a month. why was i charged $312.99 for shipping when the site says orders over $75 ship free. I contacted you a few days ago about this and never heard back. Hope you can help.",shipping
+T-90079,email,Help,"Hey, I was charged twice for order NW-73194 - there are two $149.00 charges on my card. Thanks. — Jamie Okafor",billing
+T-90080,email,Help,"Good morning, The tracking says my order was delivered but I was charged for shipping insurance I never added. The order had the Anchor bear canister and some smaller items in it. Thanks in advance. — Jordan Silva",billing
+T-90081,email,Promo code problem,"Hey, You charged the wrong card - the order should have goone on the card ending 1869. I placed the order on the 3rd. Appreciate it.",billing
+T-90082,chat,Question,Please cancel my Trail Club membership - I am still being billed $9.99 a month. the email receipt went to my old address - i need to update where my invoices get sent.,billing
+T-90083,email,Urgent,"Good morning, Where is my order? The Lumen 800 headlamp was supposed to arrive two days ago. I contacted you last week about this and never heard back. Thanks.",shipping
+T-90084,webform,Urgent,Where is my order? The Firefly bug net was supposed to arrive two days ago. I contacted you a few days ago about this and never heard back. Please advise.,shipping
+T-90085,chat,Help,Can you hold the shipment at a FedEx pickup point instead of delivering to my door. The package was a gift for a friend??,shipping
+T-90086,email,Billing question,"Good morning, My gift card balance shows $129.00 but checkout would not let me use it. I contacted you a few days ago about this and never heard back. Appreciate it.",billing
+T-90087,chat,Problem with my order,only half of order NW-44657 showed up - the Glacier 45 cooler is missing from the box. I contacted you a few days ago about this and never heard back?,shipping
+T-90088,chat,Invoice request,my account shows an order I already cancelled and the charge is still pending on my card. I contacted you last week about this and never heard back.,billing
+T-90089,webform,Question,"second time sending this. Hey,H ow do I yhange the email address on my account - I no longer have access to the old one. The package was a gift for my partner. Thanks in advance.",account-access
+T-90090,webform,Support request,see below. ref NW-72006,billing
+T-90091,email,Question,"Good morning, If I refuse the package at delivery do I still have to pay return shipping. I placed the order on the 3rd. Appreciate it.",shipping
+T-90092,webform,Help,"Hey, Customs is asking me to pay $24.50 in import fees for order NW-76314 - was that supposed to happen. I need this sorted before the weekend. Please advise.",shipping
+T-90093,email,Billing question,"Good morning, The promo code WELCOME10 did not apply at checkout and I was charged full price. I contacted you last week about this and never heard back. Please advise.",billing
+T-90094,email,Support request,"Good morning, The email receipt went to my old address - I need to update where my invoices gets ent. I already looked through the help center and could not find an answer.",account-access
+T-90095,chat,Delivery problem,USPS tracking shows my package has been sitting in customs for three days. The package was a gift for a friend??,shipping
+T-90096,webform,Support request,see below. ref NW-79387,account-access
+T-90097,webform,Late order,"Good morning, I paid $79.00 extra for two day shipping and it has been a week. I contcted you a few days ago about this and never heard back. Appreciate it.",shipping
+T-90098,webform,Support request,"Hi, I returned the Summit 65 backpack and the refund I got was $312.99 short of what I paid. I already looked through the help center and could not find an answer.",billing
+T-90099,email,Help,"Good morning, I think someone else has been using my account - there is an order in my history I never placed. I already looked through the help center and could not find an answer. Hope you can help.",account-access
+T-90100,chat,Urgent,I paid $64.00 extra for two day shipping and it has been three days. The package was a gift for my partner?,shipping
+T-90101,email,Support request,"Hello Northwind, Customs is asking me to pay $214.00 in import fees for order NW-49029 - was that supposed to happen. The order had the Anchor bear canister and some smaller items in it. Thanks in advance. — Devon Larsen",shipping
+T-90102,chat,Account security concern,when I log in my order history shows someone else's orders and charges. can you hold the shipment at a dhl pickup point instead of delivering to my door.,account-access
+T-90103,email,Problem with my order,"Good morning, Where is my order? The Torrent rain jacket was supposed to arrive on Monday. my account seems to be locked after too many login attempts. the verification link in the signup email says it has expired. I already looked through the help center and could not find an answer. Appreciate it. — Reese Kaur",shipping
+T-90104,webform,Question,"Hello, I cannot log in to my account - it keeps saying my pasword is wroog even after I reset it. Order number is NW-53868 if that helps. Hope you can help.",account-access
+T-90105,webform,Charge I do not recognize,"resending this - Hi there, Why was I charged $249.99 for shipping when the site says orders over $75 ship free. I contacted you a few days ago about this and never heard back.",billing
+T-90106,chat,Order not delivered,can you hold the shipment at a DHL pickup point instead of delivering to my door??,shipping
+T-90107,chat,Promo code problem,I returned the Cirrus trekking poles and the refund I got was $312.50 short of what I paid. I have been a customer for years and thisi s the first problem I have had.,billing
+T-90108,email,Late orer,"Good morning, Only half of order NW-50960 showed up - the Slate sunglasses is missing from the box. Thank you. — Reese Okafor",shipping
+T-90109,chat,Cannot log in,The verification link in the signup email says it has expired. The package was a gift for a friend.,account-access
+T-90110,chat,Shipping delay,My package arrived with the box torn open and the Puffin down vest inside looks okay. I already looked through the help center and could not find an answer?,shipping
+T-90111,chat,Late order,i need the Trailhead hiking boots before this weekend - can you expedite shipping. I have been a customer for three seasons and this is the first problem I have had?,shipping
+T-90112,webform,Late order,"Good morning, Where is my order? The Windbreak fleece was supposed to arrive yesterday. This is for an upcoming canoe trip. Thank you.",shipping
+T-90113,webform,Queston,"Good morning, I was charged twice for order NW-45570 - there are two $249.99 charges on my card. the tracking page says delivered but there is no package anywhere at my address. I already looked through the help center and could not find an answer. Hope you can help.",billing
+T-90114,webform,Support request,I returned the Torrent rain jacket and the refund I got was $35.99 short of what I paid. I paid with the card ending 6087. Thanks in advance.,billing
+T-90115,email,Urgent,"Hey, My account seems to be locked after too many login attempts. Thanks. — Morgan Okafor",account-access
+T-90116,email,Need assistance,"Hi there, My account shows an order I already cancelled and the charge is still pending on my card. when i log in my order history shows someone else's orders and charges. This is for an upcoming camping trip. Thanks. — Dana Chen",billing
+T-90117,email,Delivery pproblem,"Good morning, My refund was approved but the replacement Cirrus trekking poles still has no tracking number. I already looked through the help center and could not find an answer. Please advise. — Casey Garcia",shipping
+T-90118,webform,Delivery problem,"Hi there, My refund was approved but the replacement Cascade 0 sleeping bag still has no tracking number. I already looked through the help center and could not find an answer. Thanks.",shipping
+T-90119,email,Delivery problem,"Hello Northwind, The tracking page says delivered but there is no package anywhere at my address. I already looked through the help center and could not find an answer.",shipping
+T-90120,email,Problem with my order,"Hello Northwind, My refund was approved but the replacement Anchor bear canister still has no tracking number. This is for an upcoming camping trip. Thanks in advance.",shipping
+T-90121,chat,Login trouble,my account seems to be locked fater too many login attempts. The order had the Firefly bug net and some smaller items in it??,account-access
+T-90122,webform,Package missing,"Hello, My package arrived with the box torn open and the Anchor bear canister inside looks okay. I contacted you a few days ago about this and never heard back. Hope you can help.",shipping
+T-90123,email,Order status,"Hello Northiwdn, My refund was approved but the replacement Basecamt camp chair still has no tracking number. Thank you.",shipping
+T-90124,email,Where is my order,"Good morning, Only haalf of order NW-50569 showed up - the GGlacier 45 cooler is missing from the box. The package was a gift for my son. Thanks. — Morgan Haddad",shipping
+T-90125,chat,Question,My return was received over two weeks aog but teh refun of $64.50 still is not back on my card. The package was  gift for my son.,billing
+T-90126,email,Account security concern,"Good morning, I think someone else has been using my account - there is an order in my history I never placed. I already looked through the help center and could not find an answer. Appreciate it. — Skyler Kaur",account-access
+T-90127,email,Need assistance,"Hi, You charged the wrong card - the order should have gone on the card ending 1606. I placeed the order during the sale. Thanks.",billing
+T-90128,webform,Delivery problem,Customs is asking me to pay $89.95 in import fees for order NW-78291 - was that supposed to happen. The package was a gift for my son. Thanks in advance.,shipping
+T-90129,email,Promo code problem,"Hi there, The promo code SUMMER20 did not apply at checkout and I was charged full price. The package was a gift for my son. Thanks in advance. — Dana Brooks",billing
+T-90130,chat,Membership billing,Why was I charged $149.00 for shipping when the site says orders over $75 ship free. Order number is NW-42239 if that helps?,billing
+T-90131,webform,Membership billing,"Hi there, The price of the Trailqed hiking boots dropped to $118.50 the day after I bought it - do you do price adjustments. I have been a customer ofr three seasons and this is the first problem I haev had. Thanks in advance.",billing
+T-90132,webform,Help,"Hello, When I log in my ordr histor shows someone else's orders and charges. I contacted you a few days ago about this and nevver heard back. Hope you can help.",account-access
+T-90133,webform,Double charged,"Good morning, My return was received ten days ago but the refund of $214.95 still is not back on my card. I contacted you a few days ago about this and never heard back. Thanks.",billing
+T-90134,email,Where is my order,The tracking page says delivered but there is no package anywhere at my address. I already looked through the help center and could not find an answer. Appreciate it. — Kai Patel,shipping
+T-90135,chat,2FA problem,The password reset email never arrives - I have checked spam several times. The order had the Drifter 10 kayak and some smaller items in it.,account-access
+T-90136,email,Charge I do not recognize,"Hello Northwind, The price of the Ember camp stove dropped to $312.99 the day after I bought it - do you do price adjustments. I contacted you a few days ago about this and never heard back. Thanks in advance. — Dana Brooks",billing
+T-90137,email,Problem with my order,"Hi, My package arrived with the box crushed and the Dayhike 22 backpack inside looks okay. Please advise. — Dana Brooks",shipping
+T-90138,email,Problem with my order,"Hi there, I cannot open the tracking link for my order without signing in and the sign in page just loops. This is for an upcoming canoe trip. Appreciate it. — Taylor Okafor",account-access
+T-90139,webform,Problem with my order,"Hi there, Cay I get an itemized receipt or invoice for ordr NW-45051  -I need it for work.",billing
+T-90140,email,Shipping delay,Only half of order NW-73651 showed up - the Voltpack 20K power bank is missing from the box. I need this sorted before the weekend. Appreciate it. — Reese Larsen,shipping
+T-90141,chat,Late order,I need the Cascade 20 sleeping bag before this weekend - can you expedite shipping.,shipping
+T-90142,chat,Question,there is a charge from Northwind on my statement for $89.00 that I do not recognize?,billing
+T-90143,webform,Order not delivered,"following up - Good morning, Only half of order NW-52444 showed up - the Aurora camp lantern is missing from the box. please cancel my trail club membership - i am still being billed $9.99 a month. I contacted you a few days ago about this and never heard back. Thanks.",shipping
+T-90144,email,Urgent,"Hello Northwind, Customs is asking me to pay $149.95 in import fees for order NW-70338 - was that supposed to happen. when i log in my order history shows someone else's orders and charges. how do i change the email address on my account - i no longer have access to the old one. I tried calling but the wait time was over 45 minutes. Hope you can help. — Reese Kim",shipping
+T-90145,email,Help,"Hello Northwind, If I refuse the package at delivery do I still have to pay return shipping. I already looked through the help center and could not find an answer. — Reese Kim",shipping
+T-90146,email,Problem with my order,"Hi, The estimated delivery on my order keeps moving - it has changed three times this week. I already looked through the help center and could not find an answer. Thanks. — Casey Kim",shipping
+T-90147,chat,Membership biling,the tracking says my order was delivered but I was charged for shipping insurance I never added. The order had the Cascade 0 sleeping bag and some smaller items in it,billing
+T-90148,chat,Where is my order,The invoice in the box lists a Halo clmbing hemet that is not what I was charged for online - which one is actually shipping to me??,shipping
+T-90149,chat,Account security concern,The verification link in the signup email says it has expired. Order number is NW-75514 if that helps,account-access
+T-90150,chat,Need assistance,The price of the Otter dry bag dropped to $64.99 the day after I bought it - do you do price adjustments. I tried calling but the wait time was over 30 minutes?,billing
+T-90151,email,Tracking question,"Good morning, My refund was approved but the replacement Cascade 20 sleeping bag still has no tracking number. I need this sorted before the weekend. — Morgan Patel",shipping
+T-90152,email,Change my email,The email receipt went to my old address - I need to update where my invoiices get sent. Order number is NW-68144 if that elps. Hope you can help.,account-access
+T-90153,email,Tracking question,"Hi there, Can you hold the shipment at a DHL pickup point instead of delivering to my door. The order had the Riverbend sandals and some smaller items in it. Thanks.",shipping
+T-90154,chat,Question,I was charged twice for order NW-53225 - there are two $89.95 charges on my card. please delete my account and all my personal data.,billing
+T-90155,email,Order status,"Hello Northwind, Where is my order? The Slate sunglasses was supposed to arrive last Friday. Thank you. — Morgan Brooks",shipping
+T-90156,webform,Need assistance,"Hey, The password reset email never arrives - I have checked spam twice. The package was a gift for my partner. Thank you.",account-access
+T-90157,email,Urgent,"Good morning, I changed phones and can no longer get the two factor authentication code. I placed the order on the 3rd. Hope you can help. — Sam Larsen",account-access
+T-90158,email,Problem with my order,FedEx tracking shows my package has been sitting in Newark for over two weeks. I placed the order on the 3rd. Thanks. — Jamie Larsen,shipping
+T-90159,chat,Refund not received,The price of the Lumen 800 headlamp dropped to $89.95 the day after I bought it - do you do price adjustments. Order number is NW-59715 if that helps,billing
+T-90160,email,Urgent,"Good morning, Can I change the delivery address on order NW-79427 before it ships. the promo code basecamp10 did not apply at checkout and i was charged full price. Order number is NW-75953 if that helps. — Skyler Brooks",shipping
+T-90161,email,Membership billing,"Hi there, I was charged sales tax on order NW-53946 but my state does not tax clothing. The package was a gift for my daughter. Thanks.",billing
+T-90162,chat,Account locked,I think someone else has been using my account - there is an order in my history I never placed. This is for an upcoming family trip,account-access
+T-90163,email,Promo code problem,"Helllo, You refunded the item but not the original shipping cost on orde NW-57860. I placed the order last wee. Appreciate it.",billing
+T-90164,email,Package missing,"Hi there, The estimatde ddelivery on my order keeps movnig - ith as changed twice this week. Thank you. — Jamie Kim",shipping
+T-90165,chat,Order status,I need the Slate sunglasses before my trip on the 14th - can you expedite shipping. The order hadt he Puffin down vest and some smaller items in it,shipping
+T-90166,email,Support requst,"Hi there, My package arrived with the box torn open and the Puffin down vest inside looks damaged. The package was a gift for my son. Thanks in advance. — Sam Chen",shipping
+T-90167,webform,Problem with my order,"Hello, Customs is asking me to pay $149.95 in import fees for order NW-43479 - was that supposed to happen. I tried calling but the wait time was over 20 minutes. Thanks.",shipping
+T-90168,email,Membership billing,I returned the Drifter 10 kayak and the refund I got was $189.50 short of what I paid. This is for an upcoming camping trip. Thanks in advance.,billing
+T-90169,webform,Support request,"Hi there, mya ccount seems to be locked after too mnay login attempts. Thanks.",account-access
+T-90170,webform,Ned assistance,"Hi there, Can I change the delivery address on order NW-67194 before it ships. I paid with the card ending 2162. Thank you.",shipping
+T-90171,webform,Payment issue,My account shows an order I already cancelled and the charge is still pending on my card. I need this sorted before the weekend.,billing
+T-90172,webform,Urgent,please call me back 804-555-2999,account-access
+T-90173,email,Need assistance,"Hi there, The password reset email never arrives - I have checked spam twice. I have been a customer for a long time and this is the first problem I have had.",account-access
+T-90174,chat,Tracking quesiton,the estimated delivery on my order keeps moving - it has changed twice this week. I tried calling but the wait time was over 20 minutes,shipping
+T-90175,webform,Order status,"Hello Northwind, If I refuse the package at delivery do I still have to pay return shipping. I have been a customer for three seasons and this is the first problem I have had. Please advise.",shipping
+T-90176,chat,Help,the password reset email never arrives - I have checked spam twice. Order number is NW-73921 if that helps??,account-access
+T-90177,chat,Urgent,My refund was approved but the replaceemnt Puffin down vest still has no tracking number??,shipping
+T-90178,chat,Urgent,i keeep getting logged out every time the app updates. I paid with the card ending 7749??,account-access
+T-90179,email,Support request,"Hi, Where is my order? The Aurora camp lantern was supposed to arrive on Monday. Hope you can help.",shipping
+T-90180,chat,Problem with my order,my gift card balance shows $79.99 but checkout would not let me use it. I contacted you a few days ago about this and never heard back??,billing
+T-90181,email,Order status,"Hey, Customs is asking me to pay $24.50 in import fees for order NW-60621 - was that supposed to happen. The order had the Trailhead trail runners and some smaller items in it. Thanks in advance. — Skyler Garcia",shipping
+T-90182,webform,Urgent,"Hey, I need the Torrent rain jacket before Friday -c an you expedite shpping. The package was a gift for my son .Pleasse advise.",shipping
+T-90183,chat,Support request,my refund was approved but the replacement Halo climbing helmet still has no tracking number. I paid with the card ending 8048?,shipping
+T-90184,chat,Where is my order,Customs is asking me to pay $64.99 in import fees for order NW-70603 - was that supposed to happen. my account seems to be locked after too many login attempts.,shipping
+T-90185,webform,Need asistance,"Hi there, The tracking page says delivered but there is no package anywhere at my address. Thanks.",shipping
+T-90186,webform,Question,"Hey, I cancelled order NW-48648 minutes after placing it but the hcarge of $89.00 still wentt hrouh. Order number is NW-62660 if that helps. Hope you can help.",billing
+T-90187,chat,Late order,The tracking page says delivered but there is no package anywhere at my address. Order number is NW-42134 if that helps?,shipping
+T-90188,email,Urgent,"Hi, If I refuse the package at delivery do I still have to pay return shipping. I paid with the card ending 4836.",shipping
+T-90189,email,Order not delivered,"Hey, FedEx tracking shows my package has been sitting in Louisville for five days. This is for an upcoming thru-hike. — Skyler Garcia",shipping
+T-90190,chat,Support request,The tracking says my order was delivered but I was charged for shipping insurance I never added. I already looked through the help center and could not find an answer.,billing
+T-90191,chat,Refund not received,there is a charge from Northwind on my statement for $42.99 that I do not recognize. I already looked through the help center and could not find an answer??,billing
+T-90192,email,Package missing,"Hey, I need the Trailhead hiking boots before this weekend - can you expedite shipping. This is for an upcoming camping trip. Thank you. — Avery Larsen",shipping
+T-90193,email,Shipping dealy,"Hello, Only half of order NW-46073 showed up - the Riverbend sandals is missing from the box. I have been a customer for a long time and this is the first problem I have had. Thank you. — Casey Kaur",shipping
+T-90194,webform,Urgent,"Hi there, I was charged sales tax on order NW-70901 bu tm ystate does not tax clothing. Please advise.",billing
+T-90195,email,2FA problem,I think someone else has been using my account - there is an order in my history I never placed. I tried calling but the wait time was over 30 minutes. Please advise. — Rowan Kaur,account-access
+T-90196,webform,Acocunt locked,The verification link in the signup email says it has expired. I contacted you last week about this and never heard back. Thanks.,account-access
+T-90197,webform,Change my email,"Hi there, The password rseet emali never arrives - I have checked spam several times. The package was a gift for my daughter. Thanks in advance.",account-access
+T-90198,webform,Problem wtih my order,"Hi there, You refunded the item but not the original shipping cost on order NW-64667. Hope you can help.",billing
+T-90199,email,Cannot log in,"Hey, I cannot log in to my account - it keeps saying my password is wrong even after I reset it. I already looked through the help center and could not find an answer. Please advise. — Quinn Okafor",account-access
+T-90200,webform,Cannot log in,"Good morning, How do I change the email address on my account - I no longer have access to the old one. I have been a customer for a long time and this is the first problem I have had.",account-access
+T-90201,email,Cannot log in,"Hi there, When I log in my order history shows someone else's orders and charges.",account-access
+T-90202,webform,Tracking question,"Hi, You split my order into two shipments and only one has any tracking movement. Appreciate it.",shipping
+T-90203,email,Delivery problem,"Hi, I paid $89.50 extra for two day shipping and it has been two weeks. I contacted you a few days ago about this and never heard back. Appreciate it. — Dana Kim",shipping
+T-90204,webform,Support request,"Good morning, Please delete my account and all my personal data. Order number is NW-69950 if that helps. Thank you.",account-access
+T-90205,email,Account security concern,"Good morning, I cannot log in to my account - it keeps saying my password is wrong even after I reset it. This is for an upcoming canoe trip. Thanks in advance.",account-access
+T-90206,chat,Support request,only half of order NW-41508 showed up - the Anchor bear canister is missing from the box,shipping
+T-90207,email,Support request,"Hey, DHL tracking shows my package has been sitting in a sort facility for over two weeks. I tried calling but the wait time was over 45 minutes. Thank you.",shipping
+T-90208,webform,Late order,"Hi, The tracking page says delivered but there is no package anywhere at my address. The package was a gift for my partner.",shipping
+T-90209,webform,Invoice request,You refunded the item but not the original shipping cost on order NW-42016. This is for an upcoming camping trip. Appreciate it.,billing
+T-90210,email,Billing question,"Good morning, My gift card balance shows $35.00 but checkout would not let me use it. I placed the order about ten days ago. Thanks in advance. — Reese Kim",billing
+T-90211,email,Login trouble,"Hey, I keep getting logged out eevry time the appu pdates. I have been a customer for a long time and this is the first problem I have had. Appreciate it. — Taylor Kaur",account-access
+T-90212,email,Urgent,"Hi there, My order NW-68246 was placed four days ago and the tracking still says label created. the password reset email never arrives - i have checked spam several times. I have been a customer for three seasons and this is the first problem I have had. — Casey Larsen",shipping
+T-90213,email,Order not deelivered,"Hi, Customs is asking me to pay $35.99 in import fees for order NW-59021 - was that supposed to happen. Hope you can help.",shipping
+T-90214,chat,Problem with my order,My order NW-51108 was placed a week ago and the tracking still says label created. I need this sorted before Friday?,shipping
+T-90215,email,Help,"Good morning, The tracking page says delivered but there is no package anywhere at my address. I need this sorted before the end of the month. Thanks.",shipping
+T-90216,email,Help,"Hi there, The verification link in the signup email says it has expired. I contacted you a few days ago about this and never hear back. Pleas eadvise.",account-access
+T-90217,webform,Problem with my order,Can you hold the shipment at a DHL pickup point instead of delivering to my door. i cancelled order nw-43875 an hour after placing it but the charge of $24.00 still went through. The order had the Torrent rain pants and some smaller items in it.,shipping
+T-90218,email,Where is my order,"Good morning, I need the Torrent rain pants before Friday - can you expedite shipping. I tried calling but the wait time was over 20 minutes. Appreciate it. — Taylor Kim",shipping
+T-90219,webform,Urgent,"Hello, I was charged sales tax on order NW-41500 but my state does not tax clothing. i cannot log in to my account - it keeps saying my password is wrong even after i reset it. my order history disappeared after i merged my old account with my new email. Order number is NW-54270 if that helps. Thanks in advance.",billing
+T-90220,email,Support request,"Hello, My refund was approved but the replacement Ridgeline 2P tent still has no tracking number. I tried calling but the wait time was over 45 minutes. Please advise.",shipping
+T-90221,email,Charge I do not recognize,"Hi, My account shows an order Ia lready cancelled and the charge is still pending on my card. The order had the Trailhead hiking boots and some smaller items in i.t Please advise. — Reese baur",billing
+T-90222,chat,Need assistance,i changed phones and can no longer get the two factor authentication code.,account-access
+T-90223,email,Problm with my order,"Hey, My package arrived with the box torn open and the Torrent rain jacket inside looks damaged. This is for an upcoming camping trip. Thanks. — Dana Chen",shipping
+T-90224,email,Double charged,"Hi there, The price of the Merino trail socks dropped to $89.50 the day after II bught it - do you do price adjustments.",billing
+T-90225,chat,Qestion,If I refuse the package at delivery do I still have tc pay return shipping. I have been a customer for years and this is the first problem I have had,shipping
+T-90226,email,Where is my order,"Hi there, Where is my order? The Anchor bear canister was supposed to arrive last Friday. I tried calling but the wait time was over 45 minutes. Hope you can help. — Taylor Ortiz",shipping
+T-90227,email,Payment issue,"Hello, My return was received two weeks ago but the refund of $79.00 still is not back on my card. Thands in advance.",billing
+T-90228,webform,Change my email,"Hi there, My order history disappeared after I merged my old account with my new email. i returned the lumen 800 headlamp and the refund i got was $79.95 short of what i paid. I placed the order on the 3rd. Thanks in advance.",account-access
+T-90229,chat,,?????,shipping
+T-90230,webform,Membership billing,"Hi there, Please cancel my Trail Club membership - I am still being billed $12.99 a month. you splott my order into two shipments and only one has any tracking movement. Thanks in advance.",billing
+T-90231,chat,Urgent,i paid $249.95 extra for two day shipping and it has been three days. I conacted you a few days ago about this and never heard back??,shipping
+T-90232,chat,Help,I was charged sales tax on order NW-59636 but my state does not tax clothing. I already looked through the help center and could not find an answer.,billing
+T-90233,webform,Urgent,"Hello, The passord reset emlai never arrives - I have checked spam twice.",account-access
+T-90234,chat,Payment issue,My account shows an order I already cancelled and the charge is still pending on my card. The package was a gift for a friend?,billing
+T-90235,chat,Need assistance,I cannot open the tracking link for my order without signing in and the sign in page just loops. I paid with the card ending 1554.,account-access
+T-90236,chat,Urgent,The promo code BASECAP10 did not apply at checkout and I wassc harged full price. The order had the Ember camp sotve and some smaller items in it??,billing
+T-90237,webform,Support request,"Hi there, My return was received five days ago but the refund of $214.95 still is not back on my card. The order had the Halo climbing helmet and some smaller items in it. Appreciate it.",billing
+T-90238,chat,Problem with my order,Youc harged the wong caard - th eorder should have gone on the card ending 8122. I need this sorted before Friday?,billing
+T-90239,email,Help,The promo code BASECAMP10 did not apply at checkout and I was charged full price. Thanks in advance. — Taylor Larsen,billing
+T-90240,email,Help,"Hello, My gift card balance shows $129.00 but checkout would not let me use it. I already looked through the help center and could not find an answer.",billing
+T-90241,email,Order not delivered,Where is my order? The Puffin down vest was supposed to arrve two days ago. I already looked through the help center and could not find an answer. Please advise. — AAvry Ortiz,shipping
+T-90242,webform,Urgent,"Hello Northwind, Can you hold the lhipment at a DHL pckup point instead of delivering to my door. The pckage was a gift for a friend. Thanks in advance.",shipping
+T-90243,email,Problem with my order,"Hi there, My order history disappeared ater I merged myo ld accunt with my new email. TThis is for an upcoming camping trip. Thank you.",account-access
+T-90244,email,Login trouble,"Hey, How do I change the email address on my account - I no longer have access to the old one. I paid with the card ending 6595. Hope you can help. — Alex Patel",account-access
+T-90245,webform,Urgent,"Hello, My account seems to be locked after too many login attempts. I need this sorted before Friday. Appreciate it.",account-access
+T-90246,chat,Order status,You split my order into two shipments and only one has any tracking movement. I contacted you last week about this and never heard back?,shipping
+T-90247,webform,Help,"Good morning, The price of the Lumen 800 headlamp dropped to $35.00 the day after I bought it - do you do price adjustments. The package was a gift for my son. Please advise.",billing
+T-90248,email,Help,I need the Glacier 45 cooler before my trip on the 14th - can you expedite shipping. i changed phones and can no longer get the two factor authentication code. I paid with the card ending 5248. Thank you.,shipping
+T-90249,chat,Order not delivered,the invoice in the box lists a Cirrus trekking poles that is not what I was charged for online - which one is actually shipping to me. The order had the Voltpack 20K power bank and some smaller items in it?,shipping
+T-90250,email,Billing question,"Hello Northwind, You charged the wrong card - the order should have gone on the card ending 3695. Appreciate it.",billing
+T-90251,email,Order not delivered,"Hi, The estimated delivery on my order keeps moving - it has changed three times this week. I placed the order on the 3rd. Please advise.",shipping
+T-90252,chat,Support request,The tracking says my order was delivered but I was charged for shipping insurance I never added. the password reset email never arrives - i have checked spam several times?,billing
+T-90253,email,Order status,"Hi there, My refund was approved but the replacement Merino trail socks still has no tracking number. I placed the order about ten days ago. Appreciate it. — Dana Patel",shipping
+T-90254,email,Refund not received,"Hello, I was charged sales tax on order NW-52497 but my state does not tax clothing. I tried calling but the wait time was over 30 minutes. Thanks in advance. — Jamie Ortiz",billing
+T-90255,email,Help,My account seems to be locked after too many login attempts. can you hold the shipment at a fedex pickup point instead of delivering to my door. I need this sorted before Friday. Thanks.,account-access
+T-90256,email,Need assistance,"Hey, Can you hold the shipment at a UPS pickup point instead of delivering to my door. This is for an upcoming canoe trip. Thank you.",shipping
+T-90257,chat,Double charged,The tracking says my order was delivered but I was charged for shipping insurance I never added. I paid with the card ending 6350?,billing
+T-90258,chat,Late order,customs is asking me to pay $118.95 in import fees for order NW-77581 - was that supposed to happen. The order had the Windbreak fleece and some smaller items in it??,shipping
+T-90259,webform,Account locked,"Good morning ,How do I change the email address on my account - I no longer have access to the old one. I have been a customer for three seasonsa nd this is the first problem I have had. Thanks.",account-access
+T-90260,chat,Tracking question,Can you hold the shipment at a DHL pickup point instead of delivering to my door. The order had the Dayhike 22 backpack and some smaller items in it??,shipping
+T-90261,email,Support request,"Good morning, The tracking says my order was delivered but I was charged for shipping insurance I never added. Thanks in advance. — Skyler Haddad",billing
+T-90262,webform,Order status,"Hello Northwind, I paid $35.95 extra for two day shipping and it has been three days. This is for an upcoming backpacking trip.",shipping
+T-90263,email,Urgent,"Hi there, You split my order into two shipments and only one has any tracking movement. The package was a gift for my daughter. Thanks in advance. — Quinn Ortiz",shipping
+T-90264,email,Help,Can I change the delivery address on order NW-59968 before it ships. there is a charge from northwind on my statement for $19.50 that i do not recognize. Appreciate it. — Skyler Garcia,shipping
+T-90265,email,Poblem with my order,"Hi there, Where is my order? The Drifter 10 kayak was supposed to arrive yesterday. my account seems to be locked after too many login attempts. This is for an upcoming family trip. Appreciate it. — Taylor Garcia",shipping
+T-90266,chat,Support request,i keep getting logged out every time the app updates. This is for an upcoming thru-hike??,account-access
+T-90267,email,Urgent,"Good moning,M y package arrived with the box crushed and the Drifter paddle inside looks damaged. I have been a customer for years and this is the first problem I have had. Thank you. — Dana Kaur",shipping
+T-90268,email,Shipping delay,"Hey, USPS tracking shows my package has been sitting in customs for two weeks. i cancelled order nw-62151 minutes after placing it but the charge of $118.00 still went through. you refunded the item but not the original shipping cost on order nw-48399. I tried calling but the wait time was over 20 minutes. Thanks in advance. — Skyler Larsen",shipping
+T-90269,email,Problem with my order,"Hello, There is a charge from Northwind on my statement for $24.50 that I do not recognize. Hope ou can nelp.",billing
+T-90270,chat,Charge I do not recognize,you chargbd hte wrnog card - the order should have gone on the card ending 3155??,billing
+T-90271,chat,Where is my order,you split my order into two shipments and only one has any tracking movement. Order number is NW-60399 if that helps?,shipping
+T-90272,email,Quesstion,Only half of order NW-76551 showed up - the Merino trail socks is missing from the box. Appreciate it. — Skyler Kaur,shipping
+T-90273,email,Change my email,"Hello Northwind, How do I change the email address on my account - I no longer have access to the old one. I need this sorted before the end of the month. Thanks in advance. — Casey Patel",account-access
+T-90274,chat,Payment issue,I was charged twice for order NW-62217 - there are two $58.99 charges on my card. This is for an upcoming backpacking trip,billing
+T-90275,email,Refund not received,"Hello Northwind, I cancelled order NW-46815 minutes after placing it but the charge of $214.00 still went through. I contacted you last week about this and never heard back. Thanks. — Reese Chen",billing
+T-90276,webform,Problem with my order,"Good morning, My order NW-60112 was placed a week ago and the tracking still says label created. The order had the Firefly bug net and some smaller items in iti .Hope you can help.",shipping
+T-90277,webform,Shipping delay,"Hi there, My package arrived with the box crushed and the Drifter paddle inside looks okay. i was charged twice for order nw-53403 - there are two $35.00 charges on my card. Thanks.",shipping
+T-90278,chat,2FA problem,Please delete my account an aall my personal data. This is for n upcoming backpacking trip.,account-access
+T-90279,email,Problem with my order,"Hi there, The invoice in the box lists a Torrent rain jacket that is not what I was chargde for online - which one is actually shipping to me. The order had the Riverbend sandals and some smaller items in it. Appreciate it.",shipping
+T-90280,chat,Promo code problem,the promo code SUMMER20 did not apply at checkout and I was charged full price. I tried calling but the wait time was over 45 minutes??,billing
+T-90281,chat,Account security concern,when I log in my order history shows someone else's orders and charges. I have been a customer for a long time and this is the first problem I have had.,account-access
+T-90282,chat,Change my email,i cannot log in to my account - it keeps saying my password is wrong even after I reset it. Order number is NW-79585 if that helps,account-access
+T-90283,email,Question,"Good morning, My return was received four days ago but the refund of $24.99 still is not back on my card. I paid with the card ending 6740. Appreciate it. — Taylor Chen",billing
+T-90284,email,Urgent,"Hello Northwind, Where is my order? The Trailhead hiking boots was supposed to arrive on Monday. This is for an upcoming backpacking trip. Thanks.",shipping
+T-90285,webform,Need assistance,"Hi, The tracking says my orde was delivred but I was charged for shipping isnurance I never added. I contacted you last week about this and never hearrd back.",billing
+T-90286,email,Help,"Hi ,I think someone else has been using my account - there is an order in my history I never placed. I already looked through the help center and could not find an answer. Thanks. — Riley Silva",account-access
+T-90287,webform,Order status,"Hello Northwind, You split my order into two shipments and only one has any tracking movement. I placed the order about ten days ago. Thank you.",shipping
+T-90288,email,Need assistance,"Hi, Only half of order NW-75573 showed up - the Anchor bear canister is missing from the box.I  need this sorted before the weekend. Hope you can help.  —Skyler Silva",shipping
+T-90289,webform,Package missing,"Good morning, The tracking page says delivered but there is no package anywhere at my address. I tried calling but the wait time was over 30 minutes. Hope you can help.",shipping
+T-90290,email,Password reset not working,"Hi, How do I change the email address on my account - I no longer have access to the old one. Appreciate it. — Skyler Kim",account-access
+T-90291,chat,Question,Please delete my account and all my personal data?,account-access
+T-90292,email,Tracking question,"Hey, My order NW-72387 was placed two weeks ago and the tracking still says label created. The package was a gift for my partner. Thank you. — Reese Nguyen",shipping
+T-90293,email,Order status,"Good morning, Can you hold the shipment at a USPS pickup point instead of delivering to my door. The package was a gift for a friend. Appreciate it.",shipping
+T-90294,webform,Support request,"Hi there, I was charged twice for order NW-63516 - there are two $58.00 charges on my card. The package was a gift for my daughter. Thanks in advance.",billing
+T-90295,webform,Support request,"Hello Northwind, I paid $79.99 extra for two day shipping and it has been five days. Hope you can help.",shipping
+T-90296,webform,Tracking question,"Hello, Can I change the delivery address on order NW-73877 before it ships. I tried calling but the wait time was over 20 minutes. Thank you.",shipping
+T-90297,webform,Order status,"Hello Northwind, My refund was approved but the replacement Ember fuel canister tsill has no tracking number. I need this sorted before the weekend. Hope you can help.",shipping
+T-90298,webform,Order not delivered,"Hey, If I refuse the package at delivery do I still have to pay return shipping. can i get an itemized receipt or invoice for order nw-68471 - i need it for taxes. The package was a gift for my son. Thanks in advance.",shipping
+T-90299,chat,Need assistance,the tracking page says delivered but there is no package anywhere at my address. Order number is NW-47531 if that helps?,shipping
+T-90300,webform,Charge I do not recognize,"Hello, Please cancel my Trail Club membership - I am still being billed $9.99 a month. I need this sorted before the weekend. Appreciate it.",billing
+T-90301,chat,Tracking question,if I refuse the package at delivery do I still have to pay return shipping. I placed the order last week.,shipping
+T-90302,chat,Urgent,I returned th Glacier 45 cooler and the rrfund I got was $24.00 short of what I paid??,billing
+T-90303,email,Support request,"Hi, I need the Voltpack 20K power bank before this weekend - can you expedite shipping. Thank you. — Riley Whitfield",shipping
+T-90304,chat,Need assistance,My account shows an order I already cancelled and the charge is still pending on my card. I tried calling but the wait time was over 30 minutes?,billing
+T-90305,email,Order status,"Hello Northwind, Where is my order? The Merino trail socks was supposed to arrive two days ago. The order had the Cascade 0 sleeping bag and some smaller items in it. Appreciate it. — Morgan Silva",shipping
+T-90306,webform,Question,"Hi there, I paid $249.99 extra for two day shipping and it has been two weeks. I have been a customer fo a long time adn this is the first problem I have had. Thanks.",shipping
+T-90307,webform,Question,"Hi, Can you hold the shipment at a USPS pickup point instead of delivering to my door. i changed phones and can no longer get the two factor authentication code. I paid with the card ending 1558. Hope you can help.",shipping
+T-90308,email,Shipping delay,The estimated delivery on my order keeps moving - it has changed three times this week. i keep getting logged out every time the app updates. This is for an upcoming family trip. — Reese Novak,shipping
+T-90309,email,Support request,"Hello Northwind, I keep getting logged out every time the app updates. — Morgan Haddad",account-access
+T-90310,chat,Problem with my order,my order history disappeared after I merged my old account with my nw email. The order had the Glacier 45 cooler and some smaller items in it,account-access
+T-90311,webform,Change my email,"Hello, The password reset email never arrives - I have checked spam twice. I tried calling but the wait time was over 30 minutes. Thanks.",account-access
+T-90312,email,Question,"Hello, My refund was approved but the replacement Riverbend sandals still has no tracking number. I tried calling but the wait time was over 30 minutes. Thanks. — Taylor Haddad",shipping
+T-90313,email,Question,"Hey, Only half of order NW-46365 showed up - the Slate sunglasses is missing from the box. Please advise. — Kai Brooks",shipping
+T-90314,email,Help,"Hello, The promo code SUMMER20 did not apply at checkout and I was charged full price. I paid with the card ending 9731. Thanks in advance. — Jordan Chen",billing
+T-90315,webform,Help,"Hello, If I refuse the package at delivery do I still have to pay return shipping. I have been a customer for three seasons and this is the first problem I have had. Hope yu can help.",shipping
+T-90316,chat,Delivery problem,wher eis my order? The Torrent rai pants was supposed to arrive on Monday. I need this sorted before Friday?,shipping
+T-90317,email,Support request,"Hi there, The estimated delivery on my order keeps moving - it has changed twice this week.",shipping
+T-90318,chat,Charge I do not recognize,my return was received a week ago but the refund of $64.99 still is not back on my card. I have been a customer for years and this is the first problem I have had??,billing
+T-90319,chat,Question,I cannot open the tracking link for my order without signing in and the sign in page just loops. Order number is NW-75138 if that helps.,account-access
+T-90320,webform,Need assistance,"Good morging, I returned the Halo climbing helmet and the refund I got was $89.50 short of what I paid. I ppaid with the card ending 3856.",billing
+T-90321,chat,Password reset not working,please delete my account and all my personal data. my order nw-59697 was placed three days ago and the tracking still says label created,account-access
+T-90322,email,Billing question,"Hi, I cancelled order NW-43500 minutes after placing it but the charge of $118.50 still went through. I paid with the card ending 2857. Thank you. — Skyler Silva",billing
+T-90323,chat,Qeustion,The verification link in the signup email says it has expired. I placed the order last week.,account-access
+T-90324,chat,Support request,the estimated delivery on my order keeps moving - it has changed three times this week. The order had the Lumen 400 headlamp and some smaller items in it.,shipping
+T-90325,chat,Delivry problem,Can I change the delivery address on order NW-45260 before it ships. I tried calling but the wait time was over 20 minutes,shipping
+T-90326,chat,Help,You charged the wrong card - the order should have gone on the card ending 2296. the email receipt went to my old address - i need to update where my invoices get sent,billing
+T-90327,webform,Delivery problem,"Hello, Customs is asking me to pay $89.00 in import fees for order NW-56350 - was that supposed to happen. I have been a customer for three seasons and this is the first problem I have had.",shipping
+T-90328,email,Order not delivered,"Hi, Only half of order NW-58013 showed up - the Ember camp stove is missing from the box. This is for an upcoming thru-hike. Thanks.",shipping
+T-90329,email,Shipping delay,Can you hold the shipment at a FedEx pickup point instead of delivering to my door. Please advise. — Dana Garcia,shipping
+T-90330,email,Charge I do not recognize,"Hello Northwind, You refunded the item but not the original shipping cost on order NW-45974. This is for an upcoming camping trip.",billing
+T-90331,chat,Help,I changed phones and can no longer get the two factor authentication code?,account-access
+T-90332,email,Support request,I paid $249.95 extra for two day shipping and it has been four days. I contacted you a few days ago about this and never heard back. Please advise. — Kai Patel,shipping
+T-90333,webform,Order status,"Hello Northwind, I need the Summit 65 backpack before my trip on the 14th - can you expedite shipping. i think someone else has been using my account - there is an order in my history i never placed. my account seems to be locked after too many login attempts. I paid with the card ending 2221. Please advise.",shipping
+T-90334,email,2FA problem,"Hi, The email receipt went to my old address - I need to update where my invoices get sent. I need this sorted before the weekend. Thanks. — Tayllor Brooks",account-access
+T-90335,webform,Billing question,"Hey, Can I get an itemized receipt or invoice for order NW-76041 - I need it for my expense report.",billing
+T-90336,chat,Support request,there is a charge from Northwind on my statement for $149.99 that I do not recognize. I have been a customer for years and this is the first problem I have had,billing
+T-90337,chat,Urgent,The price of the Anchor bear canister dropped to $118.00 the day after I bought it - do you do price adjustments?,billing
+T-90338,email,Where is my order,"Good morning, Where is my order? The Cascade 0 sleeping bag was supposed to arrive yesterday. The order had the Cirrus trekking poles and some smaller items in it. Thanks. — Kai Whitfield",shipping
+T-90339,chat,Question,I paid $19.0 5xetra for two day shipping and it has been four nays. Order number is NW-61621 if that helps,shipping
+T-90340,webform,Refund not received,"Hi, Can I get an itemized receipt or invoice for order NW-76373 - I need it for work. I tried calling but the wait time was over 30 minutes. Hope you can help.",billing
+T-90341,email,Support request,"Hello, The estimated delivery on my order keeps moving - it has changed twice this week. Thank you. — Reese Kim",shipping
+T-90342,webform,Payment issue,"Hi there, The price of the Dayhike 22 backpack dropped to $19.00 the day after I bought it - do you do price adjustments.",billing
+T-90343,webform,Account security zoncern,"Hi there, Pleae delete my account and all my personal data. hTanks in advance.",account-access
+T-90344,chat,Double charged,can I get an itemized receipt or invoice for order NW-42372 - I need it for taxes. I paid with the card ending 9613,billing
+T-90345,email,Delivery problem,Where is my order? The Riverbend sandals was supposed to arrive yesterday. I need this sorted before the weekend. Hope you can help. — Riley Novak,shipping
+T-90346,chat,Need assistance,The password reset email nnever arrives - I have checked spam several times. I contacted you a few day ago about this and never heard back,account-access
+T-90347,chat,Delivery prbolem,i need the Anchor bear canister before Saturday - can you expedite shipping. The package was a gift for my daughter,shipping
+T-90348,chat,Shipping delay,My package arrived with the box soaked and the Slate sunglasses inside looks damaged. how do i change the email address on my account - i no longer have access to the old one,shipping
+T-90349,webform,Urgent,"Good morning, My order NW-76988 was placed over two weeks ago and the tracking still says label created. I paid with the card ending 3878. Please advise.",shipping
+T-90350,chat,Order status,only half of order NW-50084 showed up - the Glacier 45 cooler is missing from the box. the password reset email never arrives - i have checked spam twice,shipping
+T-90351,email,Urgent,"Good morning, Only half of order NW-75773 showed up - the Glacier 45 cooler is missing from the box. Thank you. — Casey Nguyen",shipping
+T-90352,chat,Problem with my order,the price of the Merino trail socks dropped to $42.00 the day after I bought it - do you do price adjustments. I paid with the card ending 6922??,billing
+T-90353,chat,Problem with my order,can you hold the sgipment at a DHL pickup point instead of delivering to my door. I paid with tthe card ending 7683?,shipping
+T-90354,webform,Urgent,"Hi, I was charged twice for order NW-79108 - there are two $149.00 charges on my card. I already looked through the help center and could not find an answer. Thanks.",billing
+T-90355,chat,Urgent,fedEx tracking shows my package has been sitting in Louisville for a week. I need this sorted before the end of the month??,shipping
+T-90356,email,Question,"Hi, The tracking says my order was delivered but I was charged for shipping insurance I never added. I paid with the card ending 5465. — Avery Chen",billing
+T-90357,chat,Need assistance,my account shows an order I already cancelled and the charge is still pending on my card. This is for an upcoming family trip?,billing
+T-90358,webform,Support request,"Hey, Can I change the delivery address on order NW-58711 before it ships. This is for an upcoming thru-hike. Thank you.",shipping
+T-90359,webform,Urgent,"Hi there, Can I get an itemized receipt or invoice for order NW-58990 - I need it for my expense report. I already looked through the help center and could not find an answer. Hope you can help.",billing
+T-90360,webform,Problem with my order,"Hello Northwind, You split my order into two shipments and only one has any tracking movement. the email receipt went to my old address - i need to update where my invoices get sent. I need this sorted before the weekend. Thanks.",shipping
+T-90361,chat,Billing question,The promo code SUMMER20 did not apply at checkout and I was charged full price. I already looked through the help center and could not find an answer.,billing
+T-90362,chat,Order not delivered,you split my order into two shipments and oly one has any ttracking movement. I contacted you last week about this and never heard back,shipping
+T-90363,email,Urgent,"Hey, I paid $249.50 extra for two day shipping and it has been five days. The package was a gift for my daughter. Hope you can help. — Sam Kim",shipping
+T-90364,email,Question,"Hi, I paid $79.00 extra for two day shipping and it has been two days. I placed the order during the sale. Appreciate it. — Dana Brooks",shipping
+T-90365,email,Tracking question,"Hey, UPS tracking shows my package has been sitting inL ouisville for a weeh.T his is for an uupcoming backpacking trip. Appreciate it.",shipping
+T-90366,chat,Quostion,only half of order NW-41673 showed up - the Lumen 800 headlamp is missing from the box. The order had the Halo climbing helmet and some smaller items in it??,shipping
+T-90367,email,Quesion,"Hello Northwind, You refunded the item but not the original shipping cost on order NW-44217. i think someone else has been using my account - there is an order in my history i never placed. I need this sorted before the weekend. Appreciate it. — Jordan Silva",billing
+T-90368,chat,2FA prbolem,the email receipt wwent to my old address - I need to update wherem y invocies get sent. The package was a gift for my partner?,account-access
+T-90369,email,Question,UPS tracking shows my package has been sitting in a sort facility for three days. I contacted you a few days ago about this and never heard back. Thanks in advance. — Taylor Novak,shipping
+T-90370,webform,Question,FedEx tracking shows my package has been sitting in Louisville for four days. The order had the Dayhike 22 backpack and some smaller items in it.,shipping
+T-90371,webform,Problem with my order,"Hi, If I refuse the package at delivery do I still have to pay return shippinng. The package was a gift for a friend. hTank you.",shipping
+T-90372,email,Change my email,"Hi there, The email receip twent to my old address - I need to update where my invoices get sent. I need this sorted before the end of the month. Hope you can help. — Devon Silva",account-access
+T-90373,webform,Tracking question,"Hi, Where is my order? The Aurora camp lantern was supposed to arrive last Friday. I already looked through the help center and could not find an answer.",shipping
+T-90374,chat,Help,I need the Otter dry bag before Friday - can you expedite shipping. i returned the glacier 45 cooler and the refund i got was $89.95 short of what i paid?,shipping
+T-90375,email,Account locked,The email receipt went to my old address - I need to update where my invoices get sent. The order had the Anchor bear canister and some smaller items in it. Thank you.,account-access
+T-90376,chat,Order not deliivered,The tracking page says delivered but there is no package anywhere at my address. there is a charge from northwind on my statement for $58.99 that i do not recognize.,shipping
+T-90377,chat,Support request,The tracking says my order was delivered but I was charged for shipping insurance I never added. the password reset email never arrives - i have checked spam several times?,billing
+T-90378,email,Order status,"Goodm orning, You split my order into two shipments and only one has any tracking movement. my account seems to eb locked after too many login attempts. I contacted you last week about this and never ehard back. Thanks. — Casey Whitfield",shipping
+T-90379,chat,Order not delivered,if I refuse the package at delivery do I still have to pay return shipping. I need this sorted efore Friday??,shipping
+T-90380,webform,(no subject),sent from my phone. Devon,shipping
+T-90381,chat,Need assistance,if I refuse the package at delivery do I still have to pay return shipping.  conatcted you a few days ago aout this and never heard back??,shipping
+T-90382,chat,Order not delivered,can you hold the shipment at a FedEx pickup point instead of delivering to my door. The order had the Windbreak fleece and some smaller items in it?,shipping
+T-90383,webform,Question,"Hi there, My order NW-64408 was placed ten days ago and the tracking still says label created. I contacted you last week about this and never heard back. Hope you can help.",shipping
+T-90384,email,Urgent,"Hello, You split my order into two shipment and only one has any tracking movement. Odrxr number is NW-56524 if that helps. Thanks. — Rowan Kim",shipping
+T-90385,webform,Charge I do not recognize,There is a charge from Nortthwind on my statement for $35.00 that I d not recognize. Please advise.,billing
+T-90386,chat,Suupport request,My package arrived with the box crushedd and the Windbreak fleece inside looks daaged.m y accunt seems to be locked after too many login attempts?,shipping
+T-90387,chat,Problem with my order,Where is my order? The Glacier 45 cooler was supposed to arrive on Monday. I contacted you a few days ago about this and never heard back.,shipping
+T-90388,chat,Question,when I log in my order history shows someone else's orders and charges. I have been a customer for three seasons and this is the first problem I have had,account-access
+T-90389,email,Help,"Hello Northwind, If I refuse the package at delivery do I still have to pay return shipping. the verification link in the signup email says it has expired. Thanks in advance. — Sam Chen",shipping
+T-90390,email,Support request,"Hello Northwin, The estimated delivery on my order keeps moving - it has changed three times this week. The order had the Trailhead hiking boots and some smaller items in it.P lease advise. — Rowan Ortiz",shipping
+T-90391,chat,Help,I was charged sales tax on order NW-54364 but my state does not tax clothing.,billing
+T-90392,webform,Payment issue,"Hello, My gift card balance shows $189.99 but checkout would not let me use it. the estimated delivery on my order keeps moving - it has changed three times this week. I tried calling but the wait time was over 30 minutes. Thanks in advance.",billing
+T-90393,email,Need assistance,"Hello Northwind, Only half of order WN-41888 showed up - the Glacier 45 cooler is missing from the box. I already looked through the help center and could not find an answer. Please advise.",shipping
+T-90394,email,Urgent,"Hi, The tracking page says delivered but there is no package anywhere at my address. This is for an upcoming canoe trip. Thank you. — Morgan Garcia",shipping
+T-90395,email,Change my email,I changed phones and can no longer get the two factor authentication code. I already looked through the help center and could not find an answer. Please advise. — Rowan Chen,account-access
+T-90396,chat,Charge I do not recognize,i was charged sales tax on order NW-56748 but my state does not tax clothing. I need this sorted before Friday.,billing
+T-90397,chat,Help,Why was I charged $64.50 for shipping when the site says orders over $75 ship free. my order nw-42877 was placed over two weeks ago and the tracking still says label created?,billing
+T-90398,webform,Need assistance,"Good mornin,g II was hcarged twice for order NW-74677 - there are two $79.00 charges on my card. the estimated delivery on my order keeps moving - it has changed three times this week. Order number is NW-75127 if that helps. Thanks in advance.",billing
+T-90399,email,Account locked,"Hey, When I log in my order history shows someone else's orders and charges. I need this sorted before Friday. Please advise. — Quin Patel",account-access
+T-90400,email,Order status,The estimated delivery on my order keeps moving - it has canged three times this week. Order number is NW-41512 if that helpps. Thank you.,shipping
+T-90401,email,Support request,Wheer ism y order? The Ridgeline 4P tent was supposed to arrive on Monday. I placed the order on hte 3rd. — Alex Haddad,shipping
+T-90402,webform,Password reset not working,"Hey, I cannot open the tracking link for my order without signing in and the sign in page just loops. The order had the Voltpack 20K power bank and some smaller items in it. Appreciate it.",account-access
+T-90403,chat,Billing question,i returned the Lumen 400 headlamp and the refund I got was $58.99 short of what I paid. This is for an upcoming camping trip.,billing
+T-90404,chat,Need aassistance,my account shows an order I already cancelled and the charge is still pending on my card. I tried calling btu the wait time was over 20 minutes.,billing
+T-90405,email,Shipping delay,"Good morning, Can I change the delivery address on order NW-69704 before it ships. I placed the order last week. Please advise. — Jordan Kaur",shipping
+T-90406,webform,Invoice request,I cancelled order NW-71707 minutes after placing it but the charge of $58.00 still went through. The order had the Summit 65 backpack and some smaller items in it. Hope you can help.,billing
+T-90407,chat,Question,i keep getting logged out every time the app updates. I contacted you last week about this and never heard back?,account-access
+T-90408,webform,Need assistance,"Hi,I  paid $118.50 extra fo rtwo day shipping and it has been two weeks. I need this sorted before the weekend. Thanks in advance.",shipping
+T-90409,chat,Payment issue,The promo code TRAIL15 did not apply at checkout and I was charged full price. the tracking page says delivered but there is no package anywhere at my address,billing
+T-90410,webform,Order not delivered,"Good morning, My order NW-59338 was placed five days ago and the tracking still says label created. I contacted you a few days ago about this and never heard back. Hope you can help.",shipping
+T-90411,webform,Charge I do not recognize,"Hey, My gift card balance shows $214.99 but checkout would not let me use it. I need this sorted before Friday. Thanks.",billing
+T-90412,chat,Account security concern,i cannot log in to my account - it keeps sayng my password is wrong even xfter I reset it. I placed the order n teh 3rd?,account-access
+T-90413,chat,Password reset not working,How do I change the email address on my account - I no longer have access to the old one. the promo code basecamp10 did not apply at checkout and i was charged full price??,account-access
+T-90414,email,Need assistance,"Hi here, If I refuse the package at delivery do I still have to pay return shippign. I tried calling but the wait time was over 45 minuts.",shipping
+T-90415,chat,Support request,can I change the delivery address on order NW-74943 before it ships. I contacted you last week about this and never heard back??,shipping
+T-90416,chat,Promo code problem,I was charged twice for order NW-69330 - there are two $42.99 charges on my card. I placed the order about ten days ago??,billing
+T-90417,email,Package missing,"Hi, If I refuse the package at delivery do I still have to pay return shipping. — Taylor Kaur",shipping
+T-90418,webform,Need assistance,"following up - Hi, My order NW-51527 was placed three days ago and the tracking still says label created. The order had the Cirrus trekking poles and some smaller items in it. Please advise.",shipping
+T-90419,email,Question,Please cancel my Trail Club membership - I am still being billed $9.99 a month. I need this sorted before the end of the month. Please advise. — Jamie Novak,billing
+T-90420,chat,Support request,i was charged twice for order NW-48278 - there are two $149.95 charges on my card. the tracking page says delivered but there is no package anywhere at my address.,billing
+T-90421,webform,Question,"Hello Northwind, The verification link in the signup email says it has expired. I have been a customer for years and this is the first problem I have had.",account-access
+T-90422,chat,Package missing,DHL tracking shows my package has been sitting in Newark for a week. I contacted you last week about this and never heard back?,shipping
+T-90423,email,Pashword reset not working,"Hello, I cannot open the tracking link for my order without signing in and the sign in page just loops. The order had the Firefly bug net and some smaller items in it. Thank you. — Quinn Larsen",account-access
+T-90424,email,Tracking uestion,"Hi, If I refuse the package at delivery do I still have to pay return shipping. thee mail receipt went to my old address - i need to update where my invoices get sent. the erification link in the signup email says it has expired. Thanks in advance.",shipping
+T-90425,email,Help,"Hello, You split my order into two shipments and only one has any tracking movement. This is for an upcoming camping trip. Hope you can help. — Reese Silva",shipping
+T-90426,email,Question,"Hey, Where is my order? The Voltpack 20K power bank was supposed to arrive on Monday. I already looked through the help center and could not find an answer. Thanks in advance.",shipping
+T-90427,chat,Account security concern,I keep getting logged out every time the app updates. I placed the order during ihe sale?,account-access
+T-90428,chat,Help,please cance lmy Trail Club membership - I am still being billed $12.99 a month. I have been a customer for three seasonsa nz this is the first problem I have had,billing
+T-90429,chat,Where is my order,USP Stracking shows my package has been sitting i Memphis for ten days,shipping
+T-90430,webform,Order status,"Hello, Where is my order? Thee Merino trail socks was suppoose to arrive last Friqay. I paid with the card ending 8896.",shipping
+T-90431,chat,Question,The estimated delivery on my order keeps moving - it has changed twice this week.  cannot open the tracking link for my order without signing in and the sign i npage just loops?,shipping
+T-90432,email,Question,"Hello Northwind, The price of the Ember fuel canister dropped to $58.95 the day after I bought it - do you do price adjustments. I placed the order last week. Appreciate it.",billing
+T-90433,webform,Support request,"Hi, Only half of order NW-62288 showed up - the Windbreak fleece is missing from the box. I already looked through the help center and could not find an answer. Thanks in advance.",shipping
+T-90434,email,Where is my order,"Hi, Customs is asking me to pay $19.50 in import fees for order NW-61672 - was that supposed to happen. I contacted you last week about this and never heard back. Thanks in advance. — Avery Silva",shipping
+T-90435,chat,Problem with my order,Customs is asking me to pay $189.99 in import fees for order NW-50987 - was that supposed to happen. i returned the torrent rain jacket and the refund i got was $249.5 0short of what i paid,shipping
+T-90436,email,Help,"Hey, When I log in my order history shows someone else's orders and charges. I contacted you last week about this and never heard back. — Devon Haddad",account-access
+T-90437,webform,Refund not received,"Hey, Why was I charged$ 312.50 for shipping when the site says orders over $57 shi pfrree. Thanks.",billing
+T-90438,chat,Question,The verification link in the signup email says it has expired. you refunded the item but not the original shipping cost on order nw-71188,account-access
+T-90439,chat,Help,Please cancel my Trail Club membership - I am still being billed $12.99 a month. the password reset email never arrives - i have checked spam twice?,billing
+T-90440,email,2FA problem,"Hi, My account seems to be locked after too many login attempts. I tried calling but the wait time was over 45 minutes. Hope you can help. — Quinn Novak",account-access
+T-90441,chat,Late order,The invoice in the box lists a Firefly bug net that is not what I was charged for online - which one is actually shipping to me. I tried calling but the wait time was over 20 minutes?,shipping
+T-90442,webform,Help,"Good morning, The price of the Aurora camp lantern dropped to $58.00 the day after I bought it - do you do price adjustments. Hope you can help.",billing
+T-90443,email,Order not delivered,"Hello, The invoice in the box lists a Ember camp stove that is not what I was charged for online - which one is actually shipping to me. Appreciate it. — Kai Kim",shipping
+T-90444,email,Urgent,"Hey, Only half of order NW-59259 showed up - the Merino trail socks is missing from the box. I tried calling but the wait time was over 20 minutes. Hope you can help.",shipping
+T-90445,chat,Help,DHL tracking shows my package has been sitting in customs for two days. I already looked through the help center and could not find an answer.,shipping
+T-90446,webform,Urgent,"Hello, Can I get an itemized receipt or invoice for order NW-62194 - I need it for work. I already looked through the help center and could not fid an answer. Hope you can help.",billing
+T-90447,email,Tracking question,"Hi, UPS tracking shows my package has been sitting in a sort facility for two days. you charged the wrong card - the order should have gone on the card ending 3825. I already looked through the help center and could not find an answer. Appreciate it. — Alex Kaur",shipping
+T-90448,chat,2FA problem,my account seems to be locked after too many login attempts?,account-access
+T-90449,webform,Shipping delay,"Hello Northwind, Can I change the delivery address on order NW-61479 before it ships. I tried calling but the wait time was over 30 minutes. Thanks in advance.",shipping
+T-90450,chat,Where is my order,Only half of order NW-49725 showed up - the Cascade 20 sleeping bag is missing from the box. the tracking says my order was delivered but i was charged for shipping insurance i never added??,shipping
+T-90451,chat,Membership billing,the price of the Torrent rain jacket dropped to $4.295 the day after I bought it - do you do price adjustments. I paid with the card ending 4927?,billing
+T-90452,webform,Delivery problem,"Hey, Where is myy order? The Halo climbing helmet was supposed to arrive yesterday. Te order had tl Otter dry bag and some smaller items in it. Thanks.",shipping
+T-90453,chat,Order status,only half of order NW-54434 showed up - the Trailhead hiking boots is missing from the box. Order number is NW-49954 if that helps,shipping
+T-90454,chat,Help,i returned the Aurora camp lantern and the refund I got was $214.99 short of what I paid. the tracking page says delivered but there is no package anywhere at my address?,billing
+T-90455,webform,Question,"Hey, I was charged sales tax on order NW-73117 but my state does not tax clothing. The package was a gift for my partner. Thanks.",billing
+T-90456,chat,Help,Can you hold the shipment at a FedEx pickupp oint instead of delivering to my ddoor. I tried calling ubt the wait time was over 45 minutes?,shipping
+T-90457,email,Login trouble,"Hello Northwind, I cannot open the tracking link for my order without signing in and the sign in page just loops. I contacted you last week about this and never heard back. Please advise. — Rowan Patel",account-access
+T-90458,webform,Urgent,"Good morning, I cancelled order NW-78717 an hour after placing it but the charge of $79.99 still went through. Hope you can help.",billing
+T-90459,chat,Support request,My refund was approved but the replacement Lumen 400 headlamp still has no tracking number. I placed the order during the sale??,shipping
+T-90460,webform,Support request,"Hi there, My refund was approved but the replacement Cascade 0 sleeping bag still has no tracking number. I contacted you last week about this and never heard back. Please advise.",shipping
+T-90461,email,Support request,"Hello, There is a charge from Northwind on my statement for $35.95 that I do nott recognize. I already looked through the help center and could not find an answer. Appreciate it. — Reese Patel",billing
+T-90462,email,Package missing,"Hello, My package arrived with the box soaked and the Lumen 800 headlamp inside looks okay. This is for an upcoming canoe trip. Thanks in advance. — Riley Okafor",shipping
+T-90463,chat,Urgent,the password reset email never arrives - I have checked spam several times. I already looked through the help center and could not find an answer?,account-access
+T-90464,webform,Membership billing,"Hello, The price of the Ember camp stove dropped to $24.50 the day after I bought it - do you do price adjustments. I placed the order during the sale. Please advise.",billing
+T-90465,chat,Delivery problem,where is my order? The Torrent rain pants was supposed to arrive last Friday. the email receipt went to my old address - i need to update where my invoices get sent,shipping
+T-90466,webform,Help,"Good morning, My package arrived with the box soaked and the Ridgeline 4P tent inside looks okay. The order had the Halo climbing helmet and some smaller items in it. Thanks.",shipping
+T-90467,chat,Support request,i changed phones and can no loonger get the two facctor authenttication code.,account-access
+T-90468,chat,Tracking question,I need the Firefly bug net before Friday - can you expedite shipping?,shipping
+T-90469,chat,Delivery problem,I need the Ember fuel canister before Saturday - can you expedite shipping. I paid with the card ending 8365.,shipping
+T-90470,email,Invoice request,"Hello, You refunded the item but not the original shipping cost no order NW-71177. upps tracking shows my package has been sitting in louisville for over two weeks. Thanks. — Skler Okafor",billing
+T-90471,email,Invoice request,"Hey, The promo code TRAIL15 did not apply at checkout and I was charged full price. The order had the Cirrus trekking poles and some smaller items in it. Thanks.",billing
+T-90472,webform,Late order,You split my order into two shipments and only one has any tracking movement. the email receipt went to my old address - i need to update where my invoices get sent. I paid with the card ending 4074. Hope you can help.,shipping
+T-90473,webform,Order status,"Hello Northwind, I paid $189.50 extra for two day shipping and it has been three days. I already looked through the help center and could not find an answer. Thank you.",shipping
+T-90474,chat,Question,my account shows an oredr I already cancelled and the charge is still pending on my card. can i channge the delivery address on order nw-46088 beofre it ships??,billing
+T-90475,chat,Support request,Only half of order NW-48189 showed up - the Trailhead hiking boots is missing from the box??,shipping
+T-90476,webform,Delivery problem,"Good morning, The traking page says delivered but there is no package anywhere at my address. Appreciate it.",shipping
+T-90477,chat,Problem with my order,tqe apsssword reset email never arrives - I have checked spam several times. I tried calling but the wait time was over 45 imnutes??,account-access
+T-90478,webform,Problem with my order,"Hey, You refunded the item but not the original shipping cost on order NW-46666. I need this sorted before the weekend. Hope you can help.",billing
+T-90479,email,Need assistance,"Hi there, I need the Basecamp camp chair before Friday - can you expedite shipping. I contacted you last week about this and never heard back. Thanks in advance. — Riley Kim",shipping
+T-90480,chat,Problem with my order,i think someone else has been using my account - there is an order in my history I never placed. customs is asking me to pay $129.99 in import fees for order nw-64850 - was that supposed to happen??,account-access
+T-90481,email,Question,"Hello, My gift card balance shows $42.00 but checkout would not let me use it. the email receipt went to my old address - i need to update where my invoices get sent. i think someone else has been using my account - there is an order in my history i never placed. Please advise. — Casey Ortiz",billing
+T-90482,email,Package missing,"Hey, Where is my order? The Firefly bug net was supposed to arrive two days ago. Order number is NW-75148 if that helps. Appreciate it. — Casey Larsen",shipping
+T-90483,email,Question,"resending this - Hi, My order NW-75964 was placed four days ago and the tracking still says label created. I need this sorted before the end of the month. Hope you can help. — Devon Patel",shipping
+T-90484,chat,Urgent,How do I change the email address on my account - I no longer have access to the old one. I contacted you last week about this and never heard back??,account-access
+T-90485,webform,Shipping delay,"Hello Northwind, Only half of order NW-66314 showed up - the Puffin down vest is missing from the box. Appreciate it.",shipping
+T-90486,chat,Invoice request,there is a charge from Northwind on my statement for $118.95 that I do not recognize. I placed the order on the 3rd?,billing
+T-90487,email,Need assistance,"Hello, FedEx tracking shows my package has been sitting in Newark for over two weeks. I need this sorted before the weekend. Thanks. — evon Chen",shipping
+T-90488,email,Login trouble,"Hi, The password reset email never arrives - I have checked spam several times. Thanks. — Taylor Whitfield",account-access
+T-90489,webform,Change my email,"Hi there, I cannot open the tracking link for my order without signing in and the sign in page just loops. I have been a customer for three seasons and this is the first problem I have had. Thanks.",account-access
+T-90490,email,Question,"Hi, I keep getting logged out every time the app updates. The order had the Ember camp stove and some smaller items in it.",account-access
+T-90491,email,Problem with my order,"Hi there, Mr order history disappeared after I merged gy old account with my new email. Hpe you can help. — Avery Chen",account-access
+T-90492,email,Support request,I was charged twice for order NW-51288 - there are two $312.00 charges on my card. Please advise.,billing
+T-90493,chat,Urgent,I returned the Cirrus trekking poles and the refund I got was $214.00 short of what I paid. Order number is NW-57596 if that helps.,billing
+T-90494,email,Cannot log in,"Good mroning, I keep getting logged out every time the app updates. I have bbeen a customer for a long time and this is the first problem I have had. Thank you. — Skyldr Chen",account-access
+T-90495,webform,Double charged,Can I get an itemized receipt or invoice for order NW-48802 - I need it for work. Order number is NW-42691 if that helps. Thanks in advance.,billing
+T-90496,chat,Problem with my order,The password reset email never arrives - I have checked spam twice.,account-access
+T-90497,email,Problem wth my order,"Hello Northwind, My account shows an order I already cancelled and the charge is still pending on my card. The package was a gift for my daughter. Hope you can help.",billing
+T-90498,chat,Where is my order,my pcakage arrived with the box soaked and the Halo climbing helmet inside loks damaged. The order had thee Torrent rain pants and some smaller items in it.,shipping
+T-90499,webform,Package missing,"Hey, Can you hold the shipment at a UPS pickup point instead of delivering to my door. I placed the order about ten days ago. Please advise.",shipping
+T-90500,chat,Delivery problem,USPS tracking shows my package has been sitting in a sort facility for ten days. I need this sorted before the weekend,shipping
+T-90501,webform,Need assistance,Where is my order? The Trailhead trail runners was supposed to arrive yesterday. Thanks.,shipping
+T-90502,email,Help,"Hi, My order history disappeared after I merged my old account with my new email. I contacted you a few days ago about this and never heard back. — Riley Garcia",account-access
+T-90503,chat,Need assistance,customs is asking me to pay $214.00 in import fees for order NW-45505 - was that supposed to happen. i keep getting logged out every time the app updates.,shipping
+T-90504,email,Invoice request,"Good morning, Please cancel my Trail Club membership - I am still being billed $12.99 a month. I already looked through the help center and could not find an answer. Appreciate it. — Riley Ortiz",billing
+T-90505,chat,Cannot log in,i changedd phones and can no longer get the two actor authentication code??,account-access
+T-90506,webform,Order status,"Good morbing, Where is my order ?The Halo climbing helmet was supposed to arrive yesterday.I  tried calling but the wait time was over 30 minutes. Thanks.",shipping
+T-90507,email,Ned assistance,"Hey, Customs is asking me to pay $64.00 in import fees for order NW-41154 - was that supposed to happen. Appreciate it. — Casey Silva",shipping
+T-90508,chat,Help,second time sending this. I changed phones and can no longer get the two factor authentication code?,account-access
+T-90509,email,Where is my order,"Hey, My package arrived with the box crushed and the Lumen 800 headlamp inside looks damaged. I contacted you a few days ago about this and never heard back. — Quinn Silva",shipping
+T-90510,webform,Support request,"Hi there, Please cancel my Trail Club membership - I am still being billed $9.99 a month. Please advise.",billing
+T-90511,chat,Support request,My return was received five days ago but the refund of $19.50 still is not back on my card. Order number is NW-56920 if that helps?,billing
+T-90512,email,Problem with my order,"second time sending this. Hey, There is a charge from Northwind on my statement for $149.99 that I do not recognize. The package was a gift for a friend. Thank you. — Avery Garcia",billing
+T-90513,webform,Invoice request,"Good morning, My account shows an order I already cancelled and the charge is still pending on my card. I need this sorted before the end of the month. Thanks in advance.",billing
+T-90514,webform,Membership billing,"Hi, My account shows an order I already cancelled and the charge is still pending on my card. I contacted you last week about this and never heard back. Thank you.",billing
+T-90515,chat,Help,the price of the Voltpack 20K power bank dropped to $42.50 the day after I bought it - do you do price adjustments. The order had the Ridgeline 4P tent and some smaller items in it,billing
+T-90516,webform,Help,"Hey, The password reset email never arrives - I have checked spam several times.",account-access
+T-90517,webform,Need assistance,"Hi, My order NW-51527 was placed three days ago and the tracking still says label created. The order had the Cirrus trekking poles and some smaller items in it. Please advise.",shipping
+T-90518,email,Late order,"Hi there, My package arrived with the box soaked and the Aurora camp lantern inside looks damaged. Order number is NW-75731 if that helps. Appreciate it.",shipping
+T-90519,chat,Help,when I og in my order history shows someone else's orders and charges. I paid withh the cadr ending 8067?,account-access
+T-90520,email,Need assistance,"Hi there, If I refuse the package at delivery doI  still have to pay return shipping. Hope you can help.",shipping
+T-90521,email,Question,"Good moinnig, My account shows an order I already cancelled and the charge is still pending on my card. Hope you can help. — Morgan Sillva",billing
+T-90522,chat,Password reset not working,When I log in my order history shows someone else's orders and charges. This is for an upcoming thru-hike,account-access
+T-90523,email,Promo code problem,"Good morning, Please cancel my Trail Club membership - I am still being billed $12.99 a month. I need this sorted before the weekend. Please advise. — Quinn Silva",billing
+T-90524,email,Need assistance,"Good morning, Can you hold the shipment at a DHL pickup point instead of delivering to my door. The package was a gift for my partner. Thanks in advance. — Riley Larsen",shipping
+T-90525,chat,Shipping delay,My refund was approved but the replacement Puffin down vest still has no tracking number. I need this sorted before the end of the month?,shipping
+T-90526,chat,Promo code problem,you chagred thee wrong card - the order should have gone on the card ending 4169. the invoiice in the box lists a summit 65 backpack that is not what i was charged for online - wich one is actually shipping to me?,billing
+T-90527,email,Membership billing,"Hello Northwind, Why was I charged $214.95 for shipping when the site says orders over $75 ship free. Thanks in advance.",billing
+T-90528,email,Question,"Hi there, My account shows an order I already cancelled and the charge is still pending on my card. I paid with the crad ending 1673. Hope you can help.",billing
+T-90529,webform,Billing question,"Hello, I cancelled order NW-54080 the same day after placing it but the charge of 7$9.95 still went through.",billing
+T-90530,webform,Billing question,"Good morning, Can I get an itemized receipt or invoice for order NW-53313 - I need it for my expense report. Thank you.",billing
+T-90531,email,Payment issue,"Good morning, You charged the wrong card - the order should have gone on the card ending 5913. I paid with the card ending 2091. Thanks.",billing
+T-90532,email,Question,"Hello, Yu split my order into two shipments and onlyy one has any tracking moovement. I contacted you a few days ago about this and never heard back. Appreciate it. — Jamie Novak",shipping
+T-90533,email,Package missing,"Hello Northwind, My order NW-60613 was placed three days ago and the tracking still say slabel reatad. Thanks.",shipping
+T-90534,webform,Question,"Hey, Why was I charged $118.50 for shipping when the site says orders over $75 ship free. Thank you.",billing
+T-90535,email,Help,"Good morning, Can you hold the shipment at a UPS pickup point instead of delivering to my door. I need this sorted before the weekend. Appreciate it. — Kai Chen",shipping
+T-90536,webform,Promo code problem,"Hello Northwind, I cancelled order NW-47506 the same day after placing it but the charge of $19.00 still went through. I tried calling but the wait time was over 30 minutes.",billing
+T-90537,webform,Invoice request,I cancelled order NW-73175 minutes after placing it but the charge of $129.99 still went through. the invoice in the box lists a halo climbing helmet that is not what i was charged for online - which one is actually shipping to me. can i change the delivery address on order nw-78880 before it ships. I placed the order about ten days ago. Hope you can help.,billing
+T-90538,email,Delivery probllem,The invoice in the box lists a Torrent rain jacket that is not what I was charged for online - which one is actually shipping to me. I have been a customer for three seasons and this is the first problem I have had. Appreciate it.,shipping
+T-90539,email,Need assistance,"Hello Northwind, You charged the wrong card - the order should have gone on the card ending 5354. I already looked through the help center and could not find an answer. Thank you.",billing
+T-90540,email,Nede assistance,"Good morning, My order history disappeared after I merged my old account with my new email. I have been a customer for years and this is the first problem I have had. Please advise.",account-access
+T-90541,email,Help,"Hi there, I was charged sales tax on order NW4-2877 but my state dos not tax clothing. I tried calling but the wait time was over 20 minutes. Appreiate it. — Jordan Brooks",billing
+T-90542,chat,Where is myy order,Where is my order? The Riverbend sandals was supposed to arrive last Friday.,shipping
+T-90543,chat,Need assistance,My package arrived with the box crushep and the Slate sunglasses inside looks okay. The package was a gift fora  friend.,shipping
+T-90544,email,Delivery problem,"Good morning, My refund was approved but the replacement Dayhike 22 backpack still has no tracking number. I paid with the card endng 8746. Thank you. — Jordan Chen",shipping
+T-90545,email,Urgent,"Hi, Can you hold the shipment at a UPS pickup point instead of delivering to my door. Thank you. — Avery Brooks",shipping
+T-90546,chat,Billing question,my account shows an order I already cancelled and the charge is still pending on my card. I need this sorted before the end of the month.,billing
+T-90547,webform,Poblem with my order,"Good morning, Only half of order NW-52579 showed up - the Ridgeline 2P tent is missing from the box. I need this sorted before the end of the month. Thanks in advance.",shipping
+T-90548,email,Account locked,"Hi there, The password reset email never arrives - I have checked spam several times. I paid with the card ending 4392. Please advise. — Alex Garcia",account-access
+T-90549,email,Help,"Hello Northwind, Can I change the delivery address on order NW-66906 before it ships. I placed the order last week. Thanks in advance.—  Riley Whitfield",shipping
+T-90550,chat,Cannot log in,i keep getting logged out every time the app updates. Order number is NW-69236 if that helps.,account-access
+T-90551,webform,Help,"Hi, My order NW-71836 was placed four days ago and the tracking still says label created. i think someone else has been using my account - there is an order in my history i never placed. the verification link in the signup email says it has expired. Appreciate it.",shipping
+T-90552,email,Help,"Hey, Can I change the delivery address on order NW-61923 before it ships. the verification link in the sibnpu email says it has expired. i cannot log in to my account-  it keeps saying my password is wrong even after i reset it. Thanks in advance. — Devon Kaur",shipping
+T-90553,email,Question,"Hello, The estimated delivery on my order keeps moving - it has changed twice this week. Thank you.",shipping
+T-90554,email,Question,"Good morning, Where is my order? The Trailhead hiking boots was supposed to arrive two days ago. I have been a customer for years and this is the first problem I have had. Thank you.",shipping
+T-90555,webform,Help,"Hello Northwin, I keep getting logged out every time thea pp updates. I have been a customer for a long time and this is the first problem I have had. Please advise.",account-access
+T-90556,webform,Invoice request,"Good morning, Can I get an itemized receipt or invoice for order NW-43444 - I need it for taxes. I tried calling but the wait time was over 20 minutes. Appreciate it.",billing
+T-90557,webform,Where is my order,"Good morning, The tracking page says delivered but there is no package anywhere at my address. please delete my account and all my personal data. i changed phones and can no longer get the two factor authentication code. I placed the order last week.",shipping
+T-90558,chat,Tracking question,I paid $118.99 extra for two day shipping and it has been ten days. I have been a customer for years and this is the first problem I have had,shipping
+T-90559,email,Need assistance,"Hey, The price of the Ember fuel canister dropped to $42.99 the day after I bought it - do you do price adjustments. Order number is NW-66878 if that helps. Thank you. — Avery Chen",billing
+T-90560,chat,Promo code problem,please cancel my Trail Club membership - I am still being billled $9.99 a month?,billing
+T-90561,email,Cannt log in,"Hi there, I cannot open the tracking link for my order without signing in and the sign in page just loops. I already looked through the help center and could not find an answer. Thank you.",account-access
+T-90562,webform,Double charged,"Hi, Why was I charged $214.99 for shipping when the site says orders over $75 ship free. The package was a gift for my daughter. Thanks in advance.",billing
+T-90563,chat,Payment issue,i returned the Windbreak fleece and the refund I got was $35.99 short of what I paid??,billing
+T-90564,webform,Urgent,"Hey, Can you hold the shipment at a USPS pickup point instead of delivering to my door. Please advise.",shipping
+T-90565,chat,Change my email,I cannot open the tracking link for my order without signing in and the sign in page just loops. The package was a gift for my son?,account-access
+T-90566,webform,Password reset not working,"Hi there, My account seems to be locked after too many login attempts. I contacted you a few days ago about this and never heard back. Appreciate it.",account-access
+T-90567,chat,Urgent,i was charged sales tax on order NW-71152 but my state does not tax clothing. Order number is NW-62559 if that helps??,billing
+T-90568,email,Late order,"Hello Northwind, Where is my order? The Ember camp stove was supposed to arrive last Friday. The order had the Dayhike 22 backpack and some smaller items in it.",shipping
+T-90569,webform,Question,"Good morning, I cannot open the tracking link for my order without signing in and the sign in page just loops. my gift card balance shows $42.95 but checkout would not let me use it. I have been a customer for a long time and this is the first problem I have had. Please advise.",account-access
+T-90570,chat,Problem with my order,Can I get an itemized receipt or invoice for order NW-78310 - I need it for taxes.,billing
+T-90571,chat,Billing question,can I get an itemized receipt or invoice fo order NW-72791 - I needi t for work. I need this sorted before the weekend,billing
+T-90572,chat,Urgent,The tracking page says delivered but there is no package anywhere at my address. how do i changet he email address on my account - i no longer hav access to the old one.,shipping
+T-90573,email,Urgent,"Hi, My order history disappeared after I merged my old account with my new email. The order had the Cascade 20 sleeping bag and some smaller items in it. Hope you can help.",account-access
+T-90574,chat,Refund not received,My account shows an order I already cancelled and the charge is still pending on my card,billing
+T-90575,email,Problem with my order,I canno tlog in to my accout - it keep saying my password is wrong even after I reset it. The package was a gift for my partner.,account-access
+T-90576,chat,Need assistance,customs is asking me to pay $129.95 in import fees for order NW-73408 - was that supposed to happen. how do i change the email address on my account - i no longer have access to the old one?,shipping
+T-90577,webform,Problem with my order,"Hi, You split my order into two shipments and only one has any tracking movement. I placed the order during the sale. Appreciate it.",shipping
+T-90578,email,Membership billing,"Hi, The promo code BASECAMP10 did not apply at checkout and I was charged full price. I paid with the card ending 8018. Thanks.",billing
+T-90579,chat,Help,the price of the Torrent rain pants dropped to $58.95 the day after I bought it - do you do price ajdustments,billing
+T-90580,chat,Need assistance,my account shows an order I already cancelled and the charge is still pending on my card. The order had the Anchor bear canister and some smaller items in it?,billing
+T-90581,webform,Shipping delay,"Hi, You split my order into two shipments and only one has any tracking movement. Thank you.",shipping
+T-90582,chat,Support request,second time sending this. The tracking says my order was delivered but I was charged for shipping insurance I never added. the password reset email never arrives - i have checked spam several times?,billing
+T-90583,email,Questron,"Hi there, I was charged sales tax on order NW-41857 but my state does not tax clothing. I tried calling but the wait time was over 45 minutes. Appreciate it.",billing
+T-90584,email,Billing question,"Hey, I returned the Riverbend sandals and the refund I got was $149.50 short of what I paid. I have been a customer for years and this is the first problem I have had. Please advise. — Jamie Brooks",billing
+T-90585,webform,Support request,"Hey, I keep getting logged out every tmie the app updates. Thanks.",account-access
+T-90586,webform,Order not delivered,"Hi, Where is my order? The Puffin down vest was supposed to arrive on Monday. Thank you.",shipping
+T-90587,webform,Question,"Hello Northwind, The estimated delivery on my order keeps moving - it has changed threy times this week. I contacted you a fewd ays ago about this and never heard tack. Appreciatei t.",shipping
+T-90588,webform,Problem with my order,"resending this - Good morning, My order NW-60112 was placed a week ago and the tracking still says label created. The order had the Firefly bug net and some smaller items in iti .Hope you can help.",shipping
+T-90589,chat,Delivery problem,My order NW-47262 was placed two weeks ago and the tracking still says label created. Order number is NW-48992 if that helps??,shipping
+T-90590,email,Billing question,The promo code TRAIL15 did not apply at checkout and I was charged full price. I tried calling but the wait time was over 20 minutes. Appreciate it.,billing
+T-90591,email,Where is my order,"Hi, If I refuse the package at delivery do I still have to pay return shipping. The package was a gift for a friend. Appreciate it. — Skyler Brooks",shipping
+T-90592,email,Problem with my order,"Hi, My package arrived with the box torn open and the Drifter 10 kayak inside looks damaged. The package was a gift for my son. — Jamie Haddad",shipping
+T-90593,webform,Question,"Hey, My return was received five days ago but the refund of $129.95 still is not back on my card. The order had the Halo climbing helmet and some smaller items in it. Please advise.",billing
+T-90594,webform,Qeustion,"Hello, The price of the Trailhead hiking boots dropped to $58.95 the day after I bought it - do you do price adjustments. I tried calling but the wait time was over 45 minutes. Thanks in advance.",billing
+T-90595,email,Problem with my order,You refuded the item but not the original shipping cost on order NW-66005. I contacted you a few days ago about this and never heard back. — Jamie Larsen,billing
+T-90596,email,Where is my order,"Hi, My order NW-57131 was placed ten days ago and the tracking still says label created. I paid with the card ending 5830. Appreciate it. — Quinn Patel",shipping
+T-90597,chat,Charge I do not recognize,You refunded the item but not the original shipping cost on order NW-73759. I placed the order during the sale.,billing
+T-90598,webform,Urgent,"Hey, I returned the Merino trail socks and the refund I got was $24.50 short of what I paid. I paid with the card ending 4185. Thank you.",billing
+T-90599,email,Urgent,"Hey, The invoice in the box lists a Torrent rain pants that is not what I was charged for online - which one is actually shipping to me. Thanks in advance. — Jordan Novak",shipping
+T-90600,webform,Urgent,"Hey, Where is my order? The Cascade 20 sleeping bag was supposed to arrive on Monday. This is for an upcoming backpacking trip. Please advise.",shipping
+T-90601,email,Late order,"Hello, The invoice in the box lists a Cascade 0 sleeping bag that is not what I was charged for online - which one is actually shipping to me. I tried calling but the wait time was over 30 minutes. Please advise. — Skyler Patel",shipping
+T-90602,webform,Problem with my order,"Hello, You charged the wrong card - the order should have gone on the card ending 8328. Appreciate it.",billing
+T-90603,email,Problem with my order,"Hi, Please delete my account and all my personal data. I contacted you a few days ago about this and never heard back. Appreciate it.",account-access
+T-90604,chat,Urgent,When I log in my order history shows someone else's orders and charges?,account-access
+T-90605,email,Where is my order,My order NW-71652 was placed a week ago and the tracking still says label created. I paid with the card ending 8440. — Dana Novak,shipping
+T-90606,webform,Support request,"Good morning, I cancelled order NW-52631 an hour after placing it but the charge of $35.95 still went through. I tried calling but the wait time was over 45 minutes. Please advise.",billing
+T-90607,email,Problem with my order,"Hello, The promo code TRAIL15 did not apply at checkout and I was carged full price. Thanks.",billing
+T-90608,email,Login trouble,"Hello Northwind, I changed phones and can no longer get the two factor authentication code. my refund was approved but the replacement ridgelne 2p tent still has no tracking number. i need the voltpack 20k power bank before this weekend - can you expedite shipping. Ip aid with the card ending 3319. Thanks in advance. — Sam Novak",account-access
+T-90609,webform,Help,"Hello Northwind, Why was I charged $89.00 for shipping when the site says orders over $75 ship free. I contacted you last week about this and never heard back. Appreciate it.",billing
+T-90610,webform,Problem with my order,"Hello Northwind, The password reset email never arrives - I have checked spam several times. The order had the Torrent rain pants and some smaller items in it. Thanks.",account-access
+T-90611,email,Refund not received,"Hey, The price of the Voltpack 20K power bank dropped to $249.50 the day after I bought it - do you do price adjustments. my package arrived with the box soaked and the trailhead trail runners inside looks okay. my package arrived with the box crushed and the trailhead trail runners inside looks okay. Please advise. — Devon Larsen",billing
+T-90612,chat,Account locked,the password reset email never arrives - I have checked spam several times. I have been a customer for three seasons and this is the first problem I have had?,account-access
+T-90613,email,Help,"Hello, I cannot open the tracking link for my order without signing in and the sign in page just loops. Thanks. — Devon gNuyen",account-access
+T-90614,email,Question,"Hey, My account shows an order I already cancelled and the charge is still pending on my card. I contacted you last wee about this and never heard back. Thanks.",billing
+T-90615,webform,Urgent,"Hey, Can I get an itemized receipt or invoice for order NW-70171 - I need it for my expense report. Thank you.",billing
+T-90616,email,Question,"Good morning, Can I change the delivery adddress on order NW-51125 before it ships. The orde had the Ember camp stove and some smalelr items in it. Appreciate it. — Quinn Silva",shipping
+T-90617,email,Help,"Hello Northwiind, Customs is asking me to pay $42.99 in import fees for order NW-55805 - was that supposed to happen. Order numberi s NW-52440 if that helps. Please advise.",shipping
+T-90618,email,Password reset not working,"Hello, The password reset email never arrives - I have checked spam twice. Order number is NW-41964 if that helps. Thanks. — Avery Kim",account-access
+T-90619,chat,Refund not received,Please cancel my Trail Club membership - I ams till being billed $12.99 a month.I  already looked through the help center and could not find an answer,billing
+T-90620,chat,Question,My return was received over two weeks ago but the refund of $64.99 still is not back on my card. how do i change the email address on my account - i no longer have access to the old one??,billing
+T-90621,webform,Login trouble,"Hi, The password reset email never arrives - I have checked spam several times. The package was a gift for my son.",account-access
+T-90622,email,Support request,"Hey, When I log in my order history shows someone else's orders and charges. This is for an upcoming canoe trip. Appreciate it. — Dana Larsen",account-access
+T-90623,email,Order not delivered,"Hey, The estimated delivery on my order keeps moving - it has changed twice this week. Hope you can help. — Kai Silva",shipping
+T-90624,email,Problem with my order,"Hey, There is a charge from Northwind on my statement for $149.99 that I do not recognize. The package was a gift for a friend. Thank you. — Avery Garcia",billing
+T-90625,webform,Refund not received,Can I get an itemized receipt or invoice for order NW-56148 - I need it for my expense report. you split my order into two shipments and only one has any tracking movement. Thank you.,billing
+T-90626,chat,Help,my refund was approved but the replacement Trailhead hiking boots still has no tracking number. I tried calling but the wait time was over 20 minutes,shipping
+T-90627,chat,Order status,I need the Slate sunglasses before my trip on the 14th - can you expedite shipping. The order hadt he Puffin down vest and some smaller items in it,shipping
+T-90628,email,Order status,"Hello Northwind, DHL tracking shows my package has been sitting in customs for over two weeks. Order number is NW-61333 if that helps. Please advise. — Jamie Chen",shipping
+T-90629,email,Need assistance,"Hello, The tracking page says delivered but there is no package anywhere at my address. I need this sorted before Friday. Thank you. — Reese Haddad",shipping
+T-90630,chat,Supporrt request,hw do I change the email address on my account - I no longer have access to the old one. please cancel my trail club membership - i am still being billed $12.99 a month??,account-access
+T-90631,email,Login trouble,"Hello Northwind, I cannot log in to my account - it keeps saying my password is wrong even after I reset it. only half of order nw-75008 showed up - the ridgeline 2p tent is missing from the box. I have been a customer for a long time and this s the first problem I have had. Appreciate it. — Casey Garcia",account-access
+T-90632,email,Package missing,"Hello, I need the Ridgeline 2P tent before Friday - can you expedite shipping. The package as a gift for my daughter. Thanks.",shipping
+T-90633,chat,Urgent,The tracking says my order was delivered but I was charged for shipping insurance I never added?,billing
+T-90634,email,Help,My order history disappeared after I merged my old account with my new email. Hope you can help.,account-access
+T-90635,webform,Question,"Hello Northwind, The verification link in the signup email says it has expired. The order had the Ridgeline 2P tent and some smaller items in it.",account-access
+T-90636,chat,Order status,can I change the delivery address on order NW-62785 before it ships. This is for an upcoming camping trip??,shipping
+T-90637,webform,Supportr equest,"Hi there, The tracking says my order was delivered ut I was charged for shipping insurance I nevej added. Order number is NW-57569 if that helps. Please advise.",billing
+T-90638,webform,Support request,"Hello Northwind, Why was I charged $118.95 for shiping when the site says orders over $75 ship free. i paidd $189.50 extra for two day shippnig and it has been five days. only half of order nw-46643 showed up - the cascade 0 sleeping bag is missing from the box. I already looked through the help senter and could not find an answer. Thanks in advance.",billing
+T-90639,chat,Double charged,the prom code WELCME10 did not apply at checkout and I wasc harged full price. Order number is NW-61959 if that helps??,billing
+T-90640,chat,Question,The promo code TRAIL15 did not apply at checkout and I was charged full price. I paid with the card ending 7417?,billing
+T-90641,webform,Membership billing,My gift card balance shows $118.95 but checkout would not let meu se it. The package was a gift for my son. Appreciate it.,billing
+T-90642,chat,Shipping delay,Customs is asking me to pay $35.50 in import fees for order NW-64394 - was that supposed to happen. The packkage was a gift for my son??,shipping
+T-90643,email,Question,I need the Lumen 400 headlamp before my trrp on the 14th - can you expedite shipping. I have been a customer for a long time and this is the firrst problem I have had. Thanks. — Kai Brooks,shipping
+T-90644,chat,Question,There is a charge from Northwind on my statement for $35.50 that I do not recognize. The order had the Cascade 0 sleeping bag and some smaller items in it.,billing
+T-90645,email,Help,"Hi, I was charged twice for order NW-54389 - there are two $129.50 charges on my card. I tried calling but the wait time was over 30 minutes. Hope you can help.",billing
+T-90646,email,Where is my order,"second time sending this. Good morning, I need the Glacier 45 cooler before this weekend - can you expedite shipping. I contacted you a few days ago about this and never heard back. Hope you can help.",shipping
+T-90647,chat,Support request,customs is asking me to pay $89.50 in import fees for order NW-60047 - was that supposed to happen,shipping
+T-90648,webform,Order not delivered,"Good morning, Only half of order NW-52444 showed up - the Aurora camp lantern is missing from the box. please cancel my trail club membership - i am still being billed $9.99 a month. I contacted you a few days ago about this and never heard back. Thanks.",shipping
+T-90649,email,Need sasistance,The email receipt went to my old address - I need to update where my invoices get sent. I placed the order about ten days ago. Hope you can help. — Morgan Brooks,account-access
+T-90650,email,Support request,"Hi there, My order NW-72125 was placed over two weeks ago and the tracking still says label created. I have been a customer for years and this is the first problem I have had. Thank you. — Riley Silva",shipping
+T-90651,chat,Help,My gift card balance shows $19.50 but checkout would not let me use it. only half of order nw-61138 showed up - the torrent rain jacket is missing from the box.,billing
+T-90652,email,Question,My refund was approved but the replacement Summit 65 backpack still has no tracking number.,shipping
+T-90653,chat,Double charged,My return was received three days ago but the refund of $249.00 still is not back on my card. I placed the order last week.,billing
+T-90654,email,Urgent,please call me back 451-555-9320,account-access
+T-90655,chat,Help,You split my order into two shipments and only one has any tracking movement. I already looked through the help center and could not find an answer?,shipping
+T-90656,email,Login trouble,"Hello Northwind, I cannot open the tracking link for my order without signing in and the sign in page just loops. I contacted you last week about this and never heard back. Please advise. — Rowan Patel",account-access
+T-90657,chat,Help,how do I change the email address on my account - I no longer have access to the old one. I need this sorted before Friday.,account-access
+T-90658,email,Help,"Hey, How do I change the email address on my account - I no longer have access to the old one. I have been a customer for three seasons and this is the first problem I have had. Hope you can help.",account-access
+T-90659,webform,Double charged,My account shows an order I already cancelled and the charge is still pending on my card. Order number is NW-66890 if that helps. Thanks.,billing
+T-90660,email,Need assistance,"Hi there, My gift card balance shows $64.95 but checkout would not let me use it. how do i change the email address on my account - i no longer have access to the old one. i think someone else has been using my account - there is an order in my history i never placed. I tried calling but the wait time was over 20 minutes. Thank you.",billing
+T-90661,email,Quetion,"Hey, If I refuse the package at delivery do I still have to pay return shipping. I tried calling but the wait time was over 30 minutes. Thanks. — Riley Kim",shipping
+T-90662,email,Delivery probelm,"Hi, If I refuse the package at delivery do I still have to pay return shipping. This is for an upcoming family trip. Hope you can help. — Jamie Okafor",shipping
+T-90663,webform,Question,"Hi there, I paid $64.00 extra for two day shipping and it has been two days.",shipping
+T-90664,email,Charge I do not recognize,"Hi there, Why was I charged $214.00 for shipping when the site says orders over $75 ship free. The order had the Puffin down vest and some smaller items in it. Hope you can help.",billing
+T-90665,chat,Delivery problem,The tracking page says delivered but there is no package anywhere at my address. I already looked through the help center and could not find an answer??,shipping
+T-90666,chat,Help,I need the Otter dry bag before Friday - can you expedite shipping. i returned the glacier 45 cooler and the refund i got was $89.95 short of what i paid?,shipping
+T-90667,email,Payment issue,My return wsa received a week ago but the refund of $35.99 still is not back on my card. I pad with the card ending 6987. — Jordan Garcia,billing
+T-90668,chat,Support request,the promo code TRAIL15 did not apply at checkout and I was charge dfull price. Order number is uW-79128 if thatt helps.,billing
+T-90669,webform,Need assistance,I paid $19.50 extra for two day shipping and it has been two days. I contacted you a few days ago about this and never heard back. Thanks in advance.,shipping
+T-90670,chat,Delivery problem,The tracking page says delivered but there is no package anywhere at my address. Order number is NW-76041 if that helps?,shipping
+T-90671,chat,Login trouble,please delete my account and all my personal data. The order had the Trailhead hiking boots and some smaller items in it.,account-access
+T-90672,email,Delivery problem,"Hi, If I refuse the package at delivery do I still have to pay return shipping. I have been a customer for years and this is the first problem I have had. Thanks. — Kai Brooks",shipping
+T-90673,webform,Urgent,"Good morning, How do I change the email address on my account - I no longer have access to the old one. i was charged sales tax on order nw-50251 but my state does not tax clothing. Thank you.",account-access
+T-90674,chat,Need asistance,i think someone else has been using my account - there is an order in my history I never placed. i returned the torrent rain jacket and the refund i got was $214.99 short of what i paid??,account-access
+T-90675,webform,Promo code problem,"Good morning, My account shows an order I already cancelled and the charge is still pending on my card. i keep getting logged out every time the app updates. The package was a gift for a friend.",billing
+T-90676,email,Need assistance,My order NW-48205 was placed ten days ago and the tracking still says label created. I need this sorted before Friday. Thanks.,shipping
+T-90677,chat,Question,You charged the wrong card - the order should have gone on the card ending 4277.,billing
+T-90678,chat,Need assistance,my packag earrived with the box soaked and the Ridgeline 2P tent inside looks damaged. The packagee was a gift for my son,shipping
+T-90679,chat,Problem with my order,There is a charge from Northwind on my statement for $19.00 that I do not recognize. I need this sorted before the weekend.,billing
+T-90680,chat,Shipping delay,the estimated delivery on my order keeps moving - it has changed twice this week. Order number is NW-70950 if that helps?,shipping
+T-90681,webform,Help,"Hi there, Please delete my account and all my personal data. Order number is NW-69599 if that helps. Hope you can help.",account-access
+T-90682,email,Support request,see below. ref NW-79353,shipping
+T-90683,email,Help,"Good morning, My order NW-69541 was placed three days ago and the tracking still says label created. The order had the Otter dry bag and some smaller items in it.",shipping
+T-90684,email,Order tatus,"Hi there, Can I change the delivery address on order NW-77192 before it ships. i returned the anchor bear canister and the refund i got was $79.00 short of what i paid. my return was received four days ago but the refund of $35.99 still is not back on my card. The order had the Merino trail socks and some smaller items in it. Please advise. — Riley Larsen",shipping
+T-90685,email,Charge I do not recognize,"Good morning, There is a charge from Northwind on my statement for $64.99 that I do not recognize. The package was a gift for a friend. Hope you can help.",billing
+T-90686,email,Late orer,"following up - Good morning, Only half of order NW-50960 showed up - the Slate sunglasses is missing from the box. Thank you. — Reese Okafor",shipping
+T-90687,webform,Need assistance,"Good morning, I was charged sales tax on order NW-41951 but my state does not tax clothing. I contacted you last week about this and never heard back. Please advise.",billing
+T-90688,webform,Need assistance,"Hey, My order NW-65885 was placed four days ago and the tracking still says label created. I have been a customer for a long time and this is the first problem I have had. Thank you.",shipping
+T-90689,email,2FA problem,"Hi there, The email receipt went to my old address - I need to update where my invoices get sent. I contacted you a few days ago about this and never heard back. Hope you can help. — Jamie Brooks",account-access
+T-90690,email,Question,following up - My refund was approved but the replacement Summit 65 backpack still has no tracking number.,shipping
+T-90691,email,Help,"Hi, You split myo rrder into two shipments ad only one has any tracking movement. I tried calling but the wait time was over 02 minutes. Hope you can help. — Reese Whitfield",shipping
+T-90692,chat,Problem with my order,please delete my account and all my personal data. The order had the Lumen 800 headlamp and some smaller items in it??,account-access
+T-90693,email,Help,"Hello, Customs is asking me to pay $89.99 in import fees for order NW-53519 - was that supposed to happen. Order number is NW-47858 if that helps. Please advise. — Sam Silva",shipping
+T-90694,email,Need assistance,"Hello Northwind, There is a charge from Northwind on my statement for $129.00 that I do not recognize. I contacted you last week about this and never heard back. Please advise. — Avery Patel",billing
+T-90695,email,Delivery problem,"Good morning, Only half of order NW-66774 showed up - the Ember camp stove is missing from the box. I tried calling but the wait time was over 20 minutes. Thank you.",shipping
+T-90696,chat,Urgent,You split my order into two shipments and only one has any tracking movement. Order number is NW-44826 if that helps??,shipping
+T-90697,email,Refund not received,"Hello Northwind, Can I get an itemized receipt or invoice for order NW-45808 - I need it for my expense report. I already looked through the help center and could not find an answer. Appreciate it.",billing
+T-90698,webform,Help,"Hi there, You charged the wrong card - the order should have gone on the card ending 9168. i cannot log in to my account - it keeps saying my password is wrong even after i reset it. I need this sorted before the weekend. Thanks.",billing
+T-90699,email,Urgent,"Good morning, If I refuse the package at delivery do I still have to pay return shipping. I paid with the card ending 690.7 Hope you can help. — Rowan Kaur",shipping
+T-90700,email,Billing question,"Hi there, Please cancel my Trail Club membership - I am still being billed $9.99 a month. I have been a customer for three seasons and this is the first problem I have had. Thank you.",billing
+T-90701,email,Payment issue,"Hello, The promo code TRAIL15 did not apply at checkout and I was charged full price. I contacted you last week about this and never heard back. Thanks in advance. — Alex Nguyen",billing
+T-90702,chat,Need assistance,the estimated delivery on my order keeps moving - it has changed twice this week?,shipping
+T-90703,webform,Need assistance,My return was received four days ago but the refund of $189.99 still is not back on my card. I placed the order during the sale. Thanks.,billing
+T-90704,email,Where is my order,"Good morning, I need the Glacier 45 cooler before this weekend - can you expedite shipping. I contacted you a few days ago about this and never heard back. Hope you can help.",shipping
+T-90705,chat,2FA problem,I cannot log int o my account - it keeps saiyng my passwkrd is wrong een after I reset it.,account-access
+T-90706,webform,Question,FedEx tracking shows my package has been sitting in Memphis for two weeks. The order had the Lumen 800 headlamp and some smaller items in it. Please advise.,shipping
+T-90707,email,Question,"Hi, Where is my order? The Voltpack 20K power bank was supposed to arrive two days ago. Appreciate it. — Taylor Ortiz",shipping
+T-90708,chat,Question,If I refuse the package at delivery do I still have to pay return shipping. I have been a customer for a long time and this is the first problem I have had.,shipping
+T-90709,webform,Membership billing,"Hello, You charged the wrong card - the order should have gone on the card endign 5751. I tried calling but thew ait time was over 30 minutes.",billing
+T-90710,chat,Payment issue,My return was received over two weeks ago but the refund of $129.95 still iis not back on my card. my refund was approved but the replacement puffin down vest still has no tracking number,billing
+T-90711,email,Account locked,I changed phones and can no longer get the two factor authentication code.,account-access
+T-90712,email,Problem with my order,"Hello, My refund was approved but the replacement Trailhead hiking boots still has no tracking number. i think someone else has been using my account - there is an order in my history i never placed.",shipping
+T-90713,chat,Probelm with my order,I changed phones and can no longer get the two factor authentication code. The package was a gift for a friend?,account-access
+T-90714,email,Account locked,"Hi, I cannot open the tracking link for my order without signing in and the sign in page just loops. The order had the Trailhead hiking boots and some smaller items in it.",account-access
+T-90715,email,Help,"Hi, I think someone else has been usingg my account - there is an order iin my history I never placed. I have been a cuustomer for years and this is the first problem I have had. Hope yyou can help.",account-access
+T-90716,webform,Shipping delay,"Hello Northwind, Only half of order NW-71942 showed up - the Windbreak fleece is missing from the box. I need this sorted before the weekend. Thanks in advance.",shipping
+T-90717,webform,Question,"Hey,H ow do I yhange the email address on my account - I no longer have access to the old one. The package was a gift for my partner. Thanks in advance.",account-access
+T-90718,chat,Need assistance,you charged the wrong card - the order should have gone on thec ard ending 9103. i cannot log in to my account - it keeps saying my password is wrong even after i reset it?,billing
+T-90719,email,Urgent,"Hello, The tracking page says delivered but there is no package anywhere at my address. I need this sorted before the weekend. Hope you can help. — Sam Novak",shipping
+T-90720,email,Help,"Good morning, I paid $312.95 extra for two day shipping and it has been two days. The package was a gift for my partner. Thank you. — Skyler Larsen",shipping
+T-90721,webform,Urgent,"Hello, I paid $189.00 extra for two day shipping and it has been over two weeks. I need this sorted before Friday. Hope you can help.",shipping
+T-90722,chat,Help,My account showws an order I already cancelled and the charge is still pending on my card??,billing
+T-90723,email,Help,DHL tracking shws my package has been sitting in customs ffor two days. The package was a gift for my partne.r Thanks in advance. — Jordan Patel,shipping
+T-90724,email,Urgent,"Hello, My order NW-74702 was placed a week ago and the tracking still says label created. Thanks in advance. — Casey Haddad",shipping
+T-90725,chat,Urgent,I changed phones and can no longer get the two factor authentication code. I paid with the card ending 4758,account-access
+T-90726,email,Invoice reqquest,"Hi there, The tracking says my order was delivered but I was charged for shipping insurance I never added. The order had the Halo climbing helmet and some smaller items in it.",billing
+T-90727,webform,Change my email,Please delete my account and all my personal data. The order had the Halo climbing helmet and some smaller items in it. Thanks in advance.,account-access
+T-90728,webform,Support request,There is a charge from Northwind on my statement for $249.00 that I do not recognize. The order had the Drifter 10 kayak and some smaller items in it.,billing
+T-90729,webform,Problem with my order,"Hello Northwind, If I refuse the package at delivery do I still have to pay return shipping. The package was a gift for my son. Thanks in advance.",shipping
+T-90730,chat,Question,i cannott log i to my account - it keepss saying my password is wrong even after I reset it,account-access
+T-90731,email,Question,"Hi there, Can I get an itemized receipt or invoice for order NW-73612 - I need it for my expense report. Thanks in advance. — Taylor Kaur",billing
+T-90732,webform,Question,"Hello Northwind, The estimated delivery on my order keeps moving - it has changed threy times this week. I contacted you a fewd ays ago about this and never heard tack. Appreciatei t.",shipping
+T-90733,email,Need assistance,"Good morning, The tracking says my order was delivezed but I was charged fo rshipping insurance I never added. I contacted you a few days ago about this and never heard back. Hope you can help. — Sam Ortiz",billing
+T-90734,chat,Problem with my order,the tracking says my order was delivered but I was charged for shipping insurance I never added. I placed the order during the sale?,billing
+T-90735,email,Need assistance,"Hello Northwind, If I refuse the package at delivery do I still have to pay return shipping. Thank you. — Kai Silva",shipping
+T-90736,chat,Urgent,You charged the wrong card - the order should have gone o the card gnding 495.6 The pacfage was a gift for my son?,billing
+T-90737,email,Support request,The verification link in the signup email says it has expired. Appreciate it. — Taylor Kaur,account-access
+T-90738,webform,Order status,"Hello, The estimated delivery on my order keeps moving - it has changed three times this week. I already looked through the help center and could not find an answer.",shipping
+T-90739,email,Question,"Hey, The password reset email never arrives - I have checked spam twice. I tried calling but the wait time was over 20 minutes. — Taylor Ortiz",account-access
+T-90740,chat,Help,Can you hold the shipment at a DHL pickup point instead of delivering to my door. I contacted you a few days ago about this and never heard back??,shipping
+T-90741,webform,Urgent,"Hello Northwind, The price of the Ridgeline 2P tent dropped to $19.00 the day after I bought it - do you do price adjustments. Thanks in advance.",billing
+T-90742,chat,Support request,the verification link in the signup email says it has expired. I have been a customer for years and this is the first problem I have had.,account-access
+T-90743,email,Charge I do not recognize,"Hello, I was charged twice for order NW-64284 - there are two $118.99 charges on my card. can you hold the shipment at a fedex pickup point instead of delivering to my door. I have been a customer for years and this is the first problem I have had. Thanks in advance.",billing
+T-90744,chat,Need assistance,i need the Lumen 400 headlamp before Friday - can you expedite shipping. I placed the order about ten days ago,shipping
+T-90745,email,Need assistance,"Hello, My order NW-54891 was placed over two weeks ago and the tracking still says label created. I have been a customer for years and ths is the first problem I have had. Thank you. — Casey Brooks",shipping
+T-90746,webform,Support request,"Hello, You split my order into two shipments and only one has any tracking movement. The order had the Otter dry bag and some smaller items in it. Please advise.",shipping
+T-90747,webform,Delivery problem,Customs is asking me to pay $129.95 in import fees for order NW-65447 - was that supposed to happen. my order history disappeared after i merged my old account with my new email. I contacted you last week about this and never heard back. Thanks in advance.,shipping
+T-90748,email,Urgent,"Hello Northwind, Can I change the delivery address on order NW-66402 before it ships. The package was a gift for my partner. Appreciate it. — Riley Garcia",shipping
+T-90749,email,Late oyder,"Hi, The estimated delivery on my order keeps moving - it has changed twice this week. i cannot open the tracking link for my order without signing in and the sign in page just loops. the verification link in the signup email says it has expired. This is for an upcoming camping trip. Please advise.",shipping
+T-90750,email,Need assistance,"Hi there, My return was received two weeks ago but the refund of $58.95 still is not back on my card. Order number is NW-71766 if that helps. Please advise. — Taylor Nguyen",billing
+T-90751,chat,Question,You split my order into two shipments and only one has any tracking movement. I placed the order during the sale??,shipping
+T-90752,email,Change my email,"Good morning, The password reset email never arrives - I have checked spam twice. the tracking page says delivered but there is no package anywhere at my address.",account-access
+T-90753,webform,Charge I do not recognize,"Hi there, Why was I charged $249.99 for shipping when the site says orders over $75 ship free. I contacted you a few days ago about this and never heard back.",billing
+T-90754,email,Urgent,"Hello, When I log in my order history shows someone else's orders and charges. please cancel my trail club membership - i am still being billed $9.99 a month. I need this sorted before the weekend. Hope you can help.",account-access
+T-90755,chat,Support request,why was I charged $118.00 for shipping when the site says orders over $75 ship free.,billing
+T-90756,email,Poblem with my order,"Hello Northwind, Why was I charged $89.50 for shipping when the site says orders over $75 ship free. Appreciate it.",billing
+T-90757,webform,Change my email,"Good morning, I cannot log in to my account - it keeps saying my password is wrong even after I reset it. where is my order? the cascade 20 sleeping bag was supposed to arrive yesterday. I already looked through the help center and could not find an answer.",account-access
+T-90758,email,Need assistance,"Hi there, Can you hold the xhipment at a FedEx pickup point instead o delivering to my door. This is for an upcoming family trip. Thanks.",shipping
+T-90759,email,Support request,"Hi, You split my order into two shipments and only one has any tracking omvement. Th package was a gift for my daughter. Hope you can help.",shipping
+T-90760,email,Double charged,"Hello Northwind, There is a charge from Northwind on my statement for $312.00 that I do not recognize. I contacted you a few days ago about this and never heard back. Thanks.",billing
+T-90761,email,Password reset not working,"Hi there, My order history disappeared aftr I merged my old acconut with my new email. I tried caljing but the wai ttime was over 20 minutes. Hope you can help.",account-access
+T-90762,chat,Shipping delay,fedEx tracking shows my package has been sitting in customs for five days??,shipping
+T-90763,email,Shipping delay,"Good morning, Thee stimated delivery on my order keeps moving - it has changed twice this week. I already looked through the help center and could not find an answer. — Reese Larsen",shipping
+T-90764,webform,Urgent,"Hey, I was charged twice for order NW-57088 - there are two $19.50 charges on my card. i changed phones and can no longer get the two factor auhentication code. my order history dispapeared after i merged my old account with my new email. I need this sorted before the end of the month. Thanks in advance.",billing
+T-90765,email,Problem with my order,"Hi, You split my order into two shipments and only one has any tracking movement. Thank you. — Morgan Novak",shipping
+T-90766,chat,Help,please delete my account and all my personal data. I paid with the card ending 9188?,account-access
+T-90767,email,Late order,"Hello, Customs is asking me to pay $58.50 in import fees ofr onder NW-66946 - was that supposed to happen. Thep ackage was a gift for my daughter. Thanks in advance. — Reese Brooks",shipping
+T-90768,email,Help,"Good morning, Can I get an itemized receipt or invoice for order NW-74269 - I need it for my expense report. I have been a customer for three seasons and this is the first problem I have had. Thanks in advance.",billing
+T-90769,email,Need assistance,"Good morning, There is a charge from Northwind on my statement for $24.00 that I do not recognize. Order number is NW-70132 if that helps. Thanks.",billing
+T-90770,email,Question,"Hey, I cannot log in to my account - it keeps saying my password is wrong even after I reset it. Order number is NW-74278 if that helps. Hope you can help. — Jordan Okafor",account-access
+T-90771,webform,Problem with my order,"Hi there, Why was I charged $89.50 for shipping when the site says orders over $75 ship free. The package was a gift for my daughter. Appreciate it.",billing
+T-90772,email,Charge I do not recognize,"Hello Northwind, You refunded the item but not the original shipping cost on order NW-72466. Thank you.",billing
+T-90773,chat,Problem with my order,My return was received two days ago but the refund of $35.99 still is not back on my card. I contacted you last week about this and never heard back,billing
+T-90774,email,Billing question,"Hi, I returned the Otter dry bag and the refund I got was $189.99 short of what I paid. Please advise.",billing
+T-90775,chat,Help,the email receipt went to my old address - I need to update where my invoices get sent. I have been a customer for a long time and this is the first problem I have had.,account-access
+T-90776,email,Invoice reqquest,"following up - Hi there, The tracking says my order was delivered but I was charged for shipping insurance I never added. The order had the Halo climbing helmet and some smaller items in it.",billing
+T-90777,chat,Help,can you hold the shipment at a FedEx pickup point instead of delivering to my door. I already looked through the help center and could not find an answer?,shipping
+T-90778,email,Shipping delay,"Hi there, hnlyh alf of order NW-73183 showed up - the Slate sunglases is missing from the box. — Alex Brooks",shipping
+T-90779,chat,Invoice request,i was charged sales tax on order NW-49797 but my state does not tax clothing. I placed the order last week?,billing
+T-90780,webform,Billing question,"Hi there, You charged the wrong card - the order should havve gone on the ard ending 6538. The order had the Ridgeline 2P tent and some smaller items in it.",billing
+T-90781,webform,Invoice request,"Hi, I cancelled order NW-65861 minutes after placing it but the charge of $214.95 still went through. I have been a customer for years and this is the first problem I have had. Thank you.",billing
+T-90782,email,Problem with my order,"Hi, UPS tracking shows my package has been sitting in a sort facility for two weeks. I have been a customer for years and this is the first problem I have had. Hope you can help.",shipping
+T-90783,email,Trscking question,"Hello orthwind, You split my order into two shipments and only one has any tracking movement. I already looked through the help center and could not find an answer. Appreciate it. — Reese Silva",shipping
+T-90784,email,Question,"Hey, The price of the Slate sunglasses dropped to $189.50 the day after I bought it - do you do price adjustments. my package arrived with the box soaked and the ember fuel canister inside looks damaged. i need the trailhead hiking boots before this weekend - can you expedite shipping. I need this sorted before the weekend. Hope you can help. — Casey Brooks",billing
+T-90785,webform,Late order,"Hi, Only half of order NW-63029 showed up - the Riverbend sandals is missing from the box. This is for an upcoming family trip. Thanks in advance.",shipping
+T-90786,webform,Quesion,"Hi, My return was received two weeks ago but the refudn of $189.00 still is not back on my card. I tried calling but the wait time was over 20 minutes. Thank you.",billing
+T-90787,chat,Problem with my order,my package arrived with the box torn open and the Summit 65 backpack inside looks okay. The package was a gift for a friend,shipping
+T-90788,webform,Support request,"Hi, My order NW-65422 was placed two weeks ago and the tracking still sys label created. my return was received over two weeks ago but the refund of $149.99 till is not back on my card. I pid with the card ending 7229. Thanks in advance.",shipping
+T-90789,webform,Help,"Hey, You charged the wrong card - the order should have gone on the card ending 9000. I need this sortd ebfore th eweekend.T hanks.",billing
+T-90790,email,Shipping delay,"Good morning, The estimated delivery on my order keeps moving - it has changed twice this week. Thank you.",shipping
+T-90791,email,Login trouble,"Hello, When I log in my order history shows someone else's orders and charges. Appreciate it. — Reese Chen",account-access
+T-90792,email,Delivrey problem,"Hello, I need the Cascade 20 sleeping bag before this weekend - can you expedite shipping. Order number is NW-44735 if that helps. Thanks. — Dana Novak",shipping
+T-90793,email,Double charged,"Hello Northwind, The promo code BASECAMP10 did not apply at checkout and I was charged full price. I contacted you a few days ago about this and never heard back. Thanks in advance. — Kai Patel",billing
+T-90794,chat,Account locked,the verification link in the signup email says it has expired. I need this sorted before the end of the month.,account-access
+T-90795,webform,Support request,"Hey, The price of theF irefly bug net dropped o $64.99 the day after I bought it - do you do price adjustments. I need this sorted before the weekend. Thanks.",billing
+T-90796,webform,Question,"Hi there, My package arrived with the box crushed and the Otter dry bag inside looks damaged. Order number is NW-74446 if that helps. Thanks in advance.",shipping
+T-90797,email,Billing question,"Good morning, Yuo rgfunded the item but not the original shipping cost on order NW-78031. I contacted you a few days ago about this and never heard back. Appreciate it. — Alex Novak",billing
+T-90798,email,Nee assistance,"Hi, How do I change the email address on my account - I no longer have access to the old one. I need this sorted before the weekeend. Hope you can help. — Casey Whitfield",account-access
+T-90799,chat,Charge I do not recognize,Why was I charged $312.95 or shipping when the site syas orders over $75 ship free.,billing
+T-90800,chat,Login troule,i keep getting logged out every time he app updatse. I paid with the card endingg 7454?,account-access
+T-90801,email,Cannot log in,"Hey, The email receipt went to my old address - I need to update where my invoices get sent. This is for an upcoming family trip. Thanks. — Kai Chen",account-access
+T-90802,chat,Probllem with my order,It hink somene else hsa been using my account - there is an order in my history I never placed. I have been a customer for three seasons andt his is the first problem I have had?,account-access
+T-90803,chat,Need assistance,My order NW-47677 was placced three days ago and the tracking still says label created. I tried callig but the wait time was over 20 minuets?,shipping
+T-90804,email,Refund not received,"Hi, I was charge sales tax on order xW-75373 but my state does ot tax clothing. I have been a customer for years and this is the first problem I hvae had. — Morgan Ortiz",billing
+T-90805,chat,Problem with my order,I need the Voltpack 20K power bank before Saturday - can you expedite shipping??,shipping
+T-90806,chat,Shipping delay,you split my order into two shipments and only one has any tracking movement. my account shows an order i already cancelled and the charge is still pending on my card.,shipping
+T-90807,chat,Payment issue,The rice of the Ridgeline 2P tent dropped to $79.99 khe day after I bought it - do you do price adjustments.O rder number si NW-46302 if that helps,billing
+T-90808,webform,Urgent,"Good morning, I returned the Summit 65 backpack and the refund I got was $35.50 short of what I paid. only half of order nw-59009 showed up - the voltpack 20k power bank is missing from the box. I placed the order last week.",billing
+T-90809,webform,Order status,"Hello, The estimated delivery on my order keeps moving - it has changed three times this week. I already looked through the help center and could not find an answer.",shipping
+T-90810,webform,Late order,Can you hold the shipment at a UPS pickup point instead of delivering to my door. the price of the torrent rain pants dropped to $79.95 the day after i bought it - do you do price adjustments. can i get an itemized receipt or invoice for order nw-63546 - i need it for my expense report. The package was a gift for my partner. Appreciate it.,shipping
+T-90811,chat,Qeustion,My gift card balance shows $19.99 but checkout would not let me use it. I have been a customer for three seasons and this is the first problem I have had??,billing
+T-90812,chat,Refund not eceived,My gift card balance shows $42.00 but checkout would not let me use it??,billing
+T-90813,email,Payment issue,"Good morning, The promo code SSUMMER20 did not apply at checkout and I was charged full price. The package was a gift for my daughter. ghanks in advance.",billing
+T-90814,webform,Help,"Hello Northwind, Where is my order? The Basecamp camp chair was supposed to arrive last Friday. This is for an upcoming thru-hike. Please advise.",shipping
+T-90815,email,Urgent,"Good morning, Where is my order? The Puffin down vest was supposed to arrive on Monday. I placed the order last week. Hope you can help. — Jordan Silva",shipping
+T-90816,webform,Invoice request,"Hi, I cancelled order NW-65861 minutes after placing it but the charge of $214.95 still went through. I have been a customer for years and this is the first problem I have had. Thank you.",billing
+T-90817,email,Question,"Hey, You charged the wrong card - theo rder should have gone on the card ending 1373. I need this sorted before the end of the month. Hope you can help. — Skyler Patel",billing
+T-90818,chat,Problem with my order,my order NW-78863 was placed three days ago and the tracking still says label created. The order had the Glacier 45 cooler and some smaller items in it.,shipping
+T-90819,email,Urgent,The tracking page says delivered but there is no package anywhere at my address. Please advise. — Taylor Chen,shipping
+T-90820,chat,Account locked,I keep getting logged out every time the app updates. i was charged twice for order nw-47438 - there are two $189.99 charges on my card??,account-access
+T-90821,email,Order status,"Hello, You split my ordder into two shipments and only one has any tracking movement. why was i charged $35.50 for shipping when the site says orders over $75 sihp free. Thank you. — Riley Novak",shipping
+T-90822,webform,Djlivery problem,"Hi there, Customs is asking me to pay $89.00 in import fees for order NW-56647 - was that supposed to happen. the email receipt went to my old address - i need to update where my invoices get sent. my account seems to be locked after too many login attempts. Thank you.",shipping
+T-90823,webform,Account security concern,"Hi, My account seems to be locked after too many login attempts. Order number is NW-65300 if that helps. Appreciate it.",account-access
+T-90824,webform,Question,"Hey,H ow do I yhange the email address on my account - I no longer have access to the old one. The package was a gift for my partner. Thanks in advance.",account-access
+T-90825,email,Nede assistance,"resending this - Good morning, My order history disappeared after I merged my old account with my new email. I have been a customer for years and this is the first problem I have had. Please advise.",account-access
+T-90826,email,Urgent,My account shows an orde I already cancelled and the charge is still pending on my card. my order nw-76800 was placed ten days ago and the tracking still says label created. usps tracking shows my package has been sitting in custmos for ten days. I contacted you last week about this and never heard back. Appreciate it. — Quinn Garcia,billing
+T-90827,email,Tracking question,"Hi, Can you hold the shipment at a UPS pickup point instead of delivering to my door. I placed the order last week. Appreciate it. — Casey Brooks",shipping
+T-90828,webform,Need assistance,"Hello Northwind, The email receipt went to my old address - I need to update where my invoices get sent. The package was a gift for my daughter. Hope you can help.",account-access
+T-90829,webform,Help,"Hi, Can I change the delivery address on order NW-79986 before it ships. I contacted you a few days ago about this and never heard back. Please advise.",shipping
+T-90830,email,Support request,"Hey, My order NW-42679 was placed five days ago and the tracking still says label created. I tried calling but the wait time was over 45 minutes. Thanks in advance. — Taylor Kim",shipping
+T-90831,email,Support request,"Good morning, The promo code TRAIL15 dad not apply at checkout and I was charged full price. I paid with the card ending 8762. — Quinn Haddad",billing
+T-90832,chat,Delivery problem,wher eis my order? The Torrent rai pants was supposed to arrive on Monday. I need this sorted before Friday?,shipping
+T-90833,webform,Help,"Hello Northwind, I think someone else has been using my account - there is an order in my history I never placed. Appreciate it.",account-access
+T-90834,email,Membership billing,"Hey, You refunded the item but not the original shipping cost on order NW-77514. I contacted you last week about this and never heard back. — Riley Okafor",billing
+T-90835,chat,Question,When I log in my order history shows someone else's orders and charges. I have been a customer for years and this is the first problem I have had??,account-access
+T-90836,email,Order not delivered,"Hello, I paid $189.00 extra for two day shipping and it has been four days. Thank you. — Taylor Chen",shipping
+T-90837,chat,Help,when I og in my order history shows someone else's orders and charges. I paid withh the cadr ending 8067?,account-access
+T-90838,email,Question,"Hi, My order NW-75964 was placed four days ago and the tracking still says label created. I need this sorted before the end of the month. Hope you can help. — Devon Patel",shipping
+T-90839,webform,Need assistance,The estimated delivery on my order keeps moving - it has changed twice this week. I contacted you last week about this and never heard back.,shipping
+T-90840,email,Support request,"Hi, Customs is asking me to pay $214.50 in import fees for order NW-66385 - was that supposed to happen. can i get an itemized receipt or invoice for order nw-70667 - i need it for work. Thank you.",shipping
+T-90841,chat,Help,why was I charged $249.50 for shipping when the site says orders over $75 ship free,billing
+T-90842,email,Help,"Hey, How do I change the email address on my account - I no longer have access to the old one. Order number is NW-63563 if that helps. Please advise. — Kai Haddad",account-access
+T-90843,webform,Support request,"Hello, How do I change the email address on my account - I no longer have access to the old one. I placed the order about ten days ago. Thanks in advance.",account-access
+T-90844,webform,Support request,"Hey, Customs is asking me to pay $19.95 in import fees for order NW-46583 - was taht supposed to happen. I placed the order during the sale.",shipping
+T-90845,chat,Delivery problem,My package arrived with the box soaked and the Basecamp camp chair inside looks okay. I paid with the card ending 7784.,shipping
+T-90846,chat,Tracking question,can you hold the shipment at a UPS pickup point instead of delivering to my door. The order had the Windbreak fleece and some smaller items in it?,shipping
+T-90847,email,Problem with my order,"Hey, Can I get an itemized receipt or invoice for order NW-74013 - I need it for my expense report. my refund was aprved but the replacement glacier 45 cooler still has no tracking number. Thank you. — Rowan Silva",billing
+T-90848,chat,Double charged,i was charged twicce for order NW-51584 - there are two $214.99 charges on my card. the tracking page sayys delivered but there si no package anywhere at my address??,billing
+T-90849,email,Need assistance,"Hello Northwind, I paid $312.99 extra for two day shipping and it has been five days. Thank you. — Quinn Chen",shipping
+T-90850,email,Problem with my order,"Hey, The promo code TRAIL15 did not apply at checkout and I was charged full price. Please advise. — Jordan Patel",billing
+T-90851,email,Shipping delay,"Hi,I  paid $58.00 extra for wto day sipping adn it has been ten days. The package was a gift for a friend. Thanks in advance. — Rowan Okafor",shipping
+T-90852,chat,Need assistance,You refunded the item but not the original shipping cost on order NW-70621?,billing
+T-90853,email,Urgent,"Hi there, I cancelled order NW-47409 an hour after plcing it but the charge of $24.95 still went through. Hope you can help. — Alex Okafor",billing
+T-90854,email,Cwange my email,"Hi, The verification link in the signup email says it has expired. can you hold the shipment at a usps pickup point instead of delivering to my door. I paid with the card ending 7058. Thanks. — Sam Novak",account-access
+T-90855,email,Problem with my order,"Hey, Can I get an itemized receipt or invoice for order NW-46345 - I need it for my expense report. I need this sorted before Friday. Thank you.",billing
+T-90856,email,Shipping delay,"Hey, I paid $58.99 emtra for two day shippin gand it has been three days. Appreciate it.",shipping
+T-90857,webform,Late order,You split my order into two shipments and only one has any tracking movement. you refunded the item but not the original shipping cost on order nw-55687. I placed the order last week.,shipping
+T-90858,email,Account security concern,"Hello Northwind, I keep getting logged out every tim the app updates. I have been a customer for three sasons and this is the first problemI  have had. Thanks in advance. — Quinn Nguyen",account-access
+T-90859,webform,Passwor reset not working,"Good morning, The verification link in the signup email says it has expired. I contacted you a fed ays ago about this and never heard back. Thanks.",account-access
+T-90860,email,Promo code problem,"Hey, Can I get an itjmized receipt or invoice for order NW-70871 - I need it for my edpenser eport. I placed the order about ten days ago.",billing
+T-90861,chat,Question,My return was received three days ago but the refund of $118.95 still is not back on my card. I tried calling but the wait time was over 20 minutes,billing
+T-90862,chat,Password reset not working,When I log in my order history shows someone else's orders and charges. This is for an upcoming thru-hike,account-access
+T-90863,webform,Package missing,"Hi, Can I change the delivery address n oorder NW-64766 before it ship. Order number is NW-57026 if that helps. Thakn you.",shipping
+T-90864,webform,Support request,"Hello Northwind, There is a charge from Northwind on my statement for $89.00 that I do not recognize. Thanks in advance.",billing
+T-90865,webform,Help,Please delete my account and all my personal data. Order number is NW-51649 if that helps. Please advise.,account-access
+T-90866,webform,Question,"Hi there, I think someone else has been using my account - there is an order iin myh istory I never placed. I already looked through the help centerr and could not find an answer. Thanks in advance.",account-access
+T-90867,webform,Where is my order,"Hi, TThe invooice in the box lists a Lumen 800 headlamp that is not whatt I was charged for online - which one is actually sshipping to me. The order had the Slate sunglasses and some smaller items in it.",shipping
+T-90868,webform,Delivery problem,"Hi, UPS tracking shows my package has been sitting in Memphis for two weeks. I have been a customer for a long time and this is the first problem I have had. Hope you can help.",shipping
+T-90869,webform,Problem with my order,"Good morning, The tracking page says delivered but there is no package anywhere at my address. Hope you can help.",shipping
+T-90870,email,Package missing,Only half of order NW-49337 showed up - the Torrent rain pants is missing from the box. Thanks. — Morgan Ortiz,shipping
+T-90871,chat,Order not delivered,My refund was approved but the replacement Slate sunglasses still has no tracking number. I contacted you last week about this and never heard back??,shipping
+T-90872,chat,Help,the tracking page says delivered but there is no package anywhere at my address. I paid with the card ending 4061??,shipping
+T-90873,webform,Help,"Good morning, Only half of order NW-77100 showed up - the Ember fuel canister is missing from the box. there is a charge from northwind on my statement for $312.99 that i do not recognize. I tried calling but the wait time was over 45 minutes. Thanks.",shipping
+T-90874,email,Problem with my order,"Hey, Only half of oorder NW-45835 showed up - the Firefly bug net is missing from the box. Thankg in advance.",shipping
+T-90875,webform,Suppot request,"Hello, I paid $149.00 extra for two day shipping and it has been four days. The order had the Merino trail socks and some smaller items in it. Thanks.",shipping
+T-90876,email,Where is my order,"Good morning, I paid $64.95 extra for two day shipping and it has been a week. I already looked through the help center and could not find an answer. Thanks in advance. — Devon Nguyen",shipping
+T-90877,email,Question,The tracking says my order was delivered but I was charged for shipping insurance I never added. This is for an upcoming canoe trip. Thanks in advance. — Sam Novak,billing
+T-90878,email,Password reset not working,Please delete my account nad all myp ersonal data.T hanks.,account-access
+T-90879,email,Invoice request,"Hello Northwind, Please cancel my Trail Club membership - I am still being billed $9.99 a month. I paid with the card ending 5298. Appreciate it. — Sam Chen",billing
+T-90880,email,Delivery problem,"Good morning, I paid $89.00 extra for two day shipping and it has been a week. i cannot log in to my account - it keeps saying my password is wrong even after i reset it. Please advise. — Quinn Larsen",shipping
+T-90881,chat,Promo code problem,Why was I charged $312.00 for shipping when the site says orders over $75 ship free. my account seems to be locked after too many login attempts??,billing
+T-90882,webform,Cannot log in,"Hi, I keep getting logged out every time the app updates. Thanks in advance.",account-access
+T-90883,email,Billing question,"Hello, Please cancel my Trail Club membership - I am still being billed $12.99 a month. I placed the order during the sale.",billing
+T-90884,email,Neeed assistance,"Hi there, Please delete my account and all my personal data. the tracking says my order was delivered but i was charged for shipping insurance i never added. there is a charg from northwind on my statement for $249.99 that i do not recognize. The package was a gift for my partner. Hope you can help.",account-access
+T-90885,email,Problem with my order,"Hello, My package arrived with the box torn open and the Cascade 0 sleeping bag inside looks okay. I have been a customer for a long time and this is the first problem I have had.",shipping
+T-90886,email,Need assistance,"Hey, My package arrived with the box soaked and the Windbreak fleece inside looks damaged. The package was a gift for my daughter. Hope you can help.",shipping
+T-90887,chat,Where is my order,I paid $118.95 extra for two day shipping and it has been over two weeks. I placed the order last week.,shipping
+T-90888,chat,Account ocked,how do I change the email address on my account - I no longer have access to the old one??,account-access
+T-90889,webform,Charge I do not recognize,"Hello Northwind, I cancelled order NW-47981 the same day after placing it but the charge of $118.50 still went through. Hope you can help.",billing
+T-90890,webform,Support request,"Hey, The estimated delivery on my order kaeps moving - it has changedt hree times this week .I have been a customer for three seasons and this is the first problem I have hadd. Thank you.",shipping
+T-90891,webform,Need assistance,I cancelled order NW-49201 the same day after placing it but the charge of $79.00 still went through. Thanks in advance.,billing
+T-90892,webform,Question,"Hi there, My account shows an order I already cancelled and the charge is still pending on my card. I placed the order last week. Please advise.",billing
+T-90893,email,Question,Can I change the delivery address on order NW-42675 before it ships. I already looked through the help center and could not find an answer. Thanks in advance.,shipping
+T-90894,webform,Late order,"Hello Northwind, The estimated delivery on my order keeps moving - it has changed twice this week. The package was a gift for my daughter. Thanks.",shipping
+T-90895,email,Shipping delay,"Hello, My refund was approved but the replacement Cirrus trekking poles still has no tracking number. the password reset email never arrives - i have checked spam several times. please delete my account and all my personal data. I need this sorted before the end of the month. Thanks in advance. — Alex Haddad",shipping
+T-90896,webform,Help,I need the Lumen 800 headlamp before Saturday - can you expedite shipping. Please advise.,shipping
+T-90897,webform,Delivery problem,"Hello, The estimated delivery on my order keeps movin - it has changed three times this week. The package was a gift for my son. Appreciate it.",shipping
+T-90898,webform,Double charged,My gift card balance shows $42.99 but checkout would not let me use it. I contacted you last week about this and never heard back. Appreciate it.,billing
+T-90899,webform,Support request,see below. ref NW-48009,shipping
+T-90900,chat,Question,The promo code TRAIL15 did not apply at checpout and I was charge dull price. I need this sorted before the weekend??,billing
