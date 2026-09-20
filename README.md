@@ -61,6 +61,12 @@ of this clone (for example `week-02-vectors-similarity/`), open it in VS Code,
 and pick the `.venv` interpreter this repo's `uv sync` created. Run
 `git pull` at the start of each week to receive newly released data.
 
+**Prefer conda, or want to set things up by hand?**
+[docs/getting-started-local.md](docs/getting-started-local.md) walks through Miniconda,
+VS Code, and using your GPU (Apple Silicon or NVIDIA) step by step. Either route gives
+you the same packages. Everything also runs in **Google Colab**: the Week 5 lab opens
+there with one click from [week-05-transformers-llms/lab/](week-05-transformers-llms/lab/).
+
 ## What's here
 
 | Path | Contents |
@@ -69,6 +75,8 @@ and pick the `.venv` interpreter this repo's `uv sync` created. Run
 | `templates/ai-usage-report.md` | The AI Usage Report you submit with every assignment |
 | `pyproject.toml`, `uv.lock`, `.python-version` | The pinned course environment (`uv sync` builds it) |
 | `.vscode/` | Editor settings so the notebook kernel picker finds `./.venv` |
+| `week-05-transformers-llms/lab/` | The Week 5 lab, *One model of each shape*: opens in Google Colab with one click (see its README) |
+| `docs/getting-started-local.md` | Step-by-step local setup with Miniconda, VS Code and your GPU, an alternative to `setup.sh` |
 
 Data files load **local-first with a URL fallback**: run a notebook inside
 this clone and it reads from disk; run it elsewhere (e.g. Colab) and it
