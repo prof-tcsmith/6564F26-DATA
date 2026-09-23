@@ -61,7 +61,7 @@ Then a results sheet and four discussion questions.
 
 ## What it connects to
 
-Slides 24–31 (the three shapes) and 32–37 (a language model on your laptop), and
+Slides 25–31 (the three shapes) and 32–37 (a language model on your laptop), and
 the companion pages for the same slides. The practice assignment takes the decoder
 apart. Assignment 5 measures three decoders on your machine. Week 7's retrieval
 system runs on Station 2's model.
