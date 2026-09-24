@@ -152,7 +152,7 @@ harmless. To silence it, set the environment variable
 Download `lab-slm-by-shape.ipynb` from `week-05-transformers-llms/lab/` (*Raw → Save*)
 into your course folder, open it in VS Code, select the `Python (ism6564)` kernel, and
 run the first two cells **at home**: they fetch about 2.7 GB of models. Then work the
-stations. The lab's README has the timing plan and the results sheet.
+stations. The notebook itself has the results sheet; the timing plan is on Canvas.
 
 ## When something goes wrong
 
