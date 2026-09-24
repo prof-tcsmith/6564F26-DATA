@@ -1,0 +1,61 @@
+id,category,difficulty,text
+T001,Shipping,clear,Order 88213 was supposed to arrive Tuesday and the tracking hasn't moved in six days. Can someone find out where it is?
+T002,Shipping,clear,Tracking says delivered but there is nothing at my door and nothing with my neighbours.
+T003,Shipping,clear,I paid for two-day shipping on Thursday and the order still hasn't left your warehouse.
+T004,Shipping,clear,Can I change the delivery address on order 90114? I typed my old apartment number.
+T005,Shipping,clear,The courier left my package at the wrong building. Photo on the tracking page is clearly not my door.
+T006,Shipping,clear,"Do you ship to APO addresses, and how long does it usually take?"
+T007,Shipping,clear,My order shipped in two boxes and only one arrived. The sleeping bag is missing.
+T008,Shipping,ambiguous,I was charged for expedited shipping but the package took nine days. I'd like the shipping fee back.
+T009,Shipping,ambiguous,Order 77320 says out for delivery three days in a row now. At this point I'd rather just cancel it.
+T010,Shipping,ambiguous,The box arrived crushed on one corner but the stove inside seems fine. Should I be worried?
+T011,Billing,clear,I was charged twice for the same order. Please refund the duplicate charge on card ending 4417.
+T012,Billing,clear,My refund for order 41902 still hasn't appeared on my card after 14 days.
+T013,Billing,clear,The promo code TRAIL20 was rejected at checkout even though it doesn't expire until Friday.
+T014,Billing,clear,Can you send me a VAT invoice for order 55018? My employer needs it for expenses.
+T015,Billing,clear,There is a pending charge of $184.22 on my statement from you and I never placed an order.
+T016,Billing,clear,I want to switch the card on file for my gear club membership to a different Visa.
+T017,Billing,clear,You charged me sales tax at 8.25% but my county rate is 6.5%. Please correct it.
+T018,Billing,ambiguous,"I sent the boots back three weeks ago and the tracking shows you received them, but no money has come back."
+T019,Billing,ambiguous,My gear club membership renewed automatically. I thought I turned that off in my profile last year.
+T020,Billing,ambiguous,I was quoted $220 on the phone and the receipt says $249. Which one is right?
+T021,Returns,clear,"I'd like to send the jacket back, it doesn't fit. What's the process?"
+T022,Returns,clear,"Can I exchange the size 10 boots for a size 11? Nothing is wrong with them, they're just tight."
+T023,Returns,clear,How long do I have to return something bought during the summer sale?
+T024,Returns,clear,"The return label in my email won't print, it opens as a blank page. Can you resend it?"
+T025,Returns,clear,"I ordered the wrong colour tent. Unopened, still in the box. How do I send it back?"
+T026,Returns,clear,Do I have to pay return shipping if I just changed my mind about the pack?
+T027,Returns,clear,"I received a gift and want to return it, but I don't have the order number. What do you need from me?"
+T028,Returns,ambiguous,You shipped me a green rain shell and I ordered the grey one. I want the grey one instead.
+T029,Returns,ambiguous,"This down vest is much thinner than the photos suggested. Not defective exactly, just not what I paid for."
+T030,Returns,ambiguous,I'm past the 30 day window by four days because I was travelling. Any chance you'll still take the stove back?
+T031,Defect,clear,The tent poles snapped at the joint the second time I pitched it.
+T032,Defect,clear,The zipper on the parka separated after two weeks of light use.
+T033,Defect,clear,My water filter arrived with a hairline crack in the housing and it leaks when pumped.
+T034,Defect,clear,The waterproof coating on the boots is peeling off in sheets after one season.
+T035,Defect,clear,The headlamp will not hold a charge for more than twenty minutes. It's four weeks old.
+T036,Defect,clear,Stitching came apart on the shoulder strap of the 60L pack while it was loaded.
+T037,Defect,clear,The buckle on the sleeping pad strap arrived already snapped in half inside the sealed bag.
+T038,Defect,ambiguous,"The stove failed on day two of a trip and I want my money back, not a replacement."
+T039,Defect,ambiguous,The seam on the tent fly is leaking. This is the second one you've sent me with the same problem.
+T040,Defect,ambiguous,The trekking pole bent on a normal descent. I'd like to send it back for a refund.
+T041,Account,clear,I can't log in and the password reset email never arrives.
+T042,Account,clear,How do I change the email address on my account?
+T043,Account,clear,Please delete my account and everything you hold about me.
+T044,Account,clear,I have two accounts under different emails. Can you merge them so my points are in one place?
+T045,Account,clear,"Unsubscribe me from the weekly newsletter, I still get it after clicking the link twice."
+T046,Account,clear,My saved addresses disappeared after the site update. Can you restore them?
+T047,Account,clear,Two-factor codes are going to a phone number I no longer have. How do I get back in?
+T048,Account,ambiguous,"My loyalty points balance dropped by 4,000 overnight and I haven't redeemed anything."
+T049,Account,ambiguous,Someone logged into my account from another country and there's now an order I didn't place.
+T050,Account,ambiguous,I updated my billing address in my profile but the site still shows the old one at checkout.
+T051,Other,clear,Do you sponsor local trail cleanup events? We're organising one in October.
+T052,Other,clear,What time does the Tampa store close on Sundays?
+T053,Other,clear,"Are you hiring seasonal staff for the winter, and where do I apply?"
+T054,Other,clear,Do you offer a wholesale account for a small outfitter with about 20 units a month?
+T055,Other,clear,Is the 3-season tent warm enough for shoulder-season camping in the Smokies?
+T056,Other,clear,Can you tell me what the difference is between the Ridgeline and the Ridgeline Pro?
+T057,Other,clear,Where can I read about how your down is sourced?
+T058,Other,ambiguous,"Do you repair gear that is out of warranty, and roughly what does it cost?"
+T059,Other,ambiguous,Will the Ridgeline Pro go on sale before Black Friday? I don't want to buy it and then see it discounted.
+T060,Other,ambiguous,Your website's size chart contradicts the tag on the jacket I already own. Which should I trust?

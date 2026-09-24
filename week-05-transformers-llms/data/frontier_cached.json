@@ -1,0 +1,314 @@
+{
+ "meta": {
+  "kind": "fixture",
+  "model_label": "frontier-mini (stand-in)",
+  "note": "Authored reply strings, NOT sampled from a live model. Token counts are real tiktoken o200k_base counts over the exact strings above. No latency is recorded because none was measured. Set OPENAI_API_KEY and re-run the notebook's live cell to replace this with a real transcript.",
+  "encoding": "o200k_base",
+  "system_prompt_sha256": "9a64918d1a1a39199253a5ec1e438b16da40183e20e5d326ba26ed22af4b9839",
+  "system_prompt_tokens": 154,
+  "n_tickets": 60,
+  "n_agreeing_with_gold": 52
+ },
+ "responses": {
+  "T001": {
+   "reply": "Shipping",
+   "prompt_tokens": 180,
+   "completion_tokens": 1
+  },
+  "T002": {
+   "reply": "Shipping",
+   "prompt_tokens": 170,
+   "completion_tokens": 1
+  },
+  "T003": {
+   "reply": "Shipping.",
+   "prompt_tokens": 171,
+   "completion_tokens": 2
+  },
+  "T004": {
+   "reply": "Shipping",
+   "prompt_tokens": 173,
+   "completion_tokens": 1
+  },
+  "T005": {
+   "reply": "Shipping",
+   "prompt_tokens": 175,
+   "completion_tokens": 1
+  },
+  "T006": {
+   "reply": "Shipping",
+   "prompt_tokens": 169,
+   "completion_tokens": 1
+  },
+  "T007": {
+   "reply": "Shipping",
+   "prompt_tokens": 171,
+   "completion_tokens": 1
+  },
+  "T008": {
+   "reply": "Billing",
+   "prompt_tokens": 174,
+   "completion_tokens": 1
+  },
+  "T009": {
+   "reply": "Shipping",
+   "prompt_tokens": 178,
+   "completion_tokens": 1
+  },
+  "T010": {
+   "reply": "Defect",
+   "prompt_tokens": 173,
+   "completion_tokens": 2
+  },
+  "T011": {
+   "reply": "Billing",
+   "prompt_tokens": 175,
+   "completion_tokens": 1
+  },
+  "T012": {
+   "reply": "Billing",
+   "prompt_tokens": 172,
+   "completion_tokens": 1
+  },
+  "T013": {
+   "reply": "Billing",
+   "prompt_tokens": 172,
+   "completion_tokens": 1
+  },
+  "T014": {
+   "reply": "Billing",
+   "prompt_tokens": 174,
+   "completion_tokens": 1
+  },
+  "T015": {
+   "reply": "Billing",
+   "prompt_tokens": 176,
+   "completion_tokens": 1
+  },
+  "T016": {
+   "reply": "Account",
+   "prompt_tokens": 172,
+   "completion_tokens": 1
+  },
+  "T017": {
+   "reply": "Billing",
+   "prompt_tokens": 179,
+   "completion_tokens": 1
+  },
+  "T018": {
+   "reply": "Billing",
+   "prompt_tokens": 177,
+   "completion_tokens": 1
+  },
+  "T019": {
+   "reply": "Account",
+   "prompt_tokens": 173,
+   "completion_tokens": 1
+  },
+  "T020": {
+   "reply": "Billing",
+   "prompt_tokens": 174,
+   "completion_tokens": 1
+  },
+  "T021": {
+   "reply": "Returns",
+   "prompt_tokens": 170,
+   "completion_tokens": 1
+  },
+  "T022": {
+   "reply": "Category: Returns",
+   "prompt_tokens": 178,
+   "completion_tokens": 3
+  },
+  "T023": {
+   "reply": "Returns",
+   "prompt_tokens": 168,
+   "completion_tokens": 1
+  },
+  "T024": {
+   "reply": "Returns",
+   "prompt_tokens": 175,
+   "completion_tokens": 1
+  },
+  "T025": {
+   "reply": "Returns",
+   "prompt_tokens": 176,
+   "completion_tokens": 1
+  },
+  "T026": {
+   "reply": "Returns",
+   "prompt_tokens": 171,
+   "completion_tokens": 1
+  },
+  "T027": {
+   "reply": "Returns",
+   "prompt_tokens": 179,
+   "completion_tokens": 1
+  },
+  "T028": {
+   "reply": "Returns",
+   "prompt_tokens": 175,
+   "completion_tokens": 1
+  },
+  "T029": {
+   "reply": "Returns",
+   "prompt_tokens": 176,
+   "completion_tokens": 1
+  },
+  "T030": {
+   "reply": "Returns",
+   "prompt_tokens": 178,
+   "completion_tokens": 1
+  },
+  "T031": {
+   "reply": "Defect",
+   "prompt_tokens": 168,
+   "completion_tokens": 2
+  },
+  "T032": {
+   "reply": "Defect",
+   "prompt_tokens": 168,
+   "completion_tokens": 2
+  },
+  "T033": {
+   "reply": "Defect",
+   "prompt_tokens": 172,
+   "completion_tokens": 2
+  },
+  "T034": {
+   "reply": "Defect",
+   "prompt_tokens": 169,
+   "completion_tokens": 2
+  },
+  "T035": {
+   "reply": "defect",
+   "prompt_tokens": 173,
+   "completion_tokens": 2
+  },
+  "T036": {
+   "reply": "Defect",
+   "prompt_tokens": 174,
+   "completion_tokens": 2
+  },
+  "T037": {
+   "reply": "Defect",
+   "prompt_tokens": 171,
+   "completion_tokens": 2
+  },
+  "T038": {
+   "reply": "Returns",
+   "prompt_tokens": 174,
+   "completion_tokens": 1
+  },
+  "T039": {
+   "reply": "Defect",
+   "prompt_tokens": 176,
+   "completion_tokens": 2
+  },
+  "T040": {
+   "reply": "Defect",
+   "prompt_tokens": 173,
+   "completion_tokens": 2
+  },
+  "T041": {
+   "reply": "Account",
+   "prompt_tokens": 166,
+   "completion_tokens": 1
+  },
+  "T042": {
+   "reply": "Account",
+   "prompt_tokens": 165,
+   "completion_tokens": 1
+  },
+  "T043": {
+   "reply": "Account",
+   "prompt_tokens": 165,
+   "completion_tokens": 1
+  },
+  "T044": {
+   "reply": "Account",
+   "prompt_tokens": 174,
+   "completion_tokens": 1
+  },
+  "T045": {
+   "reply": "Account",
+   "prompt_tokens": 172,
+   "completion_tokens": 1
+  },
+  "T046": {
+   "reply": "Account",
+   "prompt_tokens": 168,
+   "completion_tokens": 1
+  },
+  "T047": {
+   "reply": "**Account**",
+   "prompt_tokens": 175,
+   "completion_tokens": 3
+  },
+  "T048": {
+   "reply": "Billing",
+   "prompt_tokens": 171,
+   "completion_tokens": 1
+  },
+  "T049": {
+   "reply": "Account",
+   "prompt_tokens": 171,
+   "completion_tokens": 1
+  },
+  "T050": {
+   "reply": "Account",
+   "prompt_tokens": 173,
+   "completion_tokens": 1
+  },
+  "T051": {
+   "reply": "Other",
+   "prompt_tokens": 168,
+   "completion_tokens": 1
+  },
+  "T052": {
+   "reply": "Other",
+   "prompt_tokens": 164,
+   "completion_tokens": 1
+  },
+  "T053": {
+   "reply": "Other ",
+   "prompt_tokens": 169,
+   "completion_tokens": 2
+  },
+  "T054": {
+   "reply": "Other",
+   "prompt_tokens": 173,
+   "completion_tokens": 1
+  },
+  "T055": {
+   "reply": "Other",
+   "prompt_tokens": 171,
+   "completion_tokens": 1
+  },
+  "T056": {
+   "reply": "Other",
+   "prompt_tokens": 174,
+   "completion_tokens": 1
+  },
+  "T057": {
+   "reply": "Other",
+   "prompt_tokens": 165,
+   "completion_tokens": 1
+  },
+  "T058": {
+   "reply": "Returns",
+   "prompt_tokens": 171,
+   "completion_tokens": 1
+  },
+  "T059": {
+   "reply": "Other",
+   "prompt_tokens": 179,
+   "completion_tokens": 1
+  },
+  "T060": {
+   "reply": "Returns",
+   "prompt_tokens": 175,
+   "completion_tokens": 1
+  }
+ }
+}
