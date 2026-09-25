@@ -10,8 +10,17 @@ the first time, most of it downloads.
 
 > **Already ran `./setup.sh` from the course data repository in Week 1?** That built the
 > same environment with `uv`. Skip to **Step 6** to check your GPU and open the lab.
+> On **Windows with an NVIDIA GPU**, `setup.sh` installed the CPU-only PyTorch: swap in
+> the NVIDIA build with the uv line in Step 3 first.
 > This guide is the step-by-step alternative for anyone who prefers conda or wants to
 > see each piece.
+
+> **Test your install with the setup notebook.** `ism6564-local-llm-setup.ipynb` (on
+> Canvas) checks your Python, PyTorch and GPU, has a small model write and train, and ends
+> with a PASS / WARN / FAIL summary. It also walks through the Windows (NVIDIA) and Mac
+> setups in more detail, with links to the official guides. Getting your own machine
+> working is your responsibility; the instructor does not provide tech support for personal
+> installs, so start early, and use Colab while you fix it.
 
 ## What you are installing, and why
 
@@ -53,7 +62,10 @@ environment only. Whenever you open a new terminal for this course, run
 PyTorch is installed with pip; the PyTorch team no longer publishes conda packages.
 Pick **one** of the three commands.
 
-**Mac with Apple Silicon (M1 or later).** The standard build includes MPS, Apple's GPU backend:
+**Mac with Apple Silicon (M1 or later), on macOS 14 or later.** The standard build includes
+MPS, Apple's GPU backend. Your Python must be an Apple-silicon (arm64) build: an Intel Python
+running under Rosetta cannot see the GPU (`python -c "import platform; print(platform.machine())"`
+must print `arm64`).
 
 ```bash
 pip install torch torchvision torchaudio
@@ -74,10 +86,21 @@ so you do not install the CUDA toolkit separately:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 ```
 
-If the selector at [pytorch.org/get-started/locally](https://pytorch.org/get-started/locally/)
-shows a different CUDA index for your driver, use that URL; the pattern is the same.
+`cu126` suits most cards, including GTX 10-series and older ones. A **GeForce RTX 50-series**
+card needs a newer build: use `cu130` in place of `cu126` (it needs driver 580 or newer). If the
+selector at [pytorch.org/get-started/locally](https://pytorch.org/get-started/locally/) shows a
+different CUDA index for your driver, use that URL; the pattern is the same.
 
-**Everything else** (Windows without an NVIDIA GPU, Intel Mac, Linux without NVIDIA). The CPU build:
+**Built the environment with `./setup.sh` (uv) instead?** Run this in your `6564F26-DATA`
+folder to swap in the NVIDIA build. `./setup.sh`, `uv sync` and `uv run` put the CPU-only
+build back, so run it again after any of them:
+
+```bash
+uv pip install --python .venv --reinstall-package torch torch --index-url https://download.pytorch.org/whl/cu126
+```
+
+**Everything else** (Windows without an NVIDIA GPU, Linux without NVIDIA). The CPU build. An
+**Intel Mac** cannot run current PyTorch (Intel-Mac builds stopped at 2.2.2), so use Colab:
 
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
@@ -98,7 +121,7 @@ You want `cuda True` on an NVIDIA machine, `mps True` on an Apple Silicon Mac, a
 ## Step 4 — The rest of the packages
 
 ```bash
-pip install transformers sentence-transformers accelerate sentencepiece huggingface-hub pandas matplotlib jupyter ipykernel ipywidgets
+pip install transformers sentence-transformers accelerate datasets peft sentencepiece huggingface-hub scikit-learn pandas matplotlib jupyter ipykernel ipywidgets
 python -m ipykernel install --user --name ism6564 --display-name "Python (ism6564)"
 ```
 
@@ -124,7 +147,8 @@ print(DEVICE, torch.cuda.get_device_name(0) if DEVICE == "cuda" else "")
 ```
 
 Every course notebook makes this same three-way choice, so nothing else changes
-between a CUDA machine, a Mac and a CPU-only laptop. For scale, at Station 3 of the
+between a CUDA machine, a Mac and a CPU-only laptop. For the full test, run the setup
+notebook, `ism6564-local-llm-setup.ipynb` (on Canvas). For scale, at Station 3 of the
 Week 5 lab (Qwen2.5-0.5B, float32, 48 tokens) the instructor's Apple Silicon Mac
 produces about 50 to 70 tokens per second on MPS. A recent NVIDIA GPU is faster. A
 laptop CPU manages a few tokens per second, which is enough for the lab.
@@ -160,10 +184,10 @@ stations. The notebook itself has the results sheet; the timing plan is on Canva
 | --- | --- |
 | `conda: command not found` | The terminal was opened before `conda init` ran. Close it and open a new one. On Windows use *Anaconda Prompt*. |
 | `ModuleNotFoundError: No module named 'torch'` inside the notebook | Wrong kernel. Select `Python (ism6564)` top right. |
-| `torch.cuda.is_available()` is `False` on an NVIDIA machine | You have the CPU build. `pip uninstall torch torchvision torchaudio`, then reinstall with the `cu126` index URL. Check that `nvidia-smi` works first. |
-| `mps` is `False` on a Mac | Intel Mac, or macOS older than 12.3. Use CPU or Colab. |
+| `torch.cuda.is_available()` is `False` on an NVIDIA machine | You have the CPU build. `pip uninstall torch torchvision torchaudio`, then reinstall with the `cu126` index URL (`cu130` for an RTX 50-series card). Check that `nvidia-smi` works first. With uv, use the uv line in Step 3. |
+| `mps` is `False` on a Mac | An Intel Mac (use Colab); an Intel Python running under Rosetta on an M-series Mac (`platform.machine()` prints `x86_64`: install an Apple-silicon Python and rebuild the environment); or macOS older than 14 (update macOS). |
 | `NotImplementedError: … not currently implemented for the MPS device` | A rare operation is missing on MPS. Set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` and restart the kernel. |
-| The kernel dies at Station 3, or "out of memory" | Close other applications; restart the kernel and run Setup, Fetch and Station 3 only. On CUDA or MPS you can also load the model in `torch.float16`. |
+| The kernel dies at Station 3, or "out of memory" | Close other applications; restart the kernel and run Setup, Fetch and Station 3 only. On an NVIDIA GPU you can also load the model in `torch.float16`; on a Mac, do not: half precision garbles the small Qwen models there. |
 | Downloads fail or stall | Run the cell again; downloads resume. Some campus and corporate networks block `huggingface.co`: use a phone hotspot, or Colab. |
 | VS Code cannot see the environment | Command Palette → *Python: Select Interpreter → Enter interpreter path* → the `python` inside `…/miniconda3/envs/ism6564/` (`Scripts\python.exe` on Windows, `bin/python` on Mac). |
 
