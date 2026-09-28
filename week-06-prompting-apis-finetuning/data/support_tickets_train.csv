@@ -1,0 +1,825 @@
+ticket_id,text,category,urgency,needs_human,order_id,template_id
+T00471,"Hey, Signing in redirects me back to the login page every time. Cleared cookies already. I need this resolved today. Appreciate the help.",ACCT-SEC,high,true,,ACCT-SEC:5
+T00070,"hello, my card was charged $47.80 for an order i never placed. this is not my account activity. not urgent. let me know.",BILL-DISP,low,true,,BILL-DISP:6
+T00180,Order NW-13757 — the storm shell has a hole in the packaging and a deep scratch across the front. Appreciate the help.,PROD-DEF,normal,false,NW-13757,PROD-DEF:2
+T00350,"Good morning, I placed order NW-83201 on the 2th and it still says 'label created'. Has it actually shipped? Separately, my password reset link expired before I could use it. Not urgent. Let me know.",SHIP-DELAY,low,false,NW-83201,SHIP-DELAY:1
+T00097,"Hey, Any update on NW-34544? It's now 3 days past teh estimated delivery window. Also, does that model come in a taller cut? Not urgent. Thanks in advance.",SHIP-DELAY,low,false,NW-34544,SHIP-DELAY:3
+T00183,"Hey, I can't log in. Password reset emails never arrive and I've checked spam 20 times. It's for a gift and I'm running out of time. Thanks in advance.",ACCT-SEC,high,true,,ACCT-SEC:0
+T00393,"Hi there, My waxed cotton cap (NW-25841) showed up with the zip pull snapped clean off. Frankly this has been a shambles. Please advise.",PROD-DEF,high,true,NW-25841,PROD-DEF:1
+T00248,"To whom it may concern, Returning NW-88363. Do I need to pay for the return label or is it prepaid? Happy to wait a couple of days for a reply. Let me know.",RET-RMA,normal,false,NW-88363,RET-RMA:5
+T00082,"Afternoon, Invoice for NW-68893 shows a shipping fee of $147.27 that wasn't on the order page. Not urgent. Let me know.",BILL-DISP,low,false,NW-68893,BILL-DISP:5
+T00129,"Hi, My headlamp 400 (NW-81600) showed up with the zip pull snapped clean off. I'd like to sort this out soon-ish.",PROD-DEF,normal,false,NW-81600,PROD-DEF:1
+T00564,"Hi team, I can't log in. Password reset emails never arrive and I've checked spam 6 times. Not urgent. Please advise.",ACCT-SEC,low,false,,ACCT-SEC:0
+T00008,"Hi, There's an order in my history I didn't place. I think someone has access to my account. Happy to wait a couple of days for a reply. Thanks in advance.",ACCT-SEC,normal,true,,ACCT-SEC:3
+T00441,"Good morning, My account is locked after too many attempts. Can you unlock it? I'm about to dispute this with my bank. Thanks.",ACCT-SEC,high,true,,ACCT-SEC:1
+T00532,"Hi there, Received NW-88255 today. The packable down jacket leaks from the base seam the moment you fill it. No rush.",PROD-DEF,low,false,NW-88255,PROD-DEF:4
+T00146,"Hi team, You've billed me $209.34 for order NW-19696 but the checkout total was $170.15. Also, is there a way to watch the carrier tracking directly? Thanks in advance.",BILL-DISP,normal,false,NW-19696,BILL-DISP:3
+T00408,"Hey, Signing in redirects me back to the login page every time. Cleared cookies already. Hoping for an update this week if possible. Thanks in advance.",ACCT-SEC,normal,false,,ACCT-SEC:5
+T00619,"Hello, I paid for two-day shipping on NW-51135 and it's been 11 days. No rush. Appreciate the help.",SHIP-DELAY,low,false,NW-51135,SHIP-DELAY:5
+T00338,"Good morning, Do you ship the camp chair to Canada, and roughly what's the duty on it? No rush. Please advise.",PROD-INFO,low,false,,PROD-INFO:4
+T00557,"Hi, Signing in redirects me back to the login page every time. Cleared cookies already. Appreciate the help.",ACCT-SEC,normal,false,,ACCT-SEC:5
+T00687,"Hi team, I cancelled order NW-77561 and the $320.04 charge is still pending after 17 days. I need this resolved today. Regards,
+A. Customer",BILL-DISP,high,true,NW-77561,BILL-DISP:4
+T00057,"Hello, Order NW-65129 was supposed to arrive 16 days ago and the tracking hasn't moved since it left the warehouse. Please advise.",SHIP-DELAY,normal,false,NW-65129,SHIP-DELAY:0
+T00698,"Hi there, Before I order — is the trail runner GTX in L cut the same as last season's? If this isn't fixed I'm done shopping here. Thanks.",PROD-INFO,high,true,,PROD-INFO:6
+T00077,"To whom it may concern, I cancelled order NW-26683 and the $309.01 charge is still pending after 14 days. No rush. Thank you!",BILL-DISP,low,false,NW-26683,BILL-DISP:4
+T00229,"Hi team, How does the waxed cotton cap compare to the merino base layer for cold weather? It's for a gift and I'm running out of time. Appreciate the help.",PROD-INFO,high,false,,PROD-INFO:5
+T00403,"hi there, my card was charged $195.68 for an order i never placed. this is not my account activity. happy to wait a couple of days for a reply.",BILL-DISP,normal,true,,BILL-DISP:6
+T00312,My climbing chalk bag (NW-57649) showed up with the zip pull snapped clean off. I'm about to dispute this with my bank. Thank you!,PROD-DEF,high,true,NW-57649,PROD-DEF:1
+T00351,"Hi, Any update on NW-22994? It's now 15 days past the estimated delivery window. I've been waiting on a reply for over a week. Please advise.",SHIP-DELAY,high,true,NW-22994,SHIP-DELAY:3
+T00158,"Hi, Someone tried to log into my account from another country according to your alert email. Also, does that model come in a taller cut? No rush. Thank you!",ACCT-SEC,low,true,,ACCT-SEC:6
+T00629,"Hello, I paid for two-day shipping on NW-96130 and it's been 3 days. Thanks.",SHIP-DELAY,normal,false,NW-96130,SHIP-DELAY:5
+T00681,"hello, the tracking for nw-19123 shows delivered but nothing is at my door and my neighbours don't have it either. i'm about to dispute this with my bank. appreciate the help.",SHIP-DELAY,high,true,NW-19123,SHIP-DELAY:2
+T00699,"Hello, Before I order — is the headlamp 400 in one size cut the same as last season's? Thanks.",PROD-INFO,normal,false,,PROD-INFO:6
+T00317,"Hi there, Returning NW-43050. Do I need to pay for the return label or is it prepaid? I need this resolved today. I'm about to dispute this with my bank. Appreciate the help.",RET-RMA,high,true,NW-43050,RET-RMA:5
+T00555,"Hello, My refund for NW-72324 was supposed to be $332.22 but only $56.06 came back. No rush. Thank you!",BILL-DISP,low,false,NW-72324,BILL-DISP:2
+T00571,"Hello, I paid for two-day shipping on NW-79485 and it's been 7 days. I've been waiting on a reply for over a week. This is completely unacceptable. Please advise.",SHIP-DELAY,high,true,NW-79485,SHIP-DELAY:5
+T00407,"Good morning, I placed order NW-12099 on the 18th and it still says 'label created'. Has it actually shipped? Separately, my password reset link expired before I could use it. Thank you!",SHIP-DELAY,normal,false,NW-12099,SHIP-DELAY:1
+T00714,"To whom it may concern, I got an email saying my password changed. I didn't change it. Not urgent. Please advise.",ACCT-SEC,low,true,,ACCT-SEC:2
+T00533,"To whom it may concern, I was charged $255.01 twice for order NW-22635. Both charges cleared my card.",BILL-DISP,normal,false,NW-22635,BILL-DISP:0
+T00691,"To whom it may concern, I paid for two-day shipping on NW-57898 and it's been 14 days. I've been waiting on a reply for over a week. Thanks.",SHIP-DELAY,high,true,NW-57898,SHIP-DELAY:5
+T00551,"Hi team, I can't log in. Password reset emails never arrive and I've checked spam 2 times. Regards,
+A. Customer",ACCT-SEC,normal,false,,ACCT-SEC:0
+T00259,"Hi there, How does the packable down jacket compare to the wool crew socks (3-pack) for cold weather? Also I had to sign in three times to write this. Whenever you get a chance. Let me know.",PROD-INFO,low,false,,PROD-INFO:5
+T00486,"Hi team, Is teh slate merino base layer coming back in stock? It's been sold out for weeks. Third time I've written about this. Let me know.",PROD-INFO,high,false,,PROD-INFO:1
+T00421,"Hi there, Invoice for NW-58518 shows a shipping fee of $294.21 that wasn't on the order page. Frankly this has been a shambles. Thanks.",BILL-DISP,high,true,NW-58518,BILL-DISP:5
+T00303,"To whom it may concern, I can't log in. Password reset emails never arrive and I've checked spam 11 times. Would be good to get this settled. Please advise.",ACCT-SEC,normal,false,,ACCT-SEC:0
+T00311,"Afternoon, I was charged $30.50 twice for order NW-68163. Both charges cleared my card. Not urgent. Thanks in advance.",BILL-DISP,low,false,NW-68163,BILL-DISP:0
+T00645,"Hi, I paid for two-day shipping on NW-28098 and it's been 20 days. No rush. Thanks.",SHIP-DELAY,low,false,NW-28098,SHIP-DELAY:5
+T00067,"Hey, The stitching on the 40L hauler duffel from NW-93513 came apart the first time I wore it. I've been waiting on a reply for over a week. This is completely unacceptable. Thank you!",PROD-DEF,high,true,NW-93513,PROD-DEF:5
+T00365,"Hello, Can I exchange the black trail runner GTX on NW-43704 for the navy one? Unworn, tags on. Let me know.",RET-RMA,normal,false,NW-43704,RET-RMA:1
+T00631,"To whom it may concern, I can't log in. Password reset emails never arrive and I've checked spam 19 times. Not urgent. Appreciate the help.",ACCT-SEC,low,false,,ACCT-SEC:0
+T00584,"Hi there, The navy trail runner GTX in NW-73928 is defective: the buckle won't latch at all. This is completely unacceptable. Please advise.",PROD-DEF,high,true,NW-73928,PROD-DEF:3
+T00558,"Hey, My account is locked after too many attempts. Can you unlock it? Appreciate teh help.",ACCT-SEC,normal,false,,ACCT-SEC:1
+T00458,"Hi, Ordered two sizes of the merino base layer on NW-16067 to compare. Sending US 9 back. Third time I've written about this. I'm about to dispute this with my bank. Regards,
+A. Customer",RET-RMA,high,true,NW-16067,RET-RMA:6
+T00639,"Hey, I cancelled order NW-77578 and the $210.70 charge is still pending after 6 days. The outer box was pretty beaten up too. If this isn't fixed I'm done shopping here. Please advise.",BILL-DISP,high,true,NW-77578,BILL-DISP:4
+T00262,"Hey, The clay packable down jacket in NW-94465 is defective: the buckle won't latch at all. Not urgent. Thank you!",PROD-DEF,low,false,NW-94465,PROD-DEF:3
+T00448,"Hi team, Someone tried to log into my account from another country according to your alert email.",ACCT-SEC,normal,true,,ACCT-SEC:6
+T00646,"Hi there, I got an email saying my password changed. I didn't change it. Also the invoice total doesn't match what I remember at checkout. Thanks.",ACCT-SEC,normal,true,,ACCT-SEC:2
+T00427,"Hi team, Do you ship the merino base layer to Canada, and roughly what's the duty on it? Also the invoice total doesn't match what I remember at checkout. I've been waiting on a reply for over a week. I'm about to dispute this with my bank. Let me know.",PROD-INFO,high,true,,PROD-INFO:4
+T00715,"Afternoon, You've billed me $94.90 for order NW-43052 but teh checkout total was $249.65. I'm about to dispute this with my bank.",BILL-DISP,high,true,NW-43052,BILL-DISP:3
+T00543,"Hello, The stitching on teh storm shell from NW-18997 came apart the first time I wore it. Let me know.",PROD-DEF,normal,false,NW-18997,PROD-DEF:5
+T00087,"Hello, I want a refund for NW-36405. The canvas field pants isn't what I expected from the photos. No rush. Regards,
+A. Customer",RET-RMA,low,false,NW-36405,RET-RMA:3
+T00026,"Hi team, My headlamp 400 (NW-95082) is stuck in transit. Carrier says they're waiting on the shipper. Regards,
+A. Customer",SHIP-DELAY,normal,false,NW-95082,SHIP-DELAY:4
+T00270,"Hi there, How do I send back the wool crew socks (3-pack) from NW-92842? It's within the 30-day window. This is time sensitive — I fly out on Friday. Thanks in advance.",RET-RMA,high,true,NW-92842,RET-RMA:4
+T00424,"Do you ship the storm shell to Canada, and roughly what's the duty on it? Third time I've written about this. If this isn't fixed I'm done shopping here. Let me know.",PROD-INFO,high,true,,PROD-INFO:4
+T00539,"Hey, How do I send back the canvas field pants from NW-23564? It's within the 30-day window. No rush. Appreciate the help.",RET-RMA,low,false,NW-23564,RET-RMA:4
+T00390,"Hi team, I was charged $211.21 twice for order NW-55723. Both charges cleared my card. Not urgent. Thanks.",BILL-DISP,low,false,NW-55723,BILL-DISP:0
+T00672,"Good morning, I placed order NW-59771 on the 16th and it still says 'label created'. Has it actually shipped? Not urgent. Let me know.",SHIP-DELAY,low,false,NW-59771,SHIP-DELAY:1
+T00508,"To whom it may concern, There's an order in my history I didn't place. I think someone has access to my account. Not urgent. Let me know.",ACCT-SEC,low,true,,ACCT-SEC:3
+T00220,"Hello, Any update on NW-53604? It's now 9 days past the estimated delivery window. If it can't be sorted I'd rather just send it back for a refund. Not urgent.",SHIP-DELAY,low,false,NW-53604,SHIP-DELAY:3
+T00711,"Hey, My refund for NW-38599 was supposed to be $296.43 but only $49.25 came back. Also, is there a way to watch the carrier tracking directly? Thank you!",BILL-DISP,normal,false,NW-38599,BILL-DISP:2
+T00450,"Good morning, Any update on NW-52984? It's now 9 days past the estimated delivery window.",SHIP-DELAY,normal,false,NW-52984,SHIP-DELAY:3
+T00217,"Afternoon, Received NW-13058 today. The wool crew socks (3-pack) leaks from the base seam the moment you fill it. Thank you!",PROD-DEF,normal,false,NW-13058,PROD-DEF:4
+T00589,"What's the shell fabric on the climbing chalk bag? Looking for something actually waterproof, not just resistant. Regards,
+A. Customer",PROD-INFO,normal,false,,PROD-INFO:2
+T00542,"Hello, There's a charge of $243.22 on my statement from you and I don't recognise it. No order number I can find. Thanks.",BILL-DISP,normal,true,,BILL-DISP:1
+T00409,Order NW-14459 was supposed to arrive 14 days ago and the tracking hasn't moved since it left the warehouse. Not urgent. Let me know.,SHIP-DELAY,low,false,NW-14459,SHIP-DELAY:0
+T00658,"Good morning, Ordered two sizes of the climbing chalk bag on NW-65461 to compare. Sending XL back. If this isn't fixed I'm done shopping here. Let me know.",RET-RMA,high,true,NW-65461,RET-RMA:6
+T00628,"Good morning, Someone tried to log into my account from another country according to your alert email. Also, does that model come in a taller cut? Frankly this has been a shambles. Thank you!",ACCT-SEC,high,true,,ACCT-SEC:6
+T00692,"Hi, I got an email saying my password changed. I didn't change it. No rush. Please advise.",ACCT-SEC,low,true,,ACCT-SEC:2
+T00209,"to whom it may concern, two-factor is texting a phone number that isn't mine anymore. i can't get in. let me know.",ACCT-SEC,normal,false,,ACCT-SEC:4
+T00254,"Good morning, Is the insulated flask machine washable or does it need special care? Thanks in advance.",PROD-INFO,normal,false,,PROD-INFO:3
+T00591,"Hey, My waxed cotton cap (NW-12113) is stuck in transit. Carrier says they're waiting on the shipper. Thank you!",SHIP-DELAY,normal,false,NW-12113,SHIP-DELAY:4
+T00412,"Hi, Ordered two sizes of the trail runner GTX on NW-55152 to compare. Sending M back. I've been waiting on a reply for over a week. Appreciate the help.",RET-RMA,high,true,NW-55152,RET-RMA:6
+T00121,"To whom it may concern, Is the black 40L hauler duffel coming back in stock? It's been sold out for weeks.",PROD-INFO,normal,false,,PROD-INFO:1
+T00405,"Hi, The headlamp 400 from order NW-28681 arrived with a torn seam along the left side. No rush. Regards,
+A. Customer",PROD-DEF,low,false,NW-28681,PROD-DEF:0
+T00124,"Afternoon, I'd like to return the trail runner GTX from order NW-88274. Wrong size, I need US 9 instead of XL. Also the invoice total doesn't match what I remember at checkout. If this isn't fixed I'm done shopping here. Appreciate the help.",RET-RMA,high,true,NW-88274,RET-RMA:0
+T00335,I cancelled order NW-63002 and the $62.14 charge is still pending after 15 days. It's for a gift and I'm running out of time. Please advise.,BILL-DISP,high,true,NW-63002,BILL-DISP:4
+T00439,"To whom it may concern, I got an email saying my password changed. I didn't change it. Also, does that model come in a taller cut? I'd like to sort this out soon-ish.",ACCT-SEC,normal,true,,ACCT-SEC:2
+T00690,"To whom it may concern, I placed order NW-61095 on the 21th and it still says 'label created'. Has it actually shipped?",SHIP-DELAY,normal,false,NW-61095,SHIP-DELAY:1
+T00176,"Hi team, Is the canvas field pants machine washable or does it need special care? Not urgent. Appreciate the help.",PROD-INFO,low,false,,PROD-INFO:3
+T00089,"Afternoon, I paid for two-day shipping on NW-20010 and it's been 15 days. Hoping for an update this week if possible.",SHIP-DELAY,normal,false,NW-20010,SHIP-DELAY:5
+T00131,"Good morning, What's the shell fabric on the packable down jacket? Looking for something actually waterproof, not just resistant. Also I had to sign in three times to write this. No rush. Regards,
+A. Customer",PROD-INFO,low,false,,PROD-INFO:2
+T00024,I paid for two-day shipping on NW-49295 and it's been 14 days. And can you confirm I wasn't billed twice for it? Happy to wait a couple of days for a reply.,SHIP-DELAY,normal,false,NW-49295,SHIP-DELAY:5
+T00073,"Hi team, There's an order in my history I didn't place. I think someone has access to my account. Happy to wait a couple of days for a reply.",ACCT-SEC,normal,true,,ACCT-SEC:3
+T00325,"Good morning, Returning NW-13985. Do I need to pay for the return label or is it prepaid? Whenever you get a chance. Appreciate the help.",RET-RMA,low,false,NW-13985,RET-RMA:5
+T00292,"Hi there, There's an order in my history I didn't place. I think someone has access to my account. Also, is there a way to watch the carrier tracking directly? Regards,
+A. Customer",ACCT-SEC,normal,true,,ACCT-SEC:3
+T00307,"The clay packable down jacket in NW-35845 is defective: the buckle won't latch at all. Separately, the delivery estimate on the site never updated. No rush. Thanks.",PROD-DEF,low,false,NW-35845,PROD-DEF:3
+T00006,"Good morning, I can't log in. Password reset emails never arrive and I've checked spam 6 times. The outer box was pretty beaten up too. Whenever you get a chance. Thanks in advance.",ACCT-SEC,low,false,,ACCT-SEC:0
+T00178,"Hi team, Is teh moss waxed cotton cap coming back in stock? It's been sold out for weeks. Happy to wait a couple of days for a reply. Please advise.",PROD-INFO,normal,false,,PROD-INFO:1
+T00642,"Hi there, What's the shell fabric on the wool crew socks (3-pack)? Looking for something actually waterproof, not just resistant. No rush. Thanks.",PROD-INFO,low,false,,PROD-INFO:2
+T00037,Order NW-38262 was supposed to arrive 21 days ago and the tracking hasn't moved since it left the warehouse. And while I'm here — is the same fabric used on the lined version? Thanks in advance.,SHIP-DELAY,normal,false,NW-38262,SHIP-DELAY:0
+T00507,"Good morning, Does the trail runner GTX run true to size? I'm normally a L. Hoping for an update this week if possible. Thanks in advance.",PROD-INFO,normal,false,,PROD-INFO:0
+T00500,"Hi there, Before I order — is the storm shell in M cut the same as last season's? The outer box was pretty beaten up too. This is time sensitive — I fly out on Friday. If this isn't fixed I'm done shopping here. Thanks in advance.",PROD-INFO,high,true,,PROD-INFO:6
+T00003,"Afternoon, I cancelled order NW-79357 and the $102.37 charge is still pending after 5 days. Please advise.",BILL-DISP,normal,false,NW-79357,BILL-DISP:4
+T00575,"Hi, What's the shell fabric on the climbing chalk bag? Looking for something actually waterproof, not just resistant. Also, how long is the exchange window on something like this? No rush. Regards,
+A. Customer",PROD-INFO,low,false,,PROD-INFO:2
+T00055,"Hello, My account is locked after too many attempts. Can you unlock it? Also, is there a way to watch the carrier tracking directly? No rush. Thanks in advance.",ACCT-SEC,low,false,,ACCT-SEC:1
+T00323,"Hi, How does the headlamp 400 compare to the canvas field pants for cold weather? If this isn't fixed I'm done shopping here.",PROD-INFO,high,true,,PROD-INFO:5
+T00263,"Hey, Someone tried to log into my account from another country according to your alert email. Also the invoice total doesn't match what I remember at checkout. Would be good to get this settled.",ACCT-SEC,normal,true,,ACCT-SEC:6
+T00650,"Hello, Invoice for NW-95460 shows a shipping fee of $269.38 that wasn't on the order page. The outer box was pretty beaten up too. Whenever you get a chance. Regards,
+A. Customer",BILL-DISP,low,false,NW-95460,BILL-DISP:5
+T00491,"Afternoon, Order NW-58193 — the camp chair doesn't fit. What's the return process? Also, does that model come in a taller cut? Regards,
+A. Customer",RET-RMA,normal,false,NW-58193,RET-RMA:2
+T00684,"Afternoon, Order NW-16229 — the packable down jacket doesn't fit. What's the return process? Also, is there a way to watch the carrier tracking directly? Regards,
+A. Customer",RET-RMA,normal,false,NW-16229,RET-RMA:2
+T00155,"Hey, Where is order NW-31137? The status page has said 'in transit' all week.",SHIP-DELAY,normal,false,NW-31137,SHIP-DELAY:6
+T00309,"Hi there, Can I exchange teh slate climbing chalk bag on NW-56606 for the navy one? Unworn, tags on. Hoping for an update this week if possible. Regards,
+A. Customer",RET-RMA,normal,false,NW-56606,RET-RMA:1
+T00204,"Hi team, Where is order NW-23023? The status page has said 'in transit' all week. Thanks.",SHIP-DELAY,normal,false,NW-23023,SHIP-DELAY:6
+T00493,Is the climbing chalk bag machine washable or does it need special care? Whenever you get a chance. Please advise.,PROD-INFO,low,false,,PROD-INFO:3
+T00213,"To whom it may concern, I can't log in. Password reset emails never arrive and I've checked spam 13 times. If this isn't fixed I'm done shopping here. Let me know.",ACCT-SEC,high,true,,ACCT-SEC:0
+T00046,"hello, you've billed me $80.37 for order nw-18058 but the checkout total was $240.08. whenever you get a chance. thanks in advance.",BILL-DISP,low,false,NW-18058,BILL-DISP:3
+T00469,"Afternoon, Is the wool crew socks (3-pack) machine washable or does it need special care? Not urgent. Thanks.",PROD-INFO,low,false,,PROD-INFO:3
+T00182,"Hey, Returning NW-82529. Do I need to pay for the return label or is it prepaid? Separately, my password reset link expired before I could use it. Not urgent. Let me know.",RET-RMA,low,false,NW-82529,RET-RMA:5
+T00632,"Afternoon, Before I order — is the headlamp 400 in L cut the same as last season's? I'm about to dispute this with my bank.",PROD-INFO,high,true,,PROD-INFO:6
+T00094,"I paid for two-day shipping on NW-88844 and it's been 6 days. No rush. Regards,
+A. Customer",SHIP-DELAY,low,false,NW-88844,SHIP-DELAY:5
+T00023,"Hi there, The tracking for NW-84712 shows delivered but nothing is at my door and my neighbours don't have it either. No rush. Thank you!",SHIP-DELAY,low,false,NW-84712,SHIP-DELAY:2
+T00511,"Hi, I cancelled order NW-91300 and the $266.71 charge is still pending after 4 days. I'm about to dispute this with my bank. Thank you!",BILL-DISP,high,true,NW-91300,BILL-DISP:4
+T00704,"Hi, Two-factor is texting a phone number that isn't mine anymore. I can't get in. I've been waiting on a reply for over a week. This is completely unacceptable.",ACCT-SEC,high,true,,ACCT-SEC:4
+T00224,"afternoon, there's an order in my history i didn't place. i think someone has access to my account. this is completely unacceptable. thanks.",ACCT-SEC,high,true,,ACCT-SEC:3
+T00128,"Afternoon, Order NW-57328 — the storm shell doesn't fit. What's the return process? Thanks in advance.",RET-RMA,normal,false,NW-57328,RET-RMA:2
+T00148,"Afternoon, My account is locked after too many attempts. Can you unlock it? Also, is there a way to watch the carrier tracking directly? This is completely unacceptable. Appreciate the help.",ACCT-SEC,high,true,,ACCT-SEC:1
+T00102,"Hey, The 40L hauler duffel from order NW-30875 arrived with a torn seam along teh left side. Thanks in advance.",PROD-DEF,normal,false,NW-30875,PROD-DEF:0
+T00235,"To whom it may concern, Order NW-84243 — the camp chair has a hole in the packaging and a deep scratch across the front. Also the invoice total doesn't match what I remember at checkout. Third time I've written about this. Frankly this has been a shambles. Appreciate the help.",PROD-DEF,high,true,NW-84243,PROD-DEF:2
+T00435,"Hi team, Received NW-20706 today. The trail runner GTX leaks from teh base seam the moment you fill it. I need this resolved today.",PROD-DEF,high,true,NW-20706,PROD-DEF:4
+T00064,"Afternoon, Before I order — is the waxed cotton cap in one size cut the same as last season's? Separately, my password reset link expired before I could use it. I'm about to dispute this with my bank. Please advise.",PROD-INFO,high,true,,PROD-INFO:6
+T00466,"Hey, I got an email saying my password changed. I didn't change it. No rush. Appreciate the help.",ACCT-SEC,low,true,,ACCT-SEC:2
+T00199,"To whom it may concern, I paid for two-day shipping on NW-84811 and it's been 2 days. No rush. Thanks in advance.",SHIP-DELAY,low,false,NW-84811,SHIP-DELAY:5
+T00380,"Good morning, There's an order in my history I didn't place. I think someone has access to my account. Not urgent. Appreciate the help.",ACCT-SEC,low,true,,ACCT-SEC:3
+T00470,"Hi team, storm shell from order NW-35980 arrived cracked. Box looks fine so it was packed that way. Third time I've written about this. Let me know.",PROD-DEF,high,true,NW-35980,PROD-DEF:6
+T00030,"Hey, What's the shell fabric on the camp chair? Looking for something actually waterproof, not just resistant. The outer box was pretty beaten up too. No rush. Thanks in advance.",PROD-INFO,low,false,,PROD-INFO:2
+T00032,"Hi, I can't log in. Password reset emails never arrive and I've checked spam 6 times. Separately, the delivery estimate on the site never updated. Let me know.",ACCT-SEC,normal,false,,ACCT-SEC:0
+T00577,"Hey, I can't log in. Password reset emails never arrive and I've checked spam 10 times. And while I'm here — is the same fabric used on the lined version? Thank you!",ACCT-SEC,normal,false,,ACCT-SEC:0
+T00211,"Afternoon, Do you ship the insulated flask to Canada, and roughly what's the duty on it? I need this resolved today. Regards,
+A. Customer",PROD-INFO,high,false,,PROD-INFO:4
+T00145,"Afternoon, The stitching on the 40L hauler duffel from NW-17542 came apart the first time I wore it. Whenever you get a chance. Please advise.",PROD-DEF,low,false,NW-17542,PROD-DEF:5
+T00701,"To whom it may concern, Invoice for NW-12925 shows a shipping fee of $94.73 that wasn't on the order page. No rush. Please advise.",BILL-DISP,low,false,NW-12925,BILL-DISP:5
+T00195,"Afternoon, Invoice for NW-95415 shows a shipping fee of $226.89 that wasn't on the order page. If it can't be sorted I'd rather just send it back for a refund. I need this resolved today. If this isn't fixed I'm done shopping here. Please advise.",BILL-DISP,high,true,NW-95415,BILL-DISP:5
+T00330,"Afternoon, I'd like to return the storm shell from order NW-12124. Wrong size, I need M instead of US 10.5. This is time sensitive — I fly out on Friday. I'm about to dispute this with my bank. Regards,
+A. Customer",RET-RMA,high,true,NW-12124,RET-RMA:0
+T00657,"Hey, Do you ship the wool crew socks (3-pack) to Canada, and roughly what's the duty on it? Happy to wait a couple of days for a reply. Thanks in advance.",PROD-INFO,normal,false,,PROD-INFO:4
+T00179,"Hello, My account is locked after too many attempts. Can you unlock it? Whenever you get a chance.",ACCT-SEC,low,false,,ACCT-SEC:1
+T00426,"Hello, Where is order NW-29302? The status page has said 'in transit' all week. I need this resolved today. Frankly this has been a shambles. Let me know.",SHIP-DELAY,high,true,NW-29302,SHIP-DELAY:6
+T00374,"Afternoon, My refund for NW-25081 was supposed to be $129.07 but only $24.62 came back. Third time I've written about this. If this isn't fixed I'm done shopping here. Let me know.",BILL-DISP,high,true,NW-25081,BILL-DISP:2
+T00190,"Hi team, I got an email saying my password changed. I didn't change it. Not urgent. Regards,
+A. Customer",ACCT-SEC,low,true,,ACCT-SEC:2
+T00468,"Hello, Does the canvas field pants run true to size? I'm normally a EU 42. If this isn't fixed I'm done shopping here.",PROD-INFO,high,true,,PROD-INFO:0
+T00613,"Afternoon, Order NW-35428 — the storm shell doesn't fit. What's the return process? I'd like to sort this out soon-ish. Please advise.",RET-RMA,normal,false,NW-35428,RET-RMA:2
+T00130,"Hi team, My refund for NW-62459 was supposed to be $264.56 but only $243.58 came back. This is completely unacceptable. Appreciate the help.",BILL-DISP,high,true,NW-62459,BILL-DISP:2
+T00258,"Hi team, My trail runner GTX (NW-37510) showed up with the zip pull snapped clean off. And while I'm here — is the same fabric used on the lined version? Frankly this has been a shambles. Appreciate the help.",PROD-DEF,high,true,NW-37510,PROD-DEF:1
+T00369,"To whom it may concern, There's a charge of $151.66 on my statement from you and I don't recognise it. No order number I can find. Also there's a scuff on the front that was clearly there before shipping. No rush. Regards,
+A. Customer",BILL-DISP,low,true,,BILL-DISP:1
+T00510,"Any update on NW-31591? It's now 11 days past the estimated delivery window. The outer box was pretty beaten up too. I'd like to sort this out soon-ish. Regards,
+A. Customer",SHIP-DELAY,normal,false,NW-31591,SHIP-DELAY:3
+T00170,"My trail runner GTX (NW-23886) showed up with the zip pull snapped clean off. Separately, my password reset link expired before I could use it. Happy to wait a couple of days for a reply. Regards,
+A. Customer",PROD-DEF,normal,false,NW-23886,PROD-DEF:1
+T00490,"Hi, I can't log in. Password reset emails never arrive and I've checked spam 19 times. Also, how long is the exchange window on something like this? Would be good to get this settled. Thank you!",ACCT-SEC,normal,false,,ACCT-SEC:0
+T00437,"Afternoon, There's a charge of $137.70 on my statement from you and I don't recognise it. No order number I can find. Would be good to get this settled. Appreciate the help.",BILL-DISP,normal,true,,BILL-DISP:1
+T00168,Any update on NW-40163? It's now 12 days past the estimated delivery window. Also there's a scuff on the front that was clearly there before shipping. Third time I've written about this. Thank you!,SHIP-DELAY,high,true,NW-40163,SHIP-DELAY:3
+T00015,"Hello, Order NW-59282 was supposed to arrive 13 days ago and the tracking hasn't moved since it left the warehouse. Frankly this has been a shambles. Appreciate the help.",SHIP-DELAY,high,true,NW-59282,SHIP-DELAY:0
+T00301,"Afternoon, My refund for NW-86186 was supposed to be $24.89 but only $278.74 came back. Third time I've written about this. Thank you!",BILL-DISP,high,true,NW-86186,BILL-DISP:2
+T00358,"Hey, I cancelled order NW-82760 and the $101.16 charge is still pending after 21 days. No rush. Please advise.",BILL-DISP,low,false,NW-82760,BILL-DISP:4
+T00379,"hey, two-factor is texting a phone number that isn't mine anymore. i can't get in. appreciate the help.",ACCT-SEC,normal,false,,ACCT-SEC:4
+T00376,"Hello, Do you ship the headlamp 400 to Canada, and roughly what's the duty on it? The outer box was pretty beaten up too. Thanks.",PROD-INFO,normal,false,,PROD-INFO:4
+T00526,"Hi team, Is the 40L hauler duffel machine washable or does it need special care? Thank you!",PROD-INFO,normal,false,,PROD-INFO:3
+T00001,"Hi, Is the wool crew socks (3-pack) machine washable or does it need special care? This is time sensitive — I fly out on Friday. Thanks in advance.",PROD-INFO,high,false,,PROD-INFO:3
+T00364,"To whom it may concern, headlamp 400 from order NW-36828 arrived cracked. Box looks fine so it was packed that way. Whenever you get a chance. Let me know.",PROD-DEF,low,false,NW-36828,PROD-DEF:6
+T00288,I was charged $148.03 twice for order NW-37410. Both charges cleared my card. And while I'm here — is teh same fabric used on the lined version? Happy to wait a couple of days for a reply. Please advise.,BILL-DISP,normal,false,NW-37410,BILL-DISP:0
+T00103,Someone tried to log into my account from another country according to your alert email. Hoping for an update this week if possible. Please advise.,ACCT-SEC,normal,true,,ACCT-SEC:6
+T00535,"Hey, I can't log in. Password reset emails never arrive and I've checked spam 21 times. No rush. Please advise.",ACCT-SEC,low,false,,ACCT-SEC:0
+T00520,"Good morning, storm shell from order NW-21222 arrived cracked. Box looks fine so it was packed that way. Whenever you get a chance. Thank you!",PROD-DEF,low,false,NW-21222,PROD-DEF:6
+T00095,"Hi, Where is order NW-91497? The status page has said 'in transit' all week. Also the invoice total doesn't match what I remember at checkout. Frankly this has been a shambles. Regards,
+A. Customer",SHIP-DELAY,high,true,NW-91497,SHIP-DELAY:6
+T00133,"Hello, How do I send back the waxed cotton cap from NW-39198? It's within the 30-day window. It's for a gift and I'm running out of time. This is completely unacceptable. Thanks in advance.",RET-RMA,high,true,NW-39198,RET-RMA:4
+T00388,"afternoon, where is order nw-26694? the status page has said 'in transit' all week. if it can't be sorted i'd rather just send it back for a refund. no rush. thanks in advance.",SHIP-DELAY,low,false,NW-26694,SHIP-DELAY:6
+T00036,"Afternoon, Where is order NW-89203? The status page has said 'in transit' all week. Regards,
+A. Customer",SHIP-DELAY,normal,false,NW-89203,SHIP-DELAY:6
+T00414,"Hey, Returning NW-77028. Do I need to pay for the return label or is it prepaid? Whenever you get a chance. Please advise.",RET-RMA,low,false,NW-77028,RET-RMA:5
+T00344,"To whom it may concern, I can't log in. Password reset emails never arrive and I've checked spam 12 times. I'd like to sort this out soon-ish. Thanks.",ACCT-SEC,normal,false,,ACCT-SEC:0
+T00579,"Hey, My headlamp 400 (NW-30946) is stuck in transit. Carrier says they're waiting on the shipper. Thank you!",SHIP-DELAY,normal,false,NW-30946,SHIP-DELAY:4
+T00285,"Hi, My headlamp 400 (NW-30300) is stuck in transit. Carrier says they're waiting on the shipper. No rush.",SHIP-DELAY,low,false,NW-30300,SHIP-DELAY:4
+T00638,"Hello, Can I exchange the dune merino base layer on NW-65504 for the navy one? Unworn, tags on. No rush. Thanks in advance.",RET-RMA,low,false,NW-65504,RET-RMA:1
+T00007,"Do you ship the trail runner GTX to Canada, and roughly what's the duty on it? Not urgent.",PROD-INFO,low,false,,PROD-INFO:4
+T00184,"To whom it may concern, Before I order — is the storm shell in L cut the same as last season's? Separately, the delivery estimate on the site never updated. Whenever you get a chance. Let me know.",PROD-INFO,low,false,,PROD-INFO:6
+T00188,"Good morning, Two-factor is texting a phone number that isn't mine anymore. I can't get in. Also teh invoice total doesn't match what I remember at checkout. Appreciate the help.",ACCT-SEC,normal,false,,ACCT-SEC:4
+T00582,"Good morning, I placed order NW-36295 on teh 17th and it still says 'label created'. Has it actually shipped? I've been waiting on a reply for over a week. Appreciate the help.",SHIP-DELAY,high,true,NW-36295,SHIP-DELAY:1
+T00634,"hi, the clay wool crew socks (3-pack) in nw-76783 is defective: the buckle won't latch at all. whenever you get a chance. let me know.",PROD-DEF,low,false,NW-76783,PROD-DEF:3
+T00399,"Hi there, I was charged $120.06 twice for order NW-89202. Both charges cleared my card. I'd like to sort this out soon-ish. Please advise.",BILL-DISP,normal,false,NW-89202,BILL-DISP:0
+T00501,"Afternoon, Someone tried to log into my account from another country according to your alert email. Not urgent.",ACCT-SEC,low,true,,ACCT-SEC:6
+T00618,There's an order in my history I didn't place. I think someone has access to my account. Third time I've written about this. Let me know.,ACCT-SEC,high,true,,ACCT-SEC:3
+T00519,"Can I exchange the clay climbing chalk bag on NW-78416 for the moss one? Unworn, tags on. No rush. Thanks.",RET-RMA,low,false,NW-78416,RET-RMA:1
+T00626,"Hi team, Invoice for NW-74543 shows a shipping fee of $45.96 that wasn't on the order page. I've been waiting on a reply for over a week. I'm about to dispute this with my bank. Thank you!",BILL-DISP,high,true,NW-74543,BILL-DISP:5
+T00114,"Hi, Before I order — is the headlamp 400 in XS cut the same as last season's? Separately, my password reset link expired before I could use it. Regards,
+A. Customer",PROD-INFO,normal,false,,PROD-INFO:6
+T00592,"To whom it may concern, Order NW-85982 was supposed to arrive 13 days ago and the tracking hasn't moved since it left the warehouse. The outer box was pretty beaten up too. Let me know.",SHIP-DELAY,normal,false,NW-85982,SHIP-DELAY:0
+T00206,"Hello, My camp chair (NW-86735) showed up with the zip pull snapped clean off. Thanks in advance.",PROD-DEF,normal,false,NW-86735,PROD-DEF:1
+T00050,"Good morning, I want a refund for NW-78571. The 40L hauler duffel isn't what I expected from the photos. No rush. Thanks.",RET-RMA,low,false,NW-78571,RET-RMA:3
+T00521,"hey, i placed order nw-17925 on the 9th and it still says 'label created'. has it actually shipped? happy to wait a couple of days for a reply. please advise.",SHIP-DELAY,normal,false,NW-17925,SHIP-DELAY:1
+T00387,"Afternoon, My wool crew socks (3-pack) (NW-12846) is stuck in transit. Carrier says they're waiting on teh shipper. Hoping for an update this week if possible. Thanks.",SHIP-DELAY,normal,false,NW-12846,SHIP-DELAY:4
+T00232,How do I send back the headlamp 400 from NW-62598? It's within the 30-day window. I've been waiting on a reply for over a week. This is completely unacceptable. Thanks.,RET-RMA,high,true,NW-62598,RET-RMA:4
+T00489,"hello, is the headlamp 400 machine washable or does it need special care? would be good to get this settled. appreciate the help.",PROD-INFO,normal,false,,PROD-INFO:3
+T00042,"Hi, The clay storm shell in NW-70479 is defective: the buckle won't latch at all. Not urgent. Let me know.",PROD-DEF,low,false,NW-70479,PROD-DEF:3
+T00664,"Hi team, Can I exchange the navy camp chair on NW-10643 for the slate one? Unworn, tags on. This is time sensitive — I fly out on Friday. Frankly this has been a shambles. Regards,
+A. Customer",RET-RMA,high,true,NW-10643,RET-RMA:1
+T00635,"To whom it may concern, My headlamp 400 (NW-19916) is stuck in transit. Carrier says they're waiting on the shipper. Thank you!",SHIP-DELAY,normal,false,NW-19916,SHIP-DELAY:4
+T00522,"Good morning, I was charged $124.03 twice for order NW-86727. Both charges cleared my card. Also, does that model come in a taller cut? Whenever you get a chance. Appreciate the help.",BILL-DISP,low,false,NW-86727,BILL-DISP:0
+T00174,"Hello, What's the shell fabric on the merino base layer? Looking for something actually waterproof, not just resistant. It's for a gift and I'm running out of time. Regards,
+A. Customer",PROD-INFO,high,false,,PROD-INFO:2
+T00033,"Hi there, The navy headlamp 400 in NW-17024 is defective: teh buckle won't latch at all. Let me know.",PROD-DEF,normal,false,NW-17024,PROD-DEF:3
+T00476,"Hey, Two-factor is texting a phone number that isn't mine anymore. I can't get in. Third time I've written about this.",ACCT-SEC,high,true,,ACCT-SEC:4
+T00004,"Hi there, I paid for two-day shipping on NW-44908 and it's been 16 days. Would be good to get this settled. Thanks in advance.",SHIP-DELAY,normal,false,NW-44908,SHIP-DELAY:5
+T00673,"Hello, How do I send back teh trail runner GTX from NW-37632? It's within the 30-day window. And can you confirm I wasn't billed twice for it? No rush. Thanks.",RET-RMA,low,false,NW-37632,RET-RMA:4
+T00071,"Hey, Someone tried to log into my account from another country according to your alert email. I'm about to dispute this with my bank. Please advise.",ACCT-SEC,high,true,,ACCT-SEC:6
+T00101,"hey, the trail runner gtx from order nw-53601 arrived with a torn seam along the left side. third time i've written about this. i'm about to dispute this with my bank. please advise.",PROD-DEF,high,true,NW-53601,PROD-DEF:0
+T00314,"Hi there, My refund for NW-38773 was supposed to be $331.51 but only $220.40 came back. Also, is there a way to watch the carrier tracking directly? Would be good to get this settled. Regards,
+A. Customer",BILL-DISP,normal,false,NW-38773,BILL-DISP:2
+T00359,"Before I order — is the canvas field pants in EU 42 cut the same as last season's? Also, is there a way to watch the carrier tracking directly? Appreciate the help.",PROD-INFO,normal,false,,PROD-INFO:6
+T00011,"To whom it may concern, I can't log in. Password reset emails never arrive and I've checked spam 19 times. It's for a gift and I'm running out of time. If this isn't fixed I'm done shopping here. Thank you!",ACCT-SEC,high,true,,ACCT-SEC:0
+T00697,"Hi team, The trail runner GTX from order NW-18841 arrived with a torn seam along the left side. I'd like to sort this out soon-ish. Thank you!",PROD-DEF,normal,false,NW-18841,PROD-DEF:0
+T00230,"Afternoon, My wool crew socks (3-pack) (NW-98329) showed up with the zip pull snapped clean off. This is completely unacceptable. Let me know.",PROD-DEF,high,true,NW-98329,PROD-DEF:1
+T00293,"Hi team, Can I exchange the moss merino base layer on NW-13058 for the black one? Unworn, tags on. Also, does that model come in a taller cut? This is completely unacceptable. Please advise.",RET-RMA,high,true,NW-13058,RET-RMA:1
+T00601,"Hi there, I was charged $217.67 twice for order NW-56049. Both charges cleared my card. Also there's a scuff on the front that was clearly there before shipping. Whenever you get a chance. Thanks.",BILL-DISP,low,false,NW-56049,BILL-DISP:0
+T00479,"Hello, storm shell from order NW-72305 arrived cracked. Box looks fine so it was packed that way. Frankly this has been a shambles. Thanks.",PROD-DEF,high,true,NW-72305,PROD-DEF:6
+T00416,"Good morning, The wool crew socks (3-pack) from order NW-35720 arrived with a torn seam along the left side. Also, does that model come in a taller cut? Would be good to get this settled. Thanks.",PROD-DEF,normal,false,NW-35720,PROD-DEF:0
+T00308,"Hi, Signing in redirects me back to the login page every time. Cleared cookies already. Regards,
+A. Customer",ACCT-SEC,normal,false,,ACCT-SEC:5
+T00675,"Hi team, Order NW-16638 — the insulated flask has a hole in the packaging and a deep scratch across the front. Also I had to sign in three times to write this. No rush. Appreciate the help.",PROD-DEF,low,false,NW-16638,PROD-DEF:2
+T00049,"Good morning, Do you ship the waxed cotton cap to Canada, and roughly what's the duty on it? Not urgent. Appreciate the help.",PROD-INFO,low,false,,PROD-INFO:4
+T00418,"Hi team, You've billed me $311.75 for order NW-34436 but the checkout total was $262.66. Happy to wait a couple of days for a reply. Thanks.",BILL-DISP,normal,false,NW-34436,BILL-DISP:3
+T00669,"Hi team, Do you ship the climbing chalk bag to Canada, and roughly what's the duty on it? I'm about to dispute this with my bank. Thanks in advance.",PROD-INFO,high,true,,PROD-INFO:4
+T00502,"Hi, Order NW-17785 — the wool crew socks (3-pack) has a hole in the packaging and a deep scratch across the front. I've been waiting on a reply for over a week. Appreciate the help.",PROD-DEF,high,true,NW-17785,PROD-DEF:2
+T00370,"Hey, Returning NW-92194. Do I need to pay for the return label or is it prepaid? Thanks in advance.",RET-RMA,normal,false,NW-92194,RET-RMA:5
+T00287,"Hello, I placed order NW-81959 on the 21th and it still says 'label created'. Has it actually shipped? Third time I've written about this. This is completely unacceptable. Please advise.",SHIP-DELAY,high,true,NW-81959,SHIP-DELAY:1
+T00561,I can't log in. Password reset emails never arrive and I've checked spam 12 times. Happy to wait a couple of days for a reply. Appreciate the help.,ACCT-SEC,normal,false,,ACCT-SEC:0
+T00438,"Received NW-26572 today. The canvas field pants leaks from the base seam the moment you fill it. No rush. Regards,
+A. Customer",PROD-DEF,low,false,NW-26572,PROD-DEF:4
+T00516,"Hello, I cancelled order NW-97905 and the $253.00 charge is still pending after 10 days. Hoping for an update this week if possible. Regards,
+A. Customer",BILL-DISP,normal,false,NW-97905,BILL-DISP:4
+T00291,"Hello, What's the shell fabric on the headlamp 400? Looking for something actually waterproof, not just resistant. It's for a gift and I'm running out of time. This is completely unacceptable.",PROD-INFO,high,true,,PROD-INFO:2
+T00000,"Good morning, I paid for two-day shipping on NW-87566 and it's been 20 days. I need this resolved today.",SHIP-DELAY,high,true,NW-87566,SHIP-DELAY:5
+T00058,"Afternoon, Signing in redirects me back to the login page every time. Cleared cookies already. Not urgent.",ACCT-SEC,low,false,,ACCT-SEC:5
+T00453,"Afternoon, Signing in redirects me back to the login page every time. Cleared cookies already. This is time sensitive — I fly out on Friday. This is completely unacceptable.",ACCT-SEC,high,true,,ACCT-SEC:5
+T00391,"To whom it may concern, Order NW-52550 — the 40L hauler duffel has a hole in the packaging and a deep scratch across the front. And can you confirm I wasn't billed twice for it? Happy to wait a couple of days for a reply. Regards,
+A. Customer",PROD-DEF,normal,false,NW-52550,PROD-DEF:2
+T00641,"Hello, Ordered two sizes of the storm shell on NW-59034 to compare. Sending M back. Frankly this has been a shambles. Let me know.",RET-RMA,high,true,NW-59034,RET-RMA:6
+T00693,"Hi team, Signing in redirects me back to the login page every time. Cleared cookies already. Separately, the delivery estimate on the site never updated. Frankly this has been a shambles.",ACCT-SEC,high,true,,ACCT-SEC:5
+T00696,"Hello, Does the canvas field pants run true to size? I'm normally a one size. Third time I've written about this. Thank you!",PROD-INFO,high,false,,PROD-INFO:0
+T00454,"Hey, I want a refund for NW-87748. The 40L hauler duffel isn't what I expected from the photos. No rush. Regards,
+A. Customer",RET-RMA,low,false,NW-87748,RET-RMA:3
+T00251,"Good morning, There's an order in my history I didn't place. I think someone has access to my account. Whenever you get a chance. Appreciate the help.",ACCT-SEC,low,true,,ACCT-SEC:3
+T00480,"Afternoon, My trail runner GTX (NW-56007) is stuck in transit. Carrier says they're waiting on the shipper. If this isn't fixed I'm done shopping here. Thank you!",SHIP-DELAY,high,true,NW-56007,SHIP-DELAY:4
+T00653,"Good morning, How does the climbing chalk bag compare to the headlamp 400 for cold weather? No rush. Thanks.",PROD-INFO,low,false,,PROD-INFO:5
+T00106,"Afternoon, I'd like to return the headlamp 400 from order NW-37084. Wrong size, I need US 10.5 instead of XS. Thanks in advance.",RET-RMA,normal,false,NW-37084,RET-RMA:0
+T00460,"Hey, I'd like to return the storm shell from order NW-37394. Wrong size, I need XL instead of US 9. And can you confirm I wasn't billed twice for it? I'd like to sort this out soon-ish. Thanks in advance.",RET-RMA,normal,false,NW-37394,RET-RMA:0
+T00596,"Afternoon, Is teh canvas field pants machine washable or does it need special care? Thank you!",PROD-INFO,normal,false,,PROD-INFO:3
+T00257,"Hey, Returning NW-92024. Do I need to pay for the return label or is it prepaid? Frankly this has been a shambles. Thanks in advance.",RET-RMA,high,true,NW-92024,RET-RMA:5
+T00497,Is the waxed cotton cap machine washable or does it need special care? Let me know.,PROD-INFO,normal,false,,PROD-INFO:3
+T00096,"To whom it may concern, Any update on NW-32334? It's now 11 days past the estimated delivery window. Also, how long is the exchange window on something like this? Whenever you get a chance. Thanks.",SHIP-DELAY,low,false,NW-32334,SHIP-DELAY:3
+T00243,"to whom it may concern, my wool crew socks (3-pack) (nw-91047) is stuck in transit. carrier says they're waiting on the shipper. i'm about to dispute this with my bank. let me know.",SHIP-DELAY,high,true,NW-91047,SHIP-DELAY:4
+T00517,"Hi there, Order NW-95947 — the packable down jacket has a hole in the packaging and a deep scratch across the front. Frankly this has been a shambles. Thanks in advance.",PROD-DEF,high,true,NW-95947,PROD-DEF:2
+T00381,"Hello, I was charged $182.56 twice for order NW-30067. Both charges cleared my card.",BILL-DISP,normal,false,NW-30067,BILL-DISP:0
+T00712,"To whom it may concern, Does teh waxed cotton cap run true to size? I'm normally a XL. Not urgent.",PROD-INFO,low,false,,PROD-INFO:0
+T00279,"Good morning, The tracking for NW-84433 shows delivered but nothing is at my door and my neighbours don't have it either. Appreciate the help.",SHIP-DELAY,normal,false,NW-84433,SHIP-DELAY:2
+T00477,"To whom it may concern, Is the moss trail runner GTX coming back in stock? It's been sold out for weeks. Thanks.",PROD-INFO,normal,false,,PROD-INFO:1
+T00242,"Good morning, There's a charge of $182.50 on my statement from you and I don't recognise it. No order number I can find. Not urgent. Please advise.",BILL-DISP,low,true,,BILL-DISP:1
+T00092,"Hi there, The navy packable down jacket in NW-15403 is defective: the buckle won't latch at all. No rush.",PROD-DEF,low,false,NW-15403,PROD-DEF:3
+T00035,"To whom it may concern, Does the insulated flask run true to size? I'm normally a XL. Also I had to sign in three times to write this. Whenever you get a chance. Thanks in advance.",PROD-INFO,low,false,,PROD-INFO:0
+T00244,"Can I exchange the navy canvas field pants on NW-12512 for the slate one? Unworn, tags on. Not urgent. Appreciate the help.",RET-RMA,low,false,NW-12512,RET-RMA:1
+T00541,"Hey, My waxed cotton cap (NW-88437) showed up with the zip pull snapped clean off. Hoping for an update this week if possible. Thanks.",PROD-DEF,normal,false,NW-88437,PROD-DEF:1
+T00218,"Hey, My camp chair (NW-84451) is stuck in transit. Carrier says they're waiting on the shipper. Third time I've written about this.",SHIP-DELAY,high,true,NW-84451,SHIP-DELAY:4
+T00703,"Good morning, My refund for NW-99627 was supposed to be $254.79 but only $167.46 came back. I'd like to sort this out soon-ish. Thanks in advance.",BILL-DISP,normal,false,NW-99627,BILL-DISP:2
+T00247,"Hello, Is the slate trail runner GTX coming back in stock? It's been sold out for weeks. Separately, the delivery estimate on the site never updated. This is time sensitive — I fly out on Friday. This is completely unacceptable. Let me know.",PROD-INFO,high,true,,PROD-INFO:1
+T00192,"Hi team, How do I send back the headlamp 400 from NW-69038? It's within the 30-day window. No rush. Thanks.",RET-RMA,low,false,NW-69038,RET-RMA:4
+T00563,"Hi team, How do I send back the packable down jacket from NW-97782? It's within the 30-day window. Also I had to sign in three times to write this. Happy to wait a couple of days for a reply. Thanks in advance.",RET-RMA,normal,false,NW-97782,RET-RMA:4
+T00275,"Hi, Ordered two sizes of the insulated flask on NW-66459 to compare. Sending M back.",RET-RMA,normal,false,NW-66459,RET-RMA:6
+T00208,"Hey, I cancelled order NW-17236 and the $304.04 charge is still pending after 14 days. I need this resolved today. Thanks in advance.",BILL-DISP,high,true,NW-17236,BILL-DISP:4
+T00483,There's an order in my history I didn't place. I think someone has access to my account. Thanks in advance.,ACCT-SEC,normal,true,,ACCT-SEC:3
+T00138,"My headlamp 400 (NW-22031) showed up with the zip pull snapped clean off. Not urgent. Regards,
+A. Customer",PROD-DEF,low,false,NW-22031,PROD-DEF:1
+T00151,Does the insulated flask run true to size? I'm normally a EU 42. Third time I've written about this. Thank you!,PROD-INFO,high,false,,PROD-INFO:0
+T00236,"Hi there, What's the shell fabric on the waxed cotton cap? Looking for something actually waterproof, not just resistant. Happy to wait a couple of days for a reply. Regards,
+A. Customer",PROD-INFO,normal,false,,PROD-INFO:2
+T00297,"Hi team, Is the black headlamp 400 coming back in stock? It's been sold out for weeks. Not urgent. Let me know.",PROD-INFO,low,false,,PROD-INFO:1
+T00326,"Hello, Is the climbing chalk bag machine washable or does it need special care? Not urgent. Thank you!",PROD-INFO,low,false,,PROD-INFO:3
+T00352,"Hi, Where is order NW-67967? The status page has said 'in transit' all week. Third time I've written about this. If this isn't fixed I'm done shopping here. Regards,
+A. Customer",SHIP-DELAY,high,true,NW-67967,SHIP-DELAY:6
+T00461,"Good morning, What's the shell fabric on the merino base layer? Looking for something actually waterproof, not just resistant. Happy to wait a couple of days for a reply. Thank you!",PROD-INFO,normal,false,,PROD-INFO:2
+T00353,"To whom it may concern, Order NW-63231 was supposed to arrive 8 days ago and the tracking hasn't moved since it left the warehouse. Third time I've written about this. This is completely unacceptable. Appreciate the help.",SHIP-DELAY,high,true,NW-63231,SHIP-DELAY:0
+T00559,"Hi team, How do I send back the trail runner GTX from NW-30129? It's within the 30-day window. Appreciate the help.",RET-RMA,normal,false,NW-30129,RET-RMA:4
+T00081,"The tracking for NW-47452 shows delivered but nothing is at my door and my neighbours don't have it either. Also, does that model come in a taller cut? Would be good to get this settled. Regards,
+A. Customer",SHIP-DELAY,normal,false,NW-47452,SHIP-DELAY:2
+T00398,"To whom it may concern, Received NW-21748 today. The storm shell leaks from the base seam the moment you fill it. I need this resolved today. If this isn't fixed I'm done shopping here. Please advise.",PROD-DEF,high,true,NW-21748,PROD-DEF:4
+T00306,The canvas field pants from order NW-14208 arrived with a torn seam along the left side. If this isn't fixed I'm done shopping here. Thanks.,PROD-DEF,high,true,NW-14208,PROD-DEF:0
+T00566,Returning NW-58457. Do I need to pay for the return label or is it prepaid? Whenever you get a chance. Appreciate the help.,RET-RMA,low,false,NW-58457,RET-RMA:5
+T00284,"Hey, You've billed me $302.99 for order NW-48446 but the checkout total was $276.02. Regards,
+A. Customer",BILL-DISP,normal,false,NW-48446,BILL-DISP:3
+T00611,"Hi there, Before I order — is the climbing chalk bag in XS cut the same as last season's? Whenever you get a chance. Please advise.",PROD-INFO,low,false,,PROD-INFO:6
+T00600,"To whom it may concern, What's the shell fabric on the wool crew socks (3-pack)? Looking for something actually waterproof, not just resistant. Separately, the delivery estimate on the site never updated. I need this resolved today. I'm about to dispute this with my bank. Thank you!",PROD-INFO,high,true,,PROD-INFO:2
+T00652,"Hi team, There's an order in my history I didn't place. I think someone has access to my account. The outer box was pretty beaten up too. Frankly this has been a shambles. Let me know.",ACCT-SEC,high,true,,ACCT-SEC:3
+T00581,I want a refund for NW-25375. The storm shell isn't what I expected from the photos. Thanks in advance.,RET-RMA,normal,false,NW-25375,RET-RMA:3
+T00310,"Hi, What's the shell fabric on the insulated flask? Looking for something actually waterproof, not just resistant. If this isn't fixed I'm done shopping here. Thank you!",PROD-INFO,high,true,,PROD-INFO:2
+T00569,climbing chalk bag from order NW-73517 arrived cracked. Box looks fine so it was packed that way.,PROD-DEF,normal,false,NW-73517,PROD-DEF:6
+T00485,"To whom it may concern, I'd like to return the storm shell from order NW-42449. Wrong size, I need M instead of EU 42. Thanks in advance.",RET-RMA,normal,false,NW-42449,RET-RMA:0
+T00580,"Hi, Returning NW-18332. Do I need to pay for the return label or is it prepaid? And can you confirm I wasn't billed twice for it? If this isn't fixed I'm done shopping here. Appreciate the help.",RET-RMA,high,true,NW-18332,RET-RMA:5
+T00009,"Hello, My refund for NW-14078 was supposed to be $150.25 but only $167.41 came back. Also there's a scuff on the front that was clearly there before shipping. Frankly this has been a shambles. Appreciate the help.",BILL-DISP,high,true,NW-14078,BILL-DISP:2
+T00568,"Hello, My card was charged $140.18 for an order I never placed. This is not my account activity. I'm about to dispute this with my bank. Thanks in advance.",BILL-DISP,high,true,,BILL-DISP:6
+T00150,"Good morning, The slate insulated flask in NW-47580 is defective: the buckle won't latch at all. Whenever you get a chance.",PROD-DEF,low,false,NW-47580,PROD-DEF:3
+T00280,"Hello, The clay insulated flask in NW-81565 is defective: the buckle won't latch at all. Appreciate the help.",PROD-DEF,normal,false,NW-81565,PROD-DEF:3
+T00492,"Hello, Can I exchange the black waxed cotton cap on NW-36593 for the slate one? Unworn, tags on. Separately, my password reset link expired before I could use it. No rush. Thanks.",RET-RMA,low,false,NW-36593,RET-RMA:1
+T00305,"Hello, I got an email saying my password changed. I didn't change it. The outer box was pretty beaten up too. I've been waiting on a reply for over a week.",ACCT-SEC,high,true,,ACCT-SEC:2
+T00586,"hey, the slate 40l hauler duffel in nw-46757 is defective: the buckle won't latch at all. thanks in advance.",PROD-DEF,normal,false,NW-46757,PROD-DEF:3
+T00401,"Afternoon, Ordered two sizes of the camp chair on NW-80839 to compare. Sending L back. Not urgent. Regards,
+A. Customer",RET-RMA,low,false,NW-80839,RET-RMA:6
+T00274,"hi, ordered two sizes of teh 40l hauler duffel on nw-83280 to compare. sending eu 42 back. no rush. please advise.",RET-RMA,low,false,NW-83280,RET-RMA:6
+T00093,"Afternoon, I was charged $186.63 twice for order NW-52017. Both charges cleared my card. Also, how long is the exchange window on something like this? Appreciate the help.",BILL-DISP,normal,false,NW-52017,BILL-DISP:0
+T00115,"afternoon, two-factor is texting a phone number that isn't mine anymore. i can't get in. i need this resolved today. frankly this has been a shambles. thank you!",ACCT-SEC,high,true,,ACCT-SEC:4
+T00193,"Hi there, I want a refund for NW-16398. The trail runner GTX isn't what I expected from the photos. No rush. Thanks.",RET-RMA,low,false,NW-16398,RET-RMA:3
+T00086,"Hello, Where is order NW-25625? The status page has said 'in transit' all week. Also there's a scuff on the front that was clearly there before shipping. Not urgent. Please advise.",SHIP-DELAY,low,false,NW-25625,SHIP-DELAY:6
+T00117,"Hi team, I was charged $77.55 twice for order NW-14289. Both charges cleared my card. Hoping for an update this week if possible. Thanks in advance.",BILL-DISP,normal,false,NW-14289,BILL-DISP:0
+T00603,"Hello, canvas field pants from order NW-35946 arrived cracked. Box looks fine so it was packed that way. I need this resolved today. Frankly this has been a shambles. Regards,
+A. Customer",PROD-DEF,high,true,NW-35946,PROD-DEF:6
+T00355,"Hey, I placed order NW-98184 on the 7th and it still says 'label created'. Has it actually shipped? Also I had to sign in three times to write this. It's for a gift and I'm running out of time. If this isn't fixed I'm done shopping here. Regards,
+A. Customer",SHIP-DELAY,high,true,NW-98184,SHIP-DELAY:1
+T00047,"Hey, What's the shell fabric on the waxed cotton cap? Looking for something actually waterproof, not just resistant. I'd like to sort this out soon-ish. Thank you!",PROD-INFO,normal,false,,PROD-INFO:2
+T00198,"Hi team, I'd like to return the 40L hauler duffel from order NW-12154. Wrong size, I need XL instead of L. Whenever you get a chance. Thanks.",RET-RMA,low,false,NW-12154,RET-RMA:0
+T00447,The slate insulated flask in NW-26970 is defective: the buckle won't latch at all. Third time I've written about this. Thanks in advance.,PROD-DEF,high,true,NW-26970,PROD-DEF:3
+T00075,"Hey, My merino base layer (NW-14992) showed up with the zip pull snapped clean off. Let me know.",PROD-DEF,normal,false,NW-14992,PROD-DEF:1
+T00524,"hi, is the moss merino base layer coming back in stock? it's been sold out for weeks. hoping for an update this week if possible. thanks in advance.",PROD-INFO,normal,false,,PROD-INFO:1
+T00048,"Received NW-93366 today. The camp chair leaks from the base seam the moment you fill it. Also, is there a way to watch the carrier tracking directly? Not urgent. Let me know.",PROD-DEF,low,false,NW-93366,PROD-DEF:4
+T00554,"Hi there, I placed order NW-53171 on the 7th and it still says 'label created'. Has it actually shipped? Not urgent. Please advise.",SHIP-DELAY,low,false,NW-53171,SHIP-DELAY:1
+T00283,"Hi team, There's an order in my history I didn't place. I think someone has access to my account. If this isn't fixed I'm done shopping here. Please advise.",ACCT-SEC,high,true,,ACCT-SEC:3
+T00614,"Hi, I can't log in. Password reset emails never arrive and I've checked spam 7 times. If this isn't fixed I'm done shopping here. Let me know.",ACCT-SEC,high,true,,ACCT-SEC:0
+T00406,"Hi, You've billed me $106.86 for order NW-91548 but the checkout total was $194.90. Whenever you get a chance. Appreciate the help.",BILL-DISP,low,false,NW-91548,BILL-DISP:3
+T00088,"I want a refund for NW-30272. The climbing chalk bag isn't what I expected from the photos. Separately, the delivery estimate on the site never updated. Frankly this has been a shambles. Thanks in advance.",RET-RMA,high,true,NW-30272,RET-RMA:3
+T00494,"Good morning, I'd like to return the climbing chalk bag from order NW-49040. Wrong size, I need S instead of EU 42. And can you confirm I wasn't billed twice for it? Whenever you get a chance. Thank you!",RET-RMA,low,false,NW-49040,RET-RMA:0
+T00143,"Hi there, Before I order — is the 40L hauler duffel in US 9 cut the same as last season's? It's for a gift and I'm running out of time. Please advise.",PROD-INFO,high,false,,PROD-INFO:6
+T00395,"To whom it may concern, Someone tried to log into my account from another country according to your alert email. Not urgent. Let me know.",ACCT-SEC,low,true,,ACCT-SEC:6
+T00708,"Hello, Before I order — is the waxed cotton cap in US 9 cut the same as last season's? Frankly this has been a shambles. Regards,
+A. Customer",PROD-INFO,high,true,,PROD-INFO:6
+T00022,"Hi team, The merino base layer from order NW-99646 arrived with a torn seam along the left side. Also, does that model come in a taller cut? Regards,
+A. Customer",PROD-DEF,normal,false,NW-99646,PROD-DEF:0
+T00467,"Afternoon, Is the 40L hauler duffel machine washable or does it need special care? It's for a gift and I'm running out of time. Thank you!",PROD-INFO,high,false,,PROD-INFO:3
+T00400,"To whom it may concern, Order NW-84774 — the merino base layer doesn't fit. What's the return process? Not urgent.",RET-RMA,low,false,NW-84774,RET-RMA:2
+T00545,"Afternoon, Invoice for NW-10400 shows a shipping fee of $268.66 that wasn't on the order page. The outer box was pretty beaten up too. Regards,
+A. Customer",BILL-DISP,normal,false,NW-10400,BILL-DISP:5
+T00112,I paid for two-day shipping on NW-45768 and it's been 3 days. If it can't be sorted I'd rather just send it back for a refund. I've been waiting on a reply for over a week. Appreciate the help.,SHIP-DELAY,high,true,NW-45768,SHIP-DELAY:5
+T00604,"Hi, The trail runner GTX from order NW-35392 arrived with a torn seam along the left side. Whenever you get a chance. Regards,
+A. Customer",PROD-DEF,low,false,NW-35392,PROD-DEF:0
+T00444,"My refund for NW-73387 was supposed to be $124.03 but only $21.96 came back. No rush. Regards,
+A. Customer",BILL-DISP,low,false,NW-73387,BILL-DISP:2
+T00606,"To whom it may concern, I placed order NW-55605 on the 14th and it still says 'label created'. Has it actually shipped? Separately, my password reset link expired before I could use it. I'd like to sort this out soon-ish. Appreciate the help.",SHIP-DELAY,normal,false,NW-55605,SHIP-DELAY:1
+T00527,"To whom it may concern, Can I exchange the black storm shell on NW-97342 for the moss one? Unworn, tags on. Happy to wait a couple of days for a reply. Thank you!",RET-RMA,normal,false,NW-97342,RET-RMA:1
+T00666,I was charged $41.08 twice for order NW-43478. Both charges cleared my card. I need this resolved today. Thanks.,BILL-DISP,high,true,NW-43478,BILL-DISP:0
+T00107,"Hello, You've billed me $60.07 for order NW-92699 but the checkout total was $87.01. Whenever you get a chance. Please advise.",BILL-DISP,low,false,NW-92699,BILL-DISP:3
+T00404,"Afternoon, How do I send back the wool crew socks (3-pack) from NW-37375? It's within the 30-day window. No rush.",RET-RMA,low,false,NW-37375,RET-RMA:4
+T00695,"Hello, I'd like to return the 40L hauler duffel from order NW-73086. Wrong size, I need US 9 instead of EU 42. Not urgent. Thank you!",RET-RMA,low,false,NW-73086,RET-RMA:0
+T00547,"To whom it may concern, I placed order NW-27924 on the 5th and it still says 'label created'. Has it actually shipped? Whenever you get a chance. Please advise.",SHIP-DELAY,low,false,NW-27924,SHIP-DELAY:1
+T00052,"hi team, my wool crew socks (3-pack) (nw-75646) showed up with the zip pull snapped clean off. whenever you get a chance. thanks in advance.",PROD-DEF,low,false,NW-75646,PROD-DEF:1
+T00123,"Afternoon, My refund for NW-29696 was supposed to be $178.09 but only $195.18 came back. Thanks in advance.",BILL-DISP,normal,false,NW-29696,BILL-DISP:2
+T00040,"Hello, My card was charged $26.29 for an order I never placed. This is not my account activity. Also I had to sign in three times to write this. Not urgent.",BILL-DISP,low,true,,BILL-DISP:6
+T00553,"To whom it may concern, Can I exchange the dune headlamp 400 on NW-16971 for the navy one? Unworn, tags on. And while I'm here — is the same fabric used on the lined version? Not urgent.",RET-RMA,low,false,NW-16971,RET-RMA:1
+T00177,Is the trail runner GTX machine washable or does it need special care? Hoping for an update this week if possible.,PROD-INFO,normal,false,,PROD-INFO:3
+T00194,"Hello, The insulated flask from order NW-22212 arrived with a torn seam along the left side. No rush. Please advise.",PROD-DEF,low,false,NW-22212,PROD-DEF:0
+T00410,"Hi there, Received NW-17858 today. The 40L hauler duffel leaks from the base seam the moment you fill it. It's for a gift and I'm running out of time. Regards,
+A. Customer",PROD-DEF,high,true,NW-17858,PROD-DEF:4
+T00336,"Hey, Is the moss storm shell coming back in stock? It's been sold out for weeks. No rush. Appreciate the help.",PROD-INFO,low,false,,PROD-INFO:1
+T00320,"Hello, My storm shell (NW-61649) showed up with the zip pull snapped clean off. No rush. Let me know.",PROD-DEF,low,false,NW-61649,PROD-DEF:1
+T00110,"Good morning, My trail runner GTX (NW-17969) showed up with the zip pull snapped clean off. Whenever you get a chance. Let me know.",PROD-DEF,low,false,NW-17969,PROD-DEF:1
+T00322,"Hi, My refund for NW-81674 was supposed to be $157.01 but only $114.12 came back. Whenever you get a chance.",BILL-DISP,low,false,NW-81674,BILL-DISP:2
+T00149,"Hello, I placed order NW-76567 on the 15th and it still says 'label created'. Has it actually shipped? Whenever you get a chance. Thanks.",SHIP-DELAY,low,false,NW-76567,SHIP-DELAY:1
+T00707,"Hi there, Order NW-24617 — the packable down jacket doesn't fit. What's the return process? Let me know.",RET-RMA,normal,false,NW-24617,RET-RMA:2
+T00091,"Hi there, Before I order — is the canvas field pants in XS cut the same as last season's? Separately, my password reset link expired before I could use it. I've been waiting on a reply for over a week. Thanks.",PROD-INFO,high,false,,PROD-INFO:6
+T00583,"Hey, Where is order NW-44679? The status page has said 'in transit' all week. Also there's a scuff on the front that was clearly there before shipping. This is time sensitive — I fly out on Friday. This is completely unacceptable. Thanks.",SHIP-DELAY,high,true,NW-44679,SHIP-DELAY:6
+T00113,"Hi there, How does the 40L hauler duffel compare to the merino base layer for cold weather? Also I had to sign in three times to write this. I'd like to sort this out soon-ish. Thanks in advance.",PROD-INFO,normal,false,,PROD-INFO:5
+T00649,The stitching on the 40L hauler duffel from NW-14783 came apart the first time I wore it. Also I had to sign in three times to write this. Let me know.,PROD-DEF,normal,false,NW-14783,PROD-DEF:5
+T00636,"To whom it may concern, How do I send back teh wool crew socks (3-pack) from NW-90069? It's within the 30-day window. Thank you!",RET-RMA,normal,false,NW-90069,RET-RMA:4
+T00132,"To whom it may concern, Signing in redirects me back to the login page every time. Cleared cookies already. Whenever you get a chance. Thank you!",ACCT-SEC,low,false,,ACCT-SEC:5
+T00354,"Hey, The 40L hauler duffel from order NW-43872 arrived with a torn seam along teh left side. Also, does that model come in a taller cut? I'm about to dispute this with my bank. Regards,
+A. Customer",PROD-DEF,high,true,NW-43872,PROD-DEF:0
+T00165,"afternoon, the slate headlamp 400 in nw-28453 is defective: the buckle won't latch at all. i need this resolved today. frankly this has been a shambles.",PROD-DEF,high,true,NW-28453,PROD-DEF:3
+T00368,"Hello, canvas field pants from order NW-78403 arrived cracked. Box looks fine so it was packed that way. Thank you!",PROD-DEF,normal,false,NW-78403,PROD-DEF:6
+T00137,"Hi, headlamp 400 from order NW-52975 arrived cracked. Box looks fine so it was packed that way. I need this resolved today. If this isn't fixed I'm done shopping here. Thanks.",PROD-DEF,high,true,NW-52975,PROD-DEF:6
+T00446,"Hey, My refund for NW-92673 was supposed to be $201.69 but only $41.08 came back. Also, how long is the exchange window on something like this? If this isn't fixed I'm done shopping here. Regards,
+A. Customer",BILL-DISP,high,true,NW-92673,BILL-DISP:2
+T00482,"Hey, I cancelled order NW-61033 and the $199.86 charge is still pending after 11 days. No rush.",BILL-DISP,low,false,NW-61033,BILL-DISP:4
+T00674,I paid for two-day shipping on NW-89814 and it's been 9 days. Not urgent. Appreciate the help.,SHIP-DELAY,low,false,NW-89814,SHIP-DELAY:5
+T00063,"Hello, My card was charged $109.64 for an order I never placed. This is not my account activity. This is completely unacceptable.",BILL-DISP,high,true,,BILL-DISP:6
+T00152,"Hey, The clay storm shell in NW-85748 is defective: the buckle won't latch at all. This is time sensitive — I fly out on Friday. Thank you!",PROD-DEF,high,true,NW-85748,PROD-DEF:3
+T00719,"Hi team, Returning NW-44298. Do I need to pay for the return label or is it prepaid? No rush.",RET-RMA,low,false,NW-44298,RET-RMA:5
+T00223,"Hey, Received NW-88565 today. The merino base layer leaks from the base seam the moment you fill it. Also the invoice total doesn't match what I remember at checkout. This is completely unacceptable. Let me know.",PROD-DEF,high,true,NW-88565,PROD-DEF:4
+T00487,"Hi team, Is teh waxed cotton cap machine washable or does it need special care? I'd like to sort this out soon-ish. Thanks.",PROD-INFO,normal,false,,PROD-INFO:3
+T00019,"Hey, You've billed me $191.34 for order NW-27294 but the checkout total was $101.19. I need this resolved today. Regards,
+A. Customer",BILL-DISP,high,true,NW-27294,BILL-DISP:3
+T00290,How does the insulated flask compare to the storm shell for cold weather? This is time sensitive — I fly out on Friday. This is completely unacceptable. Let me know.,PROD-INFO,high,true,,PROD-INFO:5
+T00549,"To whom it may concern, I cancelled order NW-79643 and the $61.20 charge is still pending after 20 days. Whenever you get a chance. Please advise.",BILL-DISP,low,false,NW-79643,BILL-DISP:4
+T00139,"Afternoon, My wool crew socks (3-pack) (NW-16461) is stuck in transit. Carrier says they're waiting on teh shipper. Whenever you get a chance. Thanks in advance.",SHIP-DELAY,low,false,NW-16461,SHIP-DELAY:4
+T00016,"Hi, My card was charged $97.45 for an order I never placed. This is not my account activity. No rush.",BILL-DISP,low,true,,BILL-DISP:6
+T00625,"Hey, Where is order NW-40755? The status page has said 'in transit' all week. If it can't be sorted I'd rather just send it back for a refund. Whenever you get a chance. Thank you!",SHIP-DELAY,low,false,NW-40755,SHIP-DELAY:6
+T00602,"Hi, Invoice for NW-17631 shows a shipping fee of $170.19 that wasn't on the order page. Whenever you get a chance. Thank you!",BILL-DISP,low,false,NW-17631,BILL-DISP:5
+T00514,"There's a charge of $291.17 on my statement from you and I don't recognise it. No order number I can find. Separately, the delivery estimate on the site never updated. Frankly this has been a shambles. Thanks in advance.",BILL-DISP,high,true,,BILL-DISP:1
+T00079,"Hi there, Where is order NW-60505? The status page has said 'in transit' all week. Hoping for an update this week if possible. Please advise.",SHIP-DELAY,normal,false,NW-60505,SHIP-DELAY:6
+T00187,"Hi, I want a refund for NW-27592. The waxed cotton cap isn't what I expected from the photos. Separately, the delivery estimate on the site never updated. No rush.",RET-RMA,low,false,NW-27592,RET-RMA:3
+T00576,"Hi, How does the storm shell compare to the wool crew socks (3-pack) for cold weather? If it can't be sorted I'd rather just send it back for a refund. Regards,
+A. Customer",PROD-INFO,normal,false,,PROD-INFO:5
+T00080,"Hi there, Order NW-59400 was supposed to arrive 13 days ago and the tracking hasn't moved since it left the warehouse. This is completely unacceptable.",SHIP-DELAY,high,true,NW-59400,SHIP-DELAY:0
+T00189,"Afternoon, canvas field pants from order NW-79925 arrived cracked. Box looks fine so it was packed that way. Thanks in advance.",PROD-DEF,normal,false,NW-79925,PROD-DEF:6
+T00109,"Hi, Returning NW-13845. Do I need to pay for the return label or is it prepaid? Third time I've written about this. I'm about to dispute this with my bank. Regards,
+A. Customer",RET-RMA,high,true,NW-13845,RET-RMA:5
+T00420,"Afternoon, I got an email saying my password changed. I didn't change it. Thanks.",ACCT-SEC,normal,true,,ACCT-SEC:2
+T00231,"Hello, I want a refund for NW-59199. The 40L hauler duffel isn't what I expected from the photos. The outer box was pretty beaten up too. Let me know.",RET-RMA,normal,false,NW-59199,RET-RMA:3
+T00172,"To whom it may concern, Where is order NW-24039? The status page has said 'in transit' all week. Frankly this has been a shambles. Thank you!",SHIP-DELAY,high,true,NW-24039,SHIP-DELAY:6
+T00529,"Hello, I cancelled order NW-61422 and the $72.96 charge is still pending after 16 days. If this isn't fixed I'm done shopping here.",BILL-DISP,high,true,NW-61422,BILL-DISP:4
+T00021,"Hey, My card was charged $145.25 for an order I never placed. This is not my account activity. Regards,
+A. Customer",BILL-DISP,normal,true,,BILL-DISP:6
+T00234,"Hi there, I want a refund for NW-20057. The insulated flask isn't what I expected from teh photos. Also I had to sign in three times to write this. If this isn't fixed I'm done shopping here.",RET-RMA,high,true,NW-20057,RET-RMA:3
+T00429,"To whom it may concern, I want a refund for NW-68238. The canvas field pants isn't what I expected from the photos. Thanks in advance.",RET-RMA,normal,false,NW-68238,RET-RMA:3
+T00346,"Hi there, Is the climbing chalk bag machine washable or does it need special care? If this isn't fixed I'm done shopping here. Thank you!",PROD-INFO,high,true,,PROD-INFO:3
+T00523,"To whom it may concern, Someone tried to log into my account from another country according to your alert email. Frankly this has been a shambles. Let me know.",ACCT-SEC,high,true,,ACCT-SEC:6
+T00560,"Hi team, How does the waxed cotton cap compare to the climbing chalk bag for cold weather? And can you confirm I wasn't billed twice for it? I'm about to dispute this with my bank. Appreciate the help.",PROD-INFO,high,true,,PROD-INFO:5
+T00573,"Afternoon, I cancelled order NW-71859 and the $101.31 charge is still pending after 2 days. The outer box was pretty beaten up too. Regards,
+A. Customer",BILL-DISP,normal,false,NW-71859,BILL-DISP:4
+T00383,"Hello, Any update on NW-26938? It's now 13 days past the estimated delivery window. And while I'm here — is the same fabric used on the lined version? Would be good to get this settled. Let me know.",SHIP-DELAY,normal,false,NW-26938,SHIP-DELAY:3
+T00644,"Hi there, Before I order — is the camp chair in XL cut the same as last season's? Separately, the delivery estimate on the site never updated. I'm about to dispute this with my bank. Let me know.",PROD-INFO,high,true,,PROD-INFO:6
+T00156,"Hey, Received NW-28306 today. The storm shell leaks from the base seam the moment you fill it. Also, is there a way to watch the carrier tracking directly? Appreciate the help.",PROD-DEF,normal,false,NW-28306,PROD-DEF:4
+T00718,"Hello, packable down jacket from order NW-75889 arrived cracked. Box looks fine so it was packed that way. And while I'm here — is the same fabric used on the lined version?",PROD-DEF,normal,false,NW-75889,PROD-DEF:6
+T00028,"Hi, My refund for NW-67346 was supposed to be $291.28 but only $175.62 came back. Not urgent. Appreciate the help.",BILL-DISP,low,false,NW-67346,BILL-DISP:2
+T00455,"Hi team, Received NW-69127 today. The climbing chalk bag leaks from the base seam the moment you fill it. Please advise.",PROD-DEF,normal,false,NW-69127,PROD-DEF:4
+T00671,My card was charged $34.07 for an order I never placed. This is not my account activity. Frankly this has been a shambles. Appreciate the help.,BILL-DISP,high,true,,BILL-DISP:6
+T00289,"Hello, The navy canvas field pants in NW-77837 is defective: the buckle won't latch at all. Separately, my password reset link expired before I could use it. Whenever you get a chance. Please advise.",PROD-DEF,low,false,NW-77837,PROD-DEF:3
+T00200,"Hi, Any update on NW-48147? It's now 15 days past the estimated delivery window. If it can't be sorted I'd rather just send it back for a refund. This is time sensitive — I fly out on Friday. Frankly this has been a shambles. Thanks.",SHIP-DELAY,high,true,NW-48147,SHIP-DELAY:3
+T00392,"Where is order NW-49392? The status page has said 'in transit' all week. No rush. Regards,
+A. Customer",SHIP-DELAY,low,false,NW-49392,SHIP-DELAY:6
+T00394,"Hi, Two-factor is texting a phone number that isn't mine anymore. I can't get in. I'm about to dispute this with my bank. Let me know.",ACCT-SEC,high,true,,ACCT-SEC:4
+T00531,"Hi team, Does the waxed cotton cap run true to size? I'm normally a US 10.5. I'm about to dispute this with my bank. Let me know.",PROD-INFO,high,true,,PROD-INFO:0
+T00456,"Hi there, storm shell from order NW-69452 arrived cracked. Box looks fine so it was packed that way. Not urgent. Regards,
+A. Customer",PROD-DEF,low,false,NW-69452,PROD-DEF:6
+T00373,"To whom it may concern, I want a refund for NW-17612. The canvas field pants isn't what I expected from the photos. Not urgent. Appreciate the help.",RET-RMA,low,false,NW-17612,RET-RMA:3
+T00465,"To whom it may concern, There's a charge of $239.08 on my statement from you and I don't recognise it. No order number I can find. Would be good to get this settled.",BILL-DISP,normal,true,,BILL-DISP:1
+T00202,"Good morning, My camp chair (NW-89710) showed up with the zip pull snapped clean off.",PROD-DEF,normal,false,NW-89710,PROD-DEF:1
+T00498,"Hey, My card was charged $165.09 for an order I never placed. This is not my account activity. Also there's a scuff on the front that was clearly there before shipping. I'd like to sort this out soon-ish. Thanks in advance.",BILL-DISP,normal,true,,BILL-DISP:6
+T00025,"Hi team, My card was charged $262.01 for an order I never placed. This is not my account activity. Whenever you get a chance. Appreciate the help.",BILL-DISP,low,true,,BILL-DISP:6
+T00122,"Hello, How do I send back teh merino base layer from NW-59099? It's within the 30-day window. Appreciate the help.",RET-RMA,normal,false,NW-59099,RET-RMA:4
+T00537,"Good morning, Does the climbing chalk bag run true to size? I'm normally a XL. Also there's a scuff on the front that was clearly there before shipping. Thanks.",PROD-INFO,normal,false,,PROD-INFO:0
+T00053,"Hi, Where is order NW-44316? The status page has said 'in transit' all week. Not urgent. Thanks in advance.",SHIP-DELAY,low,false,NW-44316,SHIP-DELAY:6
+T00347,"Hey, My account is locked after too many attempts. Can you unlock it? If it can't be sorted I'd rather just send it back for a refund. I need this resolved today. Let me know.",ACCT-SEC,high,true,,ACCT-SEC:1
+T00504,"To whom it may concern, Do you ship the merino base layer to Canada, and roughly what's the duty on it? I've been waiting on a reply for over a week. Regards,
+A. Customer",PROD-INFO,high,false,,PROD-INFO:4
+T00186,Ordered two sizes of the storm shell on NW-80464 to compare. Sending XL back. I need this resolved today. If this isn't fixed I'm done shopping here. Thanks in advance.,RET-RMA,high,true,NW-80464,RET-RMA:6
+T00136,"Good morning, Order NW-35287 — the wool crew socks (3-pack) has a hole in the packaging and a deep scratch across the front. Not urgent.",PROD-DEF,low,false,NW-35287,PROD-DEF:2
+T00304,"Hello, There's an order in my history I didn't place. I think someone has access to my account. Would be good to get this settled. Appreciate the help.",ACCT-SEC,normal,true,,ACCT-SEC:3
+T00240,"Hi team, Order NW-54006 was supposed to arrive 3 days ago and the tracking hasn't moved since it left the warehouse. And can you confirm I wasn't billed twice for it? Not urgent. Let me know.",SHIP-DELAY,low,false,NW-54006,SHIP-DELAY:0
+T00333,"Good morning, Signing in redirects me back to the login page every time. Cleared cookies already. No rush. Appreciate the help.",ACCT-SEC,low,false,,ACCT-SEC:5
+T00679,My refund for NW-54805 was supposed to be $240.26 but only $115.94 came back. This is time sensitive — I fly out on Friday. Thank you!,BILL-DISP,high,true,NW-54805,BILL-DISP:2
+T00683,"Afternoon, My card was charged $202.96 for an order I never placed. This is not my account activity. Thanks in advance.",BILL-DISP,normal,true,,BILL-DISP:6
+T00039,"Good morning, Can I exchange teh slate storm shell on NW-97616 for the black one? Unworn, tags on. If this isn't fixed I'm done shopping here. Appreciate the help.",RET-RMA,high,true,NW-97616,RET-RMA:1
+T00074,"To whom it may concern, I want a refund for NW-15345. The merino base layer isn't what I expected from the photos. Hoping for an update this week if possible. Let me know.",RET-RMA,normal,false,NW-15345,RET-RMA:3
+T00185,"Hi, Can I exchange the dune trail runner GTX on NW-92584 for the clay one? Unworn, tags on. Would be good to get this settled. Thanks.",RET-RMA,normal,false,NW-92584,RET-RMA:1
+T00430,"Hi, Is the packable down jacket machine washable or does it need special care? Also, how long is the exchange window on something like this? I need this resolved today. This is completely unacceptable. Please advise.",PROD-INFO,high,true,,PROD-INFO:3
+T00362,"Hey, I want a refund for NW-58598. The canvas field pants isn't what I expected from the photos. Hoping for an update this week if possible. Appreciate the help.",RET-RMA,normal,false,NW-58598,RET-RMA:3
+T00339,"Hi there, Order NW-46748 — the packable down jacket has a hole in the packaging and a deep scratch across the front. Separately, my password reset link expired before I could use it. This is time sensitive — I fly out on Friday. Thanks.",PROD-DEF,high,true,NW-46748,PROD-DEF:2
+T00215,"Hey, The packable down jacket from order NW-97749 arrived with a torn seam along the left side. Appreciate the help.",PROD-DEF,normal,false,NW-97749,PROD-DEF:0
+T00108,"To whom it may concern, climbing chalk bag from order NW-31731 arrived cracked. Box looks fine so it was packed that way. Third time I've written about this. Please advise.",PROD-DEF,high,true,NW-31731,PROD-DEF:6
+T00331,"Hi, There's an order in my history I didn't place. I think someone has access to my account. I've been waiting on a reply for over a week. Please advise.",ACCT-SEC,high,true,,ACCT-SEC:3
+T00677,"To whom it may concern, Ordered two sizes of the camp chair on NW-24802 to compare. Sending XS back. And can you confirm I wasn't billed twice for it? Third time I've written about this. Let me know.",RET-RMA,high,true,NW-24802,RET-RMA:6
+T00166,"Good morning, How do I send back the canvas field pants from NW-29417? It's within the 30-day window. This is time sensitive — I fly out on Friday. I'm about to dispute this with my bank. Regards,
+A. Customer",RET-RMA,high,true,NW-29417,RET-RMA:4
+T00608,"Afternoon, My 40L hauler duffel (NW-28435) is stuck in transit. Carrier says they're waiting on the shipper. I need this resolved today. Frankly this has been a shambles. Appreciate the help.",SHIP-DELAY,high,true,NW-28435,SHIP-DELAY:4
+T00281,"Hi there, Any update on NW-26977? It's now 9 days past the estimated delivery window. And can you confirm I wasn't billed twice for it? Not urgent. Let me know.",SHIP-DELAY,low,false,NW-26977,SHIP-DELAY:3
+T00565,"I placed order NW-40709 on the 4th and it still says 'label created'. Has it actually shipped? Hoping for an update this week if possible. Regards,
+A. Customer",SHIP-DELAY,normal,false,NW-40709,SHIP-DELAY:1
+T00622,Ordered two sizes of the storm shell on NW-91533 to compare. Sending XL back. Thanks.,RET-RMA,normal,false,NW-91533,RET-RMA:6
+T00017,How does the storm shell compare to the camp chair for cold weather? Whenever you get a chance. Please advise.,PROD-INFO,low,false,,PROD-INFO:5
+T00181,"Good morning, I got an email saying my password changed. I didn't change it. Let me know.",ACCT-SEC,normal,true,,ACCT-SEC:2
+T00366,"Hi there, Returning NW-26036. Do I need to pay for the return label or is it prepaid? Not urgent. Appreciate the help.",RET-RMA,low,false,NW-26036,RET-RMA:5
+T00616,"Hey, Do you ship the wool crew socks (3-pack) to Canada, and roughly what's the duty on it? Whenever you get a chance. Thanks.",PROD-INFO,low,false,,PROD-INFO:4
+T00083,"Afternoon, There's an order in my history I didn't place. I think someone has access to my account. Whenever you get a chance. Let me know.",ACCT-SEC,low,true,,ACCT-SEC:3
+T00367,"Hi, My card was charged $335.19 for an order I never placed. This is not my account activity. Also, is there a way to watch the carrier tracking directly? No rush. Thank you!",BILL-DISP,low,true,,BILL-DISP:6
+T00029,"Good morning, Is the dune headlamp 400 coming back in stock? It's been sold out for weeks. And can you confirm I wasn't billed twice for it? I need this resolved today. I'm about to dispute this with my bank. Let me know.",PROD-INFO,high,true,,PROD-INFO:1
+T00324,"Hey, The dune storm shell in NW-57161 is defective: teh buckle won't latch at all. Also, is there a way to watch the carrier tracking directly? Not urgent. Appreciate the help.",PROD-DEF,low,false,NW-57161,PROD-DEF:3
+T00157,"To whom it may concern, Where is order NW-73068? The status page has said 'in transit' all week. Third time I've written about this. Regards,
+A. Customer",SHIP-DELAY,high,true,NW-73068,SHIP-DELAY:6
+T00296,"To whom it may concern, How does the packable down jacket compare to the merino base layer for cold weather? No rush. Let me know.",PROD-INFO,low,false,,PROD-INFO:5
+T00127,"Hello, My card was charged $160.67 for an order I never placed. This is not my account activity. It's for a gift and I'm running out of time. Frankly this has been a shambles. Appreciate teh help.",BILL-DISP,high,true,,BILL-DISP:6
+T00515,"afternoon, do you ship the 40l hauler duffel to canada, and roughly what's the duty on it? let me know.",PROD-INFO,normal,false,,PROD-INFO:4
+T00440,"Hey, I cancelled order NW-11686 and the $92.14 charge is still pending after 8 days. And while I'm here — is the same fabric used on the lined version? Not urgent. Thanks in advance.",BILL-DISP,low,false,NW-11686,BILL-DISP:4
+T00268,"Hi there, I cancelled order NW-57079 and the $153.83 charge is still pending after 7 days. Hoping for an update this week if possible. Regards,
+A. Customer",BILL-DISP,normal,false,NW-57079,BILL-DISP:4
+T00605,"To whom it may concern, I placed order NW-72092 on the 2th and it still says 'label created'. Has it actually shipped? Frankly this has been a shambles. Please advise.",SHIP-DELAY,high,true,NW-72092,SHIP-DELAY:1
+T00005,I got an email saying my password changed. I didn't change it. Frankly this has been a shambles. Let me know.,ACCT-SEC,high,true,,ACCT-SEC:2
+T00221,"Hi team, You've billed me $31.48 for order NW-74045 but the checkout total was $269.35. Not urgent. Thank you!",BILL-DISP,low,false,NW-74045,BILL-DISP:3
+T00164,"Hi there, I want a refund for NW-44735. The canvas field pants isn't what I expected from teh photos. I need this resolved today. This is completely unacceptable. Let me know.",RET-RMA,high,true,NW-44735,RET-RMA:3
+T00342,"To whom it may concern, Order NW-88997 — the wool crew socks (3-pack) doesn't fit. What's the return process? And while I'm here — is the same fabric used on the lined version? Whenever you get a chance. Regards,
+A. Customer",RET-RMA,low,false,NW-88997,RET-RMA:2
+T00357,"Hi, Signing in redirects me back to the login page every time. Cleared cookies already. Please advise.",ACCT-SEC,normal,false,,ACCT-SEC:5
+T00694,"To whom it may concern, How does the headlamp 400 compare to the waxed cotton cap for cold weather? No rush. Let me know.",PROD-INFO,low,false,,PROD-INFO:5
+T00534,"I'd like to return the packable down jacket from order NW-61188. Wrong size, I need XS instead of S. I've been waiting on a reply for over a week. Thank you!",RET-RMA,high,true,NW-61188,RET-RMA:0
+T00273,"Hey, How does the headlamp 400 compare to the packable down jacket for cold weather? Not urgent. Thanks in advance.",PROD-INFO,low,false,,PROD-INFO:5
+T00038,"Afternoon, Order NW-81904 was supposed to arrive 18 days ago and the tracking hasn't moved since it left the warehouse. Hoping for an update this week if possible. Thank you!",SHIP-DELAY,normal,false,NW-81904,SHIP-DELAY:0
+T00509,"To whom it may concern, What's the shell fabric on the wool crew socks (3-pack)? Looking for something actually waterproof, not just resistant. Happy to wait a couple of days for a reply. Thanks in advance.",PROD-INFO,normal,false,,PROD-INFO:2
+T00228,"Good morning, Ordered two sizes of the trail runner GTX on NW-56111 to compare. Sending EU 42 back. Not urgent.",RET-RMA,low,false,NW-56111,RET-RMA:6
+T00348,"Hello, Order NW-71303 — the trail runner GTX has a hole in the packaging and a deep scratch across the front. Happy to wait a couple of days for a reply. Thanks.",PROD-DEF,normal,false,NW-71303,PROD-DEF:2
+T00588,"Hello, I can't log in. Password reset emails never arrive and I've checked spam 15 times. And can you confirm I wasn't billed twice for it? If this isn't fixed I'm done shopping here. Thanks.",ACCT-SEC,high,true,,ACCT-SEC:0
+T00216,"Hi there, The stitching on the packable down jacket from NW-27299 came apart the first time I wore it. Also, does that model come in a taller cut? Whenever you get a chance. Please advise.",PROD-DEF,low,false,NW-27299,PROD-DEF:5
+T00700,"Afternoon, Order NW-10430 was supposed to arrive 16 days ago and the tracking hasn't moved since it left the warehouse. Thanks in advance.",SHIP-DELAY,normal,false,NW-10430,SHIP-DELAY:0
+T00264,"Afternoon, Before I order — is the wool crew socks (3-pack) in one size cut the same as last season's? Third time I've written about this. Please advise.",PROD-INFO,high,false,,PROD-INFO:6
+T00363,"To whom it may concern, Ordered two sizes of the headlamp 400 on NW-51256 to compare. Sending M back. Also there's a scuff on the front that was clearly there before shipping. Whenever you get a chance. Thanks in advance.",RET-RMA,low,false,NW-51256,RET-RMA:6
+T00505,Order NW-70646 — the packable down jacket doesn't fit. What's the return process? I'd like to sort this out soon-ish. Thanks.,RET-RMA,normal,false,NW-70646,RET-RMA:2
+T00382,"Signing in redirects me back to the login page every time. Cleared cookies already. Whenever you get a chance. Regards,
+A. Customer",ACCT-SEC,low,false,,ACCT-SEC:5
+T00431,Returning NW-33013. Do I need to pay for the return label or is it prepaid? Not urgent. Let me know.,RET-RMA,low,false,NW-33013,RET-RMA:5
+T00332,"Hi there, My card was charged $291.56 for an order I never placed. This is not my account activity. If this isn't fixed I'm done shopping here. Thanks in advance.",BILL-DISP,high,true,,BILL-DISP:6
+T00147,"Afternoon, Is the climbing chalk bag machine washable or does it need special care? Thanks.",PROD-INFO,normal,false,,PROD-INFO:3
+T00462,"To whom it may concern, There's an order in my history I didn't place. I think someone has access to my account. Happy to wait a couple of days for a reply. Regards,
+A. Customer",ACCT-SEC,normal,true,,ACCT-SEC:3
+T00345,"To whom it may concern, waxed cotton cap from order NW-91703 arrived cracked. Box looks fine so it was packed that way. Not urgent.",PROD-DEF,low,false,NW-91703,PROD-DEF:6
+T00709,"Good morning, Before I order — is the trail runner GTX in M cut the same as last season's? Hoping for an update this week if possible. Thank you!",PROD-INFO,normal,false,,PROD-INFO:6
+T00413,"Afternoon, Is the merino base layer machine washable or does it need special care? Also the invoice total doesn't match what I remember at checkout. Not urgent. Let me know.",PROD-INFO,low,false,,PROD-INFO:3
+T00386,"Hey, Does the waxed cotton cap run true to size? I'm normally a S. I need this resolved today. If this isn't fixed I'm done shopping here. Regards,
+A. Customer",PROD-INFO,high,true,,PROD-INFO:0
+T00212,"Good morning, I want a refund for NW-22520. The camp chair isn't what I expected from the photos. I'd like to sort this out soon-ish. Let me know.",RET-RMA,normal,false,NW-22520,RET-RMA:3
+T00445,"Hi, I want a refund for NW-93788. The 40L hauler duffel isn't what I expected from the photos. No rush. Appreciate the help.",RET-RMA,low,false,NW-93788,RET-RMA:3
+T00536,"Hi, Invoice for NW-59585 shows a shipping fee of $50.89 that wasn't on the order page. This is completely unacceptable.",BILL-DISP,high,true,NW-59585,BILL-DISP:5
+T00540,"To whom it may concern, Order NW-70993 — the packable down jacket doesn't fit. What's the return process? Third time I've written about this. Appreciate the help.",RET-RMA,high,true,NW-70993,RET-RMA:2
+T00633,"to whom it may concern, you've billed me $110.95 for order nw-28040 but the checkout total was $80.51. also, is there a way to watch the carrier tracking directly? hoping for an update this week if possible. thank you!",BILL-DISP,normal,false,NW-28040,BILL-DISP:3
+T00239,"Can I exchange the clay trail runner GTX on NW-30135 for the dune one? Unworn, tags on. Third time I've written about this. Regards,
+A. Customer",RET-RMA,high,true,NW-30135,RET-RMA:1
+T00104,"Good morning, I'd like to return the headlamp 400 from order NW-26029. Wrong size, I need XL instead of M. Also, is there a way to watch the carrier tracking directly? I need this resolved today. Frankly this has been a shambles. Thanks.",RET-RMA,high,true,NW-26029,RET-RMA:0
+T00717,"My card was charged $226.86 for an order I never placed. This is not my account activity. I need this resolved today. Regards,
+A. Customer",BILL-DISP,high,true,,BILL-DISP:6
+T00295,"Hi there, I can't log in. Password reset emails never arrive and I've checked spam 5 times. Also, is there a way to watch the carrier tracking directly? This is time sensitive — I fly out on Friday. This is completely unacceptable. Appreciate the help.",ACCT-SEC,high,true,,ACCT-SEC:0
+T00525,"hi there, any update on nw-20970? it's now 18 days past the estimated delivery window. please advise.",SHIP-DELAY,normal,false,NW-20970,SHIP-DELAY:3
+T00328,"To whom it may concern, Two-factor is texting a phone number that isn't mine anymore. I can't get in. This is completely unacceptable. Regards,
+A. Customer",ACCT-SEC,high,true,,ACCT-SEC:4
+T00385,"Good morning, I got an email saying my password changed. I didn't change it. This is time sensitive — I fly out on Friday. Thanks.",ACCT-SEC,high,true,,ACCT-SEC:2
+T00207,"Hi team, Before I order — is the headlamp 400 in US 9 cut the same as last season's? Separately, my password reset link expired before I could use it. Appreciate the help.",PROD-INFO,normal,false,,PROD-INFO:6
+T00556,"What's the shell fabric on the trail runner GTX? Looking for something actually waterproof, not just resistant. The outer box was pretty beaten up too. I've been waiting on a reply for over a week. Frankly this has been a shambles. Thank you!",PROD-INFO,high,true,,PROD-INFO:2
+T00552,"Hi, Order NW-49931 — the climbing chalk bag has a hole in the packaging and a deep scratch across the front. If it can't be sorted I'd rather just send it back for a refund. Not urgent.",PROD-DEF,low,false,NW-49931,PROD-DEF:2
+T00384,"Hi, There's an order in my history I didn't place. I think someone has access to my account. I'm about to dispute this with my bank. Thanks.",ACCT-SEC,high,true,,ACCT-SEC:3
+T00340,"Afternoon, Do you ship the climbing chalk bag to Canada, and roughly what's the duty on it? If it can't be sorted I'd rather just send it back for a refund. Would be good to get this settled. Please advise.",PROD-INFO,normal,false,,PROD-INFO:4
+T00020,"Hi there, There's a charge of $76.01 on my statement from you and I don't recognise it. No order number I can find. Let me know.",BILL-DISP,normal,true,,BILL-DISP:1
+T00255,"To whom it may concern, There's a charge of $336.71 on my statement from you and I don't recognise it. No order number I can find. Whenever you get a chance. Appreciate the help.",BILL-DISP,low,true,,BILL-DISP:1
+T00496,"Hi, I was charged $144.98 twice for order NW-66936. Both charges cleared my card. Not urgent.",BILL-DISP,low,false,NW-66936,BILL-DISP:0
+T00249,"To whom it may concern, How does the wool crew socks (3-pack) compare to the merino base layer for cold weather? Not urgent. Regards,
+A. Customer",PROD-INFO,low,false,,PROD-INFO:5
+T00433,"Hi, Is the insulated flask machine washable or does it need special care? Whenever you get a chance.",PROD-INFO,low,false,,PROD-INFO:3
+T00449,"To whom it may concern, My canvas field pants (NW-55588) showed up with teh zip pull snapped clean off. If it can't be sorted I'd rather just send it back for a refund. Whenever you get a chance. Thanks in advance.",PROD-DEF,low,false,NW-55588,PROD-DEF:1
+T00705,Is the dune merino base layer coming back in stock? It's been sold out for weeks. I'd like to sort this out soon-ish. Thanks in advance.,PROD-INFO,normal,false,,PROD-INFO:1
+T00010,"Good morning, My merino base layer (NW-89435) is stuck in transit. Carrier says they're waiting on the shipper. Happy to wait a couple of days for a reply. Regards,
+A. Customer",SHIP-DELAY,normal,false,NW-89435,SHIP-DELAY:4
+T00060,"To whom it may concern, I'd like to return the wool crew socks (3-pack) from order NW-88913. Wrong size, I need XL instead of one size. Thanks in advance.",RET-RMA,normal,false,NW-88913,RET-RMA:0
+T00337,"Hi there, Is the navy climbing chalk bag coming back in stock? It's been sold out for weeks. I'm about to dispute this with my bank.",PROD-INFO,high,true,,PROD-INFO:1
+T00597,"Hi, My card was charged $107.91 for an order I never placed. This is not my account activity.",BILL-DISP,normal,true,,BILL-DISP:6
+T00277,"Good morning, My canvas field pants (NW-28342) showed up with the zip pull snapped clean off. Thanks in advance.",PROD-DEF,normal,false,NW-28342,PROD-DEF:1
+T00267,Does the waxed cotton cap run true to size? I'm normally a XS. Please advise.,PROD-INFO,normal,false,,PROD-INFO:0
+T00620,"Hi, Someone tried to log into my account from another country according to your alert email. Regards,
+A. Customer",ACCT-SEC,normal,true,,ACCT-SEC:6
+T00041,"Hey, I cancelled order NW-34585 and the $203.51 charge is still pending after 14 days. Would be good to get this settled. Regards,
+A. Customer",BILL-DISP,normal,false,NW-34585,BILL-DISP:4
+T00375,"Afternoon, I paid for two-day shipping on NW-95175 and it's been 21 days. The outer box was pretty beaten up too. This is time sensitive — I fly out on Friday. Regards,
+A. Customer",SHIP-DELAY,high,true,NW-95175,SHIP-DELAY:5
+T00656,"Hey, Is the slate packable down jacket coming back in stock? It's been sold out for weeks. Not urgent. Let me know.",PROD-INFO,low,false,,PROD-INFO:1
+T00300,"To whom it may concern, Order NW-26277 — the headlamp 400 doesn't fit. What's the return process? Regards,
+A. Customer",RET-RMA,normal,false,NW-26277,RET-RMA:2
+T00313,"Good morning, I'd like to return the insulated flask from order NW-70362. Wrong size, I need EU 42 instead of one size. Also, is there a way to watch the carrier tracking directly? It's for a gift and I'm running out of time. Thanks.",RET-RMA,high,true,NW-70362,RET-RMA:0
+T00463,"Hi there, I paid for two-day shipping on NW-14706 and it's been 6 days. I'd like to sort this out soon-ish. Thank you!",SHIP-DELAY,normal,false,NW-14706,SHIP-DELAY:5
+T00203,"Hello, The black canvas field pants in NW-21372 is defective: the buckle won't latch at all. Appreciate the help.",PROD-DEF,normal,false,NW-21372,PROD-DEF:3
+T00607,"To whom it may concern, Order NW-74468 — the canvas field pants doesn't fit. What's the return process? Would be good to get this settled. Let me know.",RET-RMA,normal,false,NW-74468,RET-RMA:2
+T00140,Two-factor is texting a phone number that isn't mine anymore. I can't get in. Happy to wait a couple of days for a reply. Thank you!,ACCT-SEC,normal,false,,ACCT-SEC:4
+T00585,"Hi, Is the clay merino base layer coming back in stock? It's been sold out for weeks. Thank you!",PROD-INFO,normal,false,,PROD-INFO:1
+T00238,"To whom it may concern, Order NW-72712 — the trail runner GTX has a hole in the packaging and a deep scratch across the front. Separately, my password reset link expired before I could use it. Would be good to get this settled. Please advise.",PROD-DEF,normal,false,NW-72712,PROD-DEF:2
+T00506,"Hey, How do I send back the storm shell from NW-73448? It's within the 30-day window. Thanks.",RET-RMA,normal,false,NW-73448,RET-RMA:4
+T00299,"To whom it may concern, My canvas field pants (NW-43623) is stuck in transit. Carrier says they're waiting on the shipper. Not urgent. Regards,
+A. Customer",SHIP-DELAY,low,false,NW-43623,SHIP-DELAY:4
+T00171,"Good morning, Is the trail runner GTX machine washable or does it need special care? Would be good to get this settled. Thanks.",PROD-INFO,normal,false,,PROD-INFO:3
+T00272,"Hey, Two-factor is texting a phone number that isn't mine anymore. I can't get in. I've been waiting on a reply for over a week. Let me know.",ACCT-SEC,high,true,,ACCT-SEC:4
+T00587,"Hey, Order NW-61988 was supposed to arrive 15 days ago and teh tracking hasn't moved since it left the warehouse. Would be good to get this settled. Let me know.",SHIP-DELAY,normal,false,NW-61988,SHIP-DELAY:0
+T00530,"afternoon, signing in redirects me back to the login page every time. cleared cookies already. please advise.",ACCT-SEC,normal,false,,ACCT-SEC:5
+T00574,"To whom it may concern, trail runner GTX from order NW-85777 arrived cracked. Box looks fine so it was packed that way. Not urgent. Let me know.",PROD-DEF,low,false,NW-85777,PROD-DEF:6
+T00298,"Good morning, Order NW-99866 — the waxed cotton cap doesn't fit. What's the return process? I'd like to sort this out soon-ish. Regards,
+A. Customer",RET-RMA,normal,false,NW-99866,RET-RMA:2
+T00389,"Good morning, There's a charge of $35.64 on my statement from you and I don't recognise it. No order number I can find. Please advise.",BILL-DISP,normal,true,,BILL-DISP:1
+T00637,"To whom it may concern, Invoice for NW-60484 shows a shipping fee of $184.17 that wasn't on the order page. Also, how long is the exchange window on something like this? No rush. Regards,
+A. Customer",BILL-DISP,low,false,NW-60484,BILL-DISP:5
+T00196,"To whom it may concern, Someone tried to log into my account from another country according to your alert email. Whenever you get a chance. Please advise.",ACCT-SEC,low,true,,ACCT-SEC:6
+T00377,"To whom it may concern, You've billed me $82.17 for order NW-57813 but the checkout total was $27.34. Separately, my password reset link expired before I could use it. Whenever you get a chance. Thank you!",BILL-DISP,low,false,NW-57813,BILL-DISP:3
+T00316,"Hi team, Signing in redirects me back to the login page every time. Cleared cookies already. Thanks in advance.",ACCT-SEC,normal,false,,ACCT-SEC:5
+T00706,"Hi team, Invoice for NW-84863 shows a shipping fee of $37.42 that wasn't on teh order page. Not urgent. Thank you!",BILL-DISP,low,false,NW-84863,BILL-DISP:5
+T00076,"Hi there, My account is locked after too many attempts. Can you unlock it? Hoping for an update this week if possible. Thank you!",ACCT-SEC,normal,false,,ACCT-SEC:1
+T00135,"Hi team, I got an email saying my password changed. I didn't change it. And while I'm here — is the same fabric used on the lined version? Not urgent. Appreciate the help.",ACCT-SEC,low,true,,ACCT-SEC:2
+T00518,"Hey, My account is locked after too many attempts. Can you unlock it? Thanks.",ACCT-SEC,normal,false,,ACCT-SEC:1
+T00425,"Hello, What's the shell fabric on the headlamp 400? Looking for something actually waterproof, not just resistant. The outer box was pretty beaten up too. Happy to wait a couple of days for a reply. Appreciate the help.",PROD-INFO,normal,false,,PROD-INFO:2
+T00327,"To whom it may concern, The tracking for NW-56650 shows delivered but nothing is at my door and my neighbours don't have it either. Thanks in advance.",SHIP-DELAY,normal,false,NW-56650,SHIP-DELAY:2
+T00253,"hello, i'd like to return the packable down jacket from order nw-68986. wrong size, i need xl instead of xs. not urgent. thanks.",RET-RMA,low,false,NW-68986,RET-RMA:0
+T00402,"Hi team, I'd like to return the storm shell from order NW-42862. Wrong size, I need M instead of XS.",RET-RMA,normal,false,NW-42862,RET-RMA:0
+T00233,How does the storm shell compare to the headlamp 400 for cold weather? Third time I've written about this. Appreciate the help.,PROD-INFO,high,false,,PROD-INFO:5
+T00567,"Good morning, I got an email saying my password changed. I didn't change it. Not urgent. Thank you!",ACCT-SEC,low,true,,ACCT-SEC:2
+T00548,How do I send back the 40L hauler duffel from NW-71023? It's within the 30-day window. No rush. Thanks.,RET-RMA,low,false,NW-71023,RET-RMA:4
+T00111,"Hi, Order NW-99340 — the storm shell doesn't fit. What's the return process? I've been waiting on a reply for over a week. Appreciate the help.",RET-RMA,high,true,NW-99340,RET-RMA:2
+T00142,"Hi, You've billed me $186.03 for order NW-65507 but the checkout total was $70.60. Hoping for an update this week if possible. Thanks.",BILL-DISP,normal,false,NW-65507,BILL-DISP:3
+T00512,The stitching on the trail runner GTX from NW-96688 came apart the first time I wore it. Third time I've written about this. This is completely unacceptable.,PROD-DEF,high,true,NW-96688,PROD-DEF:5
+T00197,I want a refund for NW-82701. The wool crew socks (3-pack) isn't what I expected from the photos. It's for a gift and I'm running out of time. Thank you!,RET-RMA,high,true,NW-82701,RET-RMA:3
+T00478,"Good morning, There's a charge of $253.32 on my statement from you and I don't recognise it. No order number I can find. If it can't be sorted I'd rather just send it back for a refund. I need this resolved today. If this isn't fixed I'm done shopping here. Thank you!",BILL-DISP,high,true,,BILL-DISP:1
+T00252,My trail runner GTX (NW-73753) showed up with the zip pull snapped clean off. Would be good to get this settled. Thanks in advance.,PROD-DEF,normal,false,NW-73753,PROD-DEF:1
+T00105,"Hello, Can I exchange the slate packable down jacket on NW-47560 for the moss one? Unworn, tags on. No rush. Appreciate the help.",RET-RMA,low,false,NW-47560,RET-RMA:1
+T00066,"To whom it may concern, Order NW-73149 — teh packable down jacket has a hole in the packaging and a deep scratch across the front. Separately, my password reset link expired before I could use it. Frankly this has been a shambles. Please advise.",PROD-DEF,high,true,NW-73149,PROD-DEF:2
+T00241,Order NW-48572 — the storm shell has a hole in the packaging and a deep scratch across the front. No rush.,PROD-DEF,low,false,NW-48572,PROD-DEF:2
+T00474,"Hi, My account is locked after too many attempts. Can you unlock it? Happy to wait a couple of days for a reply. Please advise.",ACCT-SEC,normal,false,,ACCT-SEC:1
+T00676,"Hello, Is the navy storm shell coming back in stock? It's been sold out for weeks. Also there's a scuff on the front that was clearly there before shipping. Thank you!",PROD-INFO,normal,false,,PROD-INFO:1
+T00417,"Good morning, Signing in redirects me back to the login page every time. Cleared cookies already. Also, does that model come in a taller cut? Hoping for an update this week if possible. Let me know.",ACCT-SEC,normal,false,,ACCT-SEC:5
+T00475,"hi there, order nw-76221 — the packable down jacket has a hole in the packaging and a deep scratch across the front. thanks.",PROD-DEF,normal,false,NW-76221,PROD-DEF:2
+T00222,"Hey, Do you ship the climbing chalk bag to Canada, and roughly what's the duty on it? Whenever you get a chance. Thanks.",PROD-INFO,low,false,,PROD-INFO:4
+T00246,"Hi, The clay storm shell in NW-78534 is defective: the buckle won't latch at all. Separately, my password reset link expired before I could use it. Whenever you get a chance. Thanks.",PROD-DEF,low,false,NW-78534,PROD-DEF:3
+T00356,"Good morning, My account is locked after too many attempts. Can you unlock it? Also, does that model come in a taller cut? Third time I've written about this. Regards,
+A. Customer",ACCT-SEC,high,true,,ACCT-SEC:1
+T00219,"Afternoon, The merino base layer from order NW-58209 arrived with a torn seam along teh left side. Frankly this has been a shambles. Let me know.",PROD-DEF,high,true,NW-58209,PROD-DEF:0
+T00617,"hey, any update on nw-76598? it's now 12 days past teh estimated delivery window. if it can't be sorted i'd rather just send it back for a refund. happy to wait a couple of days for a reply. thanks.",SHIP-DELAY,normal,false,NW-76598,SHIP-DELAY:3
+T00688,"Hey, canvas field pants from order NW-15494 arrived cracked. Box looks fine so it was packed that way. No rush. Thanks in advance.",PROD-DEF,low,false,NW-15494,PROD-DEF:6
+T00286,"Good morning, I got an email saying my password changed. I didn't change it. Also, how long is the exchange window on something like this? Whenever you get a chance. Let me know.",ACCT-SEC,low,true,,ACCT-SEC:2
+T00085,"Hey, Two-factor is texting a phone number that isn't mine anymore. I can't get in. Also the invoice total doesn't match what I remember at checkout. Not urgent.",ACCT-SEC,low,false,,ACCT-SEC:4
+T00612,"Hello, Do you ship the 40L hauler duffel to Canada, and roughly what's the duty on it?",PROD-INFO,normal,false,,PROD-INFO:4
+T00546,"To whom it may concern, I can't log in. Password reset emails never arrive and I've checked spam 2 times. Also, does that model come in a taller cut? Third time I've written about this. Please advise.",ACCT-SEC,high,true,,ACCT-SEC:0
+T00397,"afternoon, invoice for nw-82377 shows a shipping fee of $150.65 that wasn't on the order page. third time i've written about this. regards,
+a. customer",BILL-DISP,high,true,NW-82377,BILL-DISP:5
+T00630,"Hi, There's an order in my history I didn't place. I think someone has access to my account. Let me know.",ACCT-SEC,normal,true,,ACCT-SEC:3
+T00610,Two-factor is texting a phone number that isn't mine anymore. I can't get in. This is completely unacceptable.,ACCT-SEC,high,true,,ACCT-SEC:4
+T00663,"Hi there, Any update on NW-19186? It's now 16 days past the estimated delivery window. It's for a gift and I'm running out of time. Appreciate the help.",SHIP-DELAY,high,true,NW-19186,SHIP-DELAY:3
+T00084,"Hi team, There's an order in my history I didn't place. I think someone has access to my account. I need this resolved today. This is completely unacceptable. Thank you!",ACCT-SEC,high,true,,ACCT-SEC:3
+T00265,"Good morning, The stitching on the canvas field pants from NW-53421 came apart the first time I wore it. Also the invoice total doesn't match what I remember at checkout. No rush. Appreciate the help.",PROD-DEF,low,false,NW-53421,PROD-DEF:5
+T00173,"Good morning, The tracking for NW-79533 shows delivered but nothing is at my door and my neighbours don't have it either. Also the invoice total doesn't match what I remember at checkout. Whenever you get a chance. Appreciate the help.",SHIP-DELAY,low,false,NW-79533,SHIP-DELAY:2
+T00134,"To whom it may concern, I paid for two-day shipping on NW-54064 and it's been 16 days. Happy to wait a couple of days for a reply. Appreciate the help.",SHIP-DELAY,normal,false,NW-54064,SHIP-DELAY:5
+T00349,"To whom it may concern, The stitching on the wool crew socks (3-pack) from NW-92894 came apart the first time I wore it. Not urgent. Regards,
+A. Customer",PROD-DEF,low,false,NW-92894,PROD-DEF:5
+T00472,"Afternoon, I'd like to return the packable down jacket from order NW-72112. Wrong size, I need US 9 instead of XL. I'm about to dispute this with my bank. Appreciate the help.",RET-RMA,high,true,NW-72112,RET-RMA:0
+T00072,"To whom it may concern, Someone tried to log into my account from another country according to your alert email. Not urgent. Thanks in advance.",ACCT-SEC,low,true,,ACCT-SEC:6
+T00090,"Hi there, The tracking for NW-77015 shows delivered but nothing is at my door and my neighbours don't have it either. Also, does that model come in a taller cut? Whenever you get a chance. Regards,
+A. Customer",SHIP-DELAY,low,false,NW-77015,SHIP-DELAY:2
+T00686,"To whom it may concern, My camp chair (NW-38060) is stuck in transit. Carrier says they're waiting on the shipper. Also, how long is the exchange window on something like this? Would be good to get this settled.",SHIP-DELAY,normal,false,NW-38060,SHIP-DELAY:4
+T00599,"Afternoon, Two-factor is texting a phone number that isn't mine anymore. I can't get in. This is time sensitive — I fly out on Friday. Thanks in advance.",ACCT-SEC,high,true,,ACCT-SEC:4
+T00655,"to whom it may concern, my camp chair (nw-76640) is stuck in transit. carrier says they're waiting on teh shipper. this is time sensitive — i fly out on friday. frankly this has been a shambles.",SHIP-DELAY,high,true,NW-76640,SHIP-DELAY:4
+T00680,"Hi there, I'd like to return the packable down jacket from order NW-71666. Wrong size, I need US 10.5 instead of one size. I'd like to sort this out soon-ish. Thanks in advance.",RET-RMA,normal,false,NW-71666,RET-RMA:0
+T00670,"Hey, Order NW-12290 — the insulated flask doesn't fit. What's the return process? Regards,
+A. Customer",RET-RMA,normal,false,NW-12290,RET-RMA:2
+T00302,"Hi, I cancelled order NW-60817 and the $180.07 charge is still pending after 14 days. No rush.",BILL-DISP,low,false,NW-60817,BILL-DISP:4
+T00100,"Hi there, I can't log in. Password reset emails never arrive and I've checked spam 13 times. Also, does that model come in a taller cut? Whenever you get a chance.",ACCT-SEC,low,false,,ACCT-SEC:0
+T00153,"Hi there, How do I send back the packable down jacket from NW-41157? It's within the 30-day window. Separately, my password reset link expired before I could use it. No rush. Thanks.",RET-RMA,low,false,NW-41157,RET-RMA:4
+T00667,"Hey, There's a charge of $261.56 on my statement from you and I don't recognise it. No order number I can find. I'd like to sort this out soon-ish.",BILL-DISP,normal,true,,BILL-DISP:1
+T00318,"Hey, You've billed me $239.52 for order NW-99709 but the checkout total was $120.39. Not urgent. Thanks in advance.",BILL-DISP,low,false,NW-99709,BILL-DISP:3
+T00163,"Good morning, Invoice for NW-51329 shows a shipping fee of $141.16 that wasn't on the order page. Hoping for an update this week if possible. Please advise.",BILL-DISP,normal,false,NW-51329,BILL-DISP:5
+T00120,"Afternoon, Two-factor is texting a phone number that isn't mine anymore. I can't get in. Also there's a scuff on the front that was clearly there before shipping. I'd like to sort this out soon-ish. Please advise.",ACCT-SEC,normal,false,,ACCT-SEC:4
+T00713,"Hi team, The dune climbing chalk bag in NW-17779 is defective: the buckle won't latch at all. Hoping for an update this week if possible. Thanks in advance.",PROD-DEF,normal,false,NW-17779,PROD-DEF:3
+T00621,Is the packable down jacket machine washable or does it need special care? Please advise.,PROD-INFO,normal,false,,PROD-INFO:3
+T00570,"To whom it may concern, Do you ship the 40L hauler duffel to Canada, and roughly what's the duty on it? Whenever you get a chance. Appreciate the help.",PROD-INFO,low,false,,PROD-INFO:4
+T00043,"Hi, I got an email saying my password changed. I didn't change it. I'm about to dispute this with my bank. Let me know.",ACCT-SEC,high,true,,ACCT-SEC:2
+T00256,"Good morning, Is the clay waxed cotton cap coming back in stock? It's been sold out for weeks. Thanks.",PROD-INFO,normal,false,,PROD-INFO:1
+T00488,"Hi there, There's a charge of $48.77 on my statement from you and I don't recognise it. No order number I can find. Thanks in advance.",BILL-DISP,normal,true,,BILL-DISP:1
+T00443,"Hi there, Where is order NW-62565? The status page has said 'in transit' all week. The outer box was pretty beaten up too. Third time I've written about this. Let me know.",SHIP-DELAY,high,true,NW-62565,SHIP-DELAY:6
+T00544,"Good morning, What's the shell fabric on the storm shell? Looking for something actually waterproof, not just resistant. Not urgent. Thanks in advance.",PROD-INFO,low,false,,PROD-INFO:2
+T00432,"To whom it may concern, The clay 40L hauler duffel in NW-67569 is defective: teh buckle won't latch at all. Also, how long is the exchange window on something like this? Whenever you get a chance.",PROD-DEF,low,false,NW-67569,PROD-DEF:3
+T00169,"Hi, My card was charged $289.87 for an order I never placed. This is not my account activity. Regards,
+A. Customer",BILL-DISP,normal,true,,BILL-DISP:6
+T00662,"Afternoon, The navy waxed cotton cap in NW-64220 is defective: the buckle won't latch at all. I'd like to sort this out soon-ish. Thank you!",PROD-DEF,normal,false,NW-64220,PROD-DEF:3
+T00665,"Hi there, Order NW-98416 — the headlamp 400 doesn't fit. What's the return process? I'd like to sort this out soon-ish. Please advise.",RET-RMA,normal,false,NW-98416,RET-RMA:2
+T00452,Invoice for NW-15295 shows a shipping fee of $217.71 that wasn't on the order page. Not urgent. Thanks in advance.,BILL-DISP,low,false,NW-15295,BILL-DISP:5
+T00678,"Hello, My refund for NW-20393 was supposed to be $296.37 but only $212.13 came back. Also I had to sign in three times to write this. I've been waiting on a reply for over a week. Frankly this has been a shambles. Regards,
+A. Customer",BILL-DISP,high,true,NW-20393,BILL-DISP:2
+T00689,"Someone tried to log into my account from another country according to your alert email. Regards,
+A. Customer",ACCT-SEC,normal,true,,ACCT-SEC:6
+T00225,"Hello, The stitching on the climbing chalk bag from NW-86847 came apart the first time I wore it. Also, is there a way to watch the carrier tracking directly? This is time sensitive — I fly out on Friday. If this isn't fixed I'm done shopping here.",PROD-DEF,high,true,NW-86847,PROD-DEF:5
+T00457,"Hello, Any update on NW-98041? It's now 19 days past the estimated delivery window. And can you confirm I wasn't billed twice for it? If this isn't fixed I'm done shopping here. Thanks in advance.",SHIP-DELAY,high,true,NW-98041,SHIP-DELAY:3
+T00538,"Hey, My trail runner GTX (NW-40413) is stuck in transit. Carrier says they're waiting on the shipper. Third time I've written about this. Regards,
+A. Customer",SHIP-DELAY,high,true,NW-40413,SHIP-DELAY:4
+T00451,"Good morning, Order NW-61367 was supposed to arrive 4 days ago and the tracking hasn't moved since it left the warehouse. If it can't be sorted I'd rather just send it back for a refund. Hoping for an update this week if possible. Thanks in advance.",SHIP-DELAY,normal,false,NW-61367,SHIP-DELAY:0
+T00167,"Good morning, I placed order NW-18156 on the 3th and it still says 'label created'. Has it actually shipped? Also, does that model come in a taller cut? I'd like to sort this out soon-ish. Appreciate the help.",SHIP-DELAY,normal,false,NW-18156,SHIP-DELAY:1
+T00371,"hello, invoice for nw-13467 shows a shipping fee of $285.02 that wasn't on the order page. would be good to get this settled.",BILL-DISP,normal,false,NW-13467,BILL-DISP:5
+T00059,"Good morning, I'd like to return the climbing chalk bag from order NW-12438. Wrong size, I need L instead of S. Whenever you get a chance. Please advise.",RET-RMA,low,false,NW-12438,RET-RMA:0
+T00245,"Good morning, Any update on NW-55340? It's now 17 days past the estimated delivery window. Thanks.",SHIP-DELAY,normal,false,NW-55340,SHIP-DELAY:3
+T00615,"Good morning, Is the moss merino base layer coming back in stock? It's been sold out for weeks. Third time I've written about this. Thanks in advance.",PROD-INFO,high,false,,PROD-INFO:1
+T00682,"Afternoon, How does the headlamp 400 compare to the climbing chalk bag for cold weather? Frankly this has been a shambles. Thanks.",PROD-INFO,high,true,,PROD-INFO:5
+T00378,"Hey, My account is locked after too many attempts. Can you unlock it? Appreciate the help.",ACCT-SEC,normal,false,,ACCT-SEC:1
+T00034,"hi, my account is locked after too many attempts. can you unlock it? third time i've written about this. please advise.",ACCT-SEC,high,true,,ACCT-SEC:1
+T00162,Order NW-68223 — the headlamp 400 doesn't fit. What's the return process? Not urgent. Appreciate the help.,RET-RMA,low,false,NW-68223,RET-RMA:2
+T00572,"To whom it may concern, The tracking for NW-58982 shows delivered but nothing is at my door and my neighbours don't have it either. Whenever you get a chance. Regards,
+A. Customer",SHIP-DELAY,low,false,NW-58982,SHIP-DELAY:2
+T00593,"To whom it may concern, Order NW-65588 — the 40L hauler duffel has a hole in the packaging and a deep scratch across the front. Thanks in advance.",PROD-DEF,normal,false,NW-65588,PROD-DEF:2
+T00436,"Hi there, Can I exchange the dune headlamp 400 on NW-33561 for the moss one? Unworn, tags on. Not urgent.",RET-RMA,low,false,NW-33561,RET-RMA:1
+T00099,"Hi there, Someone tried to log into my account from another country according to your alert email. Not urgent.",ACCT-SEC,low,true,,ACCT-SEC:6
+T00126,"afternoon, i can't log in. password reset emails never arrive and i've checked spam 16 times. would be good to get this settled.",ACCT-SEC,normal,false,,ACCT-SEC:0
+T00098,"Good morning, I want a refund for NW-80048. The camp chair isn't what I expected from the photos. I'm about to dispute this with my bank. Thanks.",RET-RMA,high,true,NW-80048,RET-RMA:3
+T00668,"Hi there, I was charged $162.80 twice for order NW-91469. Both charges cleared my card. If this isn't fixed I'm done shopping here. Regards,
+A. Customer",BILL-DISP,high,true,NW-91469,BILL-DISP:0
+T00201,"Hello, There's a charge of $50.27 on my statement from you and I don't recognise it. No order number I can find. No rush. Thanks.",BILL-DISP,low,true,,BILL-DISP:1
+T00562,"To whom it may concern, I got an email saying my password changed. I didn't change it. The outer box was pretty beaten up too. Whenever you get a chance. Let me know.",ACCT-SEC,low,true,,ACCT-SEC:2
+T00360,merino base layer from order NW-11572 arrived cracked. Box looks fine so it was packed that way. Frankly this has been a shambles. Please advise.,PROD-DEF,high,true,NW-11572,PROD-DEF:6
+T00594,"To whom it may concern, How do I send back the packable down jacket from NW-73320? It's within the 30-day window. Separately, my password reset link expired before I could use it. No rush. Please advise.",RET-RMA,low,false,NW-73320,RET-RMA:4
+T00419,I want a refund for NW-68883. The 40L hauler duffel isn't what I expected from the photos. And can you confirm I wasn't billed twice for it? Not urgent. Thank you!,RET-RMA,low,false,NW-68883,RET-RMA:3
+T00660,"Hello, My storm shell (NW-67663) is stuck in transit. Carrier says they're waiting on the shipper. If it can't be sorted I'd rather just send it back for a refund. Thanks in advance.",SHIP-DELAY,normal,false,NW-67663,SHIP-DELAY:4
+T00624,"Afternoon, Order NW-31626 — the canvas field pants doesn't fit. What's the return process? It's for a gift and I'm running out of time. This is completely unacceptable. Regards,
+A. Customer",RET-RMA,high,true,NW-31626,RET-RMA:2
+T00609,"Afternoon, I cancelled order NW-56143 and the $205.85 charge is still pending after 17 days. This is completely unacceptable.",BILL-DISP,high,true,NW-56143,BILL-DISP:4
+T00144,"Hi, You've billed me $281.58 for order NW-15240 but the checkout total was $209.58. Not urgent. Thank you!",BILL-DISP,low,false,NW-15240,BILL-DISP:3
+T00411,"Hi there, climbing chalk bag from order NW-84593 arrived cracked. Box looks fine so it was packed that way. It's for a gift and I'm running out of time. Frankly this has been a shambles. Please advise.",PROD-DEF,high,true,NW-84593,PROD-DEF:6
+T00226,"Hey, headlamp 400 from order NW-93577 arrived cracked. Box looks fine so it was packed that way. Please advise.",PROD-DEF,normal,false,NW-93577,PROD-DEF:6
+T00266,"Hi there, The tracking for NW-62793 shows delivered but nothing is at my door and my neighbours don't have it either. Happy to wait a couple of days for a reply. Please advise.",SHIP-DELAY,normal,false,NW-62793,SHIP-DELAY:2
+T00329,"Hi there, I placed order NW-98220 on the 14th and it still says 'label created'. Has it actually shipped? I'm about to dispute this with my bank. Thank you!",SHIP-DELAY,high,true,NW-98220,SHIP-DELAY:1
+T00484,"Hi there, There's an order in my history I didn't place. I think someone has access to my account. No rush. Let me know.",ACCT-SEC,low,true,,ACCT-SEC:3
+T00116,"Hi, Returning NW-22405. Do I need to pay for the return label or is it prepaid? This is completely unacceptable. Please advise.",RET-RMA,high,true,NW-22405,RET-RMA:5
+T00014,"Hi there, Where is order NW-79040? The status page has said 'in transit' all week. Whenever you get a chance. Thanks.",SHIP-DELAY,low,false,NW-79040,SHIP-DELAY:6
+T00175,"hi team, my refund for nw-56891 was supposed to be $62.21 but only $61.32 came back. and while i'm here — is the same fabric used on the lined version? happy to wait a couple of days for a reply. let me know.",BILL-DISP,normal,false,NW-56891,BILL-DISP:2
+T00623,"Hi, The tracking for NW-77421 shows delivered but nothing is at my door and my neighbours don't have it either. Would be good to get this settled. Thanks.",SHIP-DELAY,normal,false,NW-77421,SHIP-DELAY:2
+T00294,"Hello, Received NW-77416 today. The camp chair leaks from the base seam the moment you fill it. Thank you!",PROD-DEF,normal,false,NW-77416,PROD-DEF:4
+T00595,"What's the shell fabric on the canvas field pants? Looking for something actually waterproof, not just resistant. This is completely unacceptable. Please advise.",PROD-INFO,high,true,,PROD-INFO:2
+T00276,"Hello, Signing in redirects me back to the login page every time. Cleared cookies already. No rush. Appreciate the help.",ACCT-SEC,low,false,,ACCT-SEC:5
+T00434,"Hey, Before I order — is the insulated flask in EU 42 cut the same as last season's? No rush. Thanks in advance.",PROD-INFO,low,false,,PROD-INFO:6
+T00250,"Received NW-58252 today. The headlamp 400 leaks from the base seam the moment you fill it. Also, does that model come in a taller cut? Regards,
+A. Customer",PROD-DEF,normal,false,NW-58252,PROD-DEF:4
+T00319,"Hello, The climbing chalk bag from order NW-82257 arrived with a torn seam along the left side. Thanks.",PROD-DEF,normal,false,NW-82257,PROD-DEF:0
+T00018,"Hello, Order NW-54497 — the camp chair doesn't fit. What's the return process? This is completely unacceptable. Regards,
+A. Customer",RET-RMA,high,true,NW-54497,RET-RMA:2
+T00061,"To whom it may concern, I paid for two-day shipping on NW-69424 and it's been 7 days. Also there's a scuff on the front that was clearly there before shipping. No rush. Appreciate the help.",SHIP-DELAY,low,false,NW-69424,SHIP-DELAY:5
+T00685,"Hi team, Order NW-36301 was supposed to arrive 10 days ago and the tracking hasn't moved since it left the warehouse. No rush. Appreciate the help.",SHIP-DELAY,low,false,NW-36301,SHIP-DELAY:0
+T00031,"storm shell from order NW-12152 arrived cracked. Box looks fine so it was packed that way. If it can't be sorted I'd rather just send it back for a refund. Happy to wait a couple of days for a reply. Regards,
+A. Customer",PROD-DEF,normal,false,NW-12152,PROD-DEF:6
+T00710,"hello, i was charged $143.67 twice for order nw-46766. both charges cleared my card. regards,
+a. customer",BILL-DISP,normal,false,NW-46766,BILL-DISP:0
+T00459,I was charged $123.98 twice for order NW-47265. Both charges cleared my card. No rush. Appreciate the help.,BILL-DISP,low,false,NW-47265,BILL-DISP:0
+T00661,"Hey, Where is order NW-65209? The status page has said 'in transit' all week. I need this resolved today.",SHIP-DELAY,high,true,NW-65209,SHIP-DELAY:6
+T00260,"Good morning, What's the shell fabric on the climbing chalk bag? Looking for something actually waterproof, not just resistant. No rush. Thanks in advance.",PROD-INFO,low,false,,PROD-INFO:2
+T00643,"Afternoon, There's an order in my history I didn't place. I think someone has access to my account. Also the invoice total doesn't match what I remember at checkout. This is time sensitive — I fly out on Friday. I'm about to dispute this with my bank. Thanks.",ACCT-SEC,high,true,,ACCT-SEC:3
+T00495,"Hi team, Signing in redirects me back to teh login page every time. Cleared cookies already. Not urgent. Regards,
+A. Customer",ACCT-SEC,low,false,,ACCT-SEC:5
+T00702,"Hello, How do I send back the wool crew socks (3-pack) from NW-47829? It's within the 30-day window. Not urgent. Thank you!",RET-RMA,low,false,NW-47829,RET-RMA:4
+T00372,"Do you ship the merino base layer to Canada, and roughly what's the duty on it? The outer box was pretty beaten up too. No rush. Appreciate the help.",PROD-INFO,low,false,,PROD-INFO:4
+T00503,"Hi, I can't log in. Password reset emails never arrive and I've checked spam 10 times. Also, is there a way to watch the carrier tracking directly? I need this resolved today. This is completely unacceptable. Please advise.",ACCT-SEC,high,true,,ACCT-SEC:0
+T00154,"Afternoon, Where is order NW-61728? The status page has said 'in transit' all week. It's for a gift and I'm running out of time. Regards,
+A. Customer",SHIP-DELAY,high,true,NW-61728,SHIP-DELAY:6
+T00598,"Afternoon, Order NW-58816 — the climbing chalk bag doesn't fit. What's the return process? Whenever you get a chance. Thanks.",RET-RMA,low,false,NW-58816,RET-RMA:2
+T00513,"Hey, There's an order in my history I didn't place. I think someone has access to my account. This is completely unacceptable. Thanks in advance.",ACCT-SEC,high,true,,ACCT-SEC:3
+T00002,My wool crew socks (3-pack) (NW-37859) showed up with the zip pull snapped clean off. No rush. Let me know.,PROD-DEF,low,false,NW-37859,PROD-DEF:1
+T00396,"Hey, Returning NW-93320. Do I need to pay for the return label or is it prepaid? Third time I've written about this. Regards,
+A. Customer",RET-RMA,high,true,NW-93320,RET-RMA:5
+T00191,"Hi there, Is the trail runner GTX machine washable or does it need special care? Thanks in advance.",PROD-INFO,normal,false,,PROD-INFO:3
+T00068,"Hey, How do I send back the packable down jacket from NW-13195? It's within the 30-day window. Hoping for an update this week if possible. Thanks.",RET-RMA,normal,false,NW-13195,RET-RMA:4
+T00343,"Hey, Is the moss waxed cotton cap coming back in stock? It's been sold out for weeks. Also, is there a way to watch the carrier tracking directly? It's for a gift and I'm running out of time. This is completely unacceptable. Let me know.",PROD-INFO,high,true,,PROD-INFO:1
+T00464,"I can't log in. Password reset emails never arrive and I've checked spam 16 times. Also, is there a way to watch the carrier tracking directly? This is completely unacceptable. Thanks in advance.",ACCT-SEC,high,true,,ACCT-SEC:0
+T00334,"Hi there, There's a charge of $335.47 on my statement from you and I don't recognise it. No order number I can find. Separately, my password reset link expired before I could use it. Appreciate the help.",BILL-DISP,normal,true,,BILL-DISP:1
+T00062,"Hi, Does the canvas field pants run true to size? I'm normally a US 10.5.",PROD-INFO,normal,false,,PROD-INFO:0
+T00282,"Good morning, Before I order — is teh climbing chalk bag in L cut the same as last season's? Not urgent.",PROD-INFO,low,false,,PROD-INFO:6
+T00423,"Hi there, Ordered two sizes of the insulated flask on NW-28847 to compare. Sending US 10.5 back. Whenever you get a chance. Thanks.",RET-RMA,low,false,NW-28847,RET-RMA:6
+T00499,"to whom it may concern, before i order — is the storm shell in eu 42 cut the same as last season's? the outer box was pretty beaten up too. happy to wait a couple of days for a reply. please advise.",PROD-INFO,normal,false,,PROD-INFO:6
+T00214,"Hi, Where is order NW-81185? The status page has said 'in transit' all week. Also, does that model come in a taller cut? It's for a gift and I'm running out of time. Thanks in advance.",SHIP-DELAY,high,true,NW-81185,SHIP-DELAY:6
+T00651,"Good morning, There's an order in my history I didn't place. I think someone has access to my account. I'd like to sort this out soon-ish.",ACCT-SEC,normal,true,,ACCT-SEC:3
+T00550,"hi team, is the waxed cotton cap machine washable or does it need special care? this is completely unacceptable. appreciate the help.",PROD-INFO,high,true,,PROD-INFO:3
+T00442,"Afternoon, Any update on NW-91228? It's now 7 days past the estimated delivery window. Let me know.",SHIP-DELAY,normal,false,NW-91228,SHIP-DELAY:3
+T00428,"Hi there, Order NW-83953 — the insulated flask has a hole in the packaging and a deep scratch across the front. This is completely unacceptable. Regards,
+A. Customer",PROD-DEF,high,true,NW-83953,PROD-DEF:2
+T00321,"Good morning, The waxed cotton cap from order NW-46971 arrived with a torn seam along the left side. And while I'm here — is the same fabric used on the lined version? I've been waiting on a reply for over a week. Thanks.",PROD-DEF,high,true,NW-46971,PROD-DEF:0
+T00361,"Hey, My card was charged $64.86 for an order I never placed. This is not my account activity. Also, is there a way to watch the carrier tracking directly? Thanks.",BILL-DISP,normal,true,,BILL-DISP:6
+T00640,"Hey, Do you ship the insulated flask to Canada, and roughly what's the duty on it? It's for a gift and I'm running out of time. If this isn't fixed I'm done shopping here. Thanks in advance.",PROD-INFO,high,true,,PROD-INFO:4
+T00056,"To whom it may concern, Is the navy 40L hauler duffel coming back in stock? It's been sold out for weeks. Also the invoice total doesn't match what I remember at checkout. I'd like to sort this out soon-ish.",PROD-INFO,normal,false,,PROD-INFO:1
+T00118,"Afternoon, Two-factor is texting a phone number that isn't mine anymore. I can't get in. And can you confirm I wasn't billed twice for it? Whenever you get a chance. Appreciate the help.",ACCT-SEC,low,false,,ACCT-SEC:4
+T00627,"Hi, My trail runner GTX (NW-61290) showed up with the zip pull snapped clean off. No rush.",PROD-DEF,low,false,NW-61290,PROD-DEF:1
+T00045,"Hi there, I can't log in. Password reset emails never arrive and I've checked spam 12 times. I need this resolved today. Thanks in advance.",ACCT-SEC,high,true,,ACCT-SEC:0
+T00269,"Hi there, Returning NW-90551. Do I need to pay for the return label or is it prepaid? And can you confirm I wasn't billed twice for it? I've been waiting on a reply for over a week. Regards,
+A. Customer",RET-RMA,high,true,NW-90551,RET-RMA:5
+T00012,Two-factor is texting a phone number that isn't mine anymore. I can't get in. Thank you!,ACCT-SEC,normal,false,,ACCT-SEC:4
+T00078,"Good morning, I paid for two-day shipping on NW-38242 and it's been 17 days. Whenever you get a chance. Thanks.",SHIP-DELAY,low,false,NW-38242,SHIP-DELAY:5
+T00315,"Hi, There's a charge of $207.44 on my statement from you and I don't recognise it. No order number I can find. Third time I've written about this. Thank you!",BILL-DISP,high,true,,BILL-DISP:1
+T00481,"Hello, Returning NW-35313. Do I need to pay for the return label or is it prepaid? If this isn't fixed I'm done shopping here. Thanks.",RET-RMA,high,true,NW-35313,RET-RMA:5
+T00271,"Hello, My account is locked after too many attempts. Can you unlock it? Whenever you get a chance. Regards,
+A. Customer",ACCT-SEC,low,false,,ACCT-SEC:1
+T00065,"Hi team, Order NW-51142 — the trail runner GTX doesn't fit. What's the return process? Happy to wait a couple of days for a reply.",RET-RMA,normal,false,NW-51142,RET-RMA:2
+T00141,"hi, where is order nw-67366? the status page has said 'in transit' all week. and can you confirm i wasn't billed twice for it? no rush. thank you!",SHIP-DELAY,low,false,NW-67366,SHIP-DELAY:6
+T00027,"Hello, I paid for two-day shipping on NW-83758 and it's been 7 days. Regards,
+A. Customer",SHIP-DELAY,normal,false,NW-83758,SHIP-DELAY:5
+T00119,"Hi team, Can I exchange the navy packable down jacket on NW-63283 for the moss one? Unworn, tags on. Hoping for an update this week if possible. Regards,
+A. Customer",RET-RMA,normal,false,NW-63283,RET-RMA:1
+T00528,"hi team, signing in redirects me back to the login page every time. cleared cookies already. i've been waiting on a reply for over a week. i'm about to dispute this with my bank. please advise.",ACCT-SEC,high,true,,ACCT-SEC:5
+T00161,"Hi there, Signing in redirects me back to the login page every time. Cleared cookies already. No rush. Appreciate the help.",ACCT-SEC,low,false,,ACCT-SEC:5
+T00210,"Afternoon, I was charged $241.43 twice for order NW-35715. Both charges cleared my card. Happy to wait a couple of days for a reply. Regards,
+A. Customer",BILL-DISP,normal,false,NW-35715,BILL-DISP:0
+T00578,"Hey, I paid for two-day shipping on NW-15349 and it's been 16 days.",SHIP-DELAY,normal,false,NW-15349,SHIP-DELAY:5
+T00716,"What's the shell fabric on the trail runner GTX? Looking for something actually waterproof, not just resistant. The outer box was pretty beaten up too. Whenever you get a chance. Regards,
+A. Customer",PROD-INFO,low,false,,PROD-INFO:2
+T00647,"Hello, merino base layer from order NW-97693 arrived cracked. Box looks fine so it was packed that way. Also, how long is the exchange window on something like this? I've been waiting on a reply for over a week.",PROD-DEF,high,true,NW-97693,PROD-DEF:6
+T00069,"Hi there, Is the dune insulated flask coming back in stock? It's been sold out for weeks. This is time sensitive — I fly out on Friday. Thanks in advance.",PROD-INFO,high,false,,PROD-INFO:1
+T00278,"Hi team, Before I order — is the storm shell in one size cut the same as last season's? I'm about to dispute this with my bank. Thanks in advance.",PROD-INFO,high,true,,PROD-INFO:6
+T00159,"Afternoon, The tracking for NW-39978 shows delivered but nothing is at my door and my neighbours don't have it either. If this isn't fixed I'm done shopping here. Appreciate teh help.",SHIP-DELAY,high,true,NW-39978,SHIP-DELAY:2
+T00341,"Hello, I got an email saying my password changed. I didn't change it. Separately, the delivery estimate on the site never updated. This is completely unacceptable.",ACCT-SEC,high,true,,ACCT-SEC:2
+T00013,"Hi there, My packable down jacket (NW-52664) showed up with the zip pull snapped clean off. Also, how long is the exchange window on something like this? Frankly this has been a shambles.",PROD-DEF,high,true,NW-52664,PROD-DEF:1
+T00261,"Hi, Is the wool crew socks (3-pack) machine washable or does it need special care? I've been waiting on a reply for over a week. This is completely unacceptable. Let me know.",PROD-INFO,high,true,,PROD-INFO:3
+T00659,"Hey, I was charged $299.67 twice for order NW-45898. Both charges cleared my card. Whenever you get a chance. Thank you!",BILL-DISP,low,false,NW-45898,BILL-DISP:0
+T00044,"Hi, The tracking for NW-69959 shows delivered but nothing is at my door and my neighbours don't have it either. I've been waiting on a reply for over a week. Thank you!",SHIP-DELAY,high,true,NW-69959,SHIP-DELAY:2
+T00473,"Hi team, Before I order — is the merino base layer in one size cut the same as last season's? Frankly this has been a shambles. Please advise.",PROD-INFO,high,true,,PROD-INFO:6
+T00160,"To whom it may concern, I'd like to return the merino base layer from order NW-78166. Wrong size, I need XL instead of EU 42. Also the invoice total doesn't match what I remember at checkout. Regards,
+A. Customer",RET-RMA,normal,false,NW-78166,RET-RMA:0
+T00648,"Hi, The insulated flask from order NW-10385 arrived with a torn seam along the left side. If this isn't fixed I'm done shopping here. Appreciate the help.",PROD-DEF,high,true,NW-10385,PROD-DEF:0
+T00054,"Good morning, Received NW-89562 today. The storm shell leaks from teh base seam the moment you fill it. Also, how long is the exchange window on something like this? Not urgent. Thank you!",PROD-DEF,low,false,NW-89562,PROD-DEF:4
+T00125,"Hello, 40L hauler duffel from order NW-39160 arrived cracked. Box looks fine so it was packed that way. If this isn't fixed I'm done shopping here. Thank you!",PROD-DEF,high,true,NW-39160,PROD-DEF:6
+T00654,"Afternoon, There's a charge of $96.18 on my statement from you and I don't recognise it. No order number I can find. This is time sensitive — I fly out on Friday. Frankly this has been a shambles. Appreciate the help.",BILL-DISP,high,true,,BILL-DISP:1
+T00227,"Hi team, Order NW-80267 — teh trail runner GTX has a hole in the packaging and a deep scratch across the front. I need this resolved today. I'm about to dispute this with my bank. Thanks in advance.",PROD-DEF,high,true,NW-80267,PROD-DEF:2
+T00422,"Hey, I was charged $29.57 twice for order NW-95476. Both charges cleared my card. Whenever you get a chance. Regards,
+A. Customer",BILL-DISP,low,false,NW-95476,BILL-DISP:0
+T00205,"I'd like to return the storm shell from order NW-71363. Wrong size, I need XS instead of US 10.5. Also I had to sign in three times to write this. Frankly this has been a shambles. Appreciate the help.",RET-RMA,high,true,NW-71363,RET-RMA:0
+T00051,"Hi there, I want a refund for NW-64659. The wool crew socks (3-pack) isn't what I expected from the photos. I'm about to dispute this with my bank. Let me know.",RET-RMA,high,true,NW-64659,RET-RMA:3
+T00237,The slate merino base layer in NW-75712 is defective: the buckle won't latch at all. I need this resolved today. I'm about to dispute this with my bank. Thank you!,PROD-DEF,high,true,NW-75712,PROD-DEF:3
+T00590,"Hi team, I'd like to return the packable down jacket from order NW-88095. Wrong size, I need L instead of one size. Not urgent. Thanks.",RET-RMA,low,false,NW-88095,RET-RMA:0
+T00415,"Hi team, I was charged $146.28 twice for order NW-88388. Both charges cleared my card. Also, does that model come in a taller cut? It's for a gift and I'm running out of time. I'm about to dispute this with my bank. Thank you!",BILL-DISP,high,true,NW-88388,BILL-DISP:0
