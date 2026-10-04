@@ -1,0 +1,13 @@
+qid,qtype,question,relevant,answer_span
+H01,lexical,What does error code E-441 mean?,KB-019,lock the account for 30 minutes
+H02,lexical,How many digits follow the NWT- prefix on a Northwind tracking number?,KB-002,NWT- followed by ten
+H03,lexical,"What does a hydrostatic head rating of 10,000 millimetres mean?",KB-025,10 metre column
+H04,semantic,I tried to pay three times and my bank now shows three amounts. Have you charged me three times?,KB-013,you can see three holds
+H05,semantic,My new pack fits my back but the hip belt is too small. Do I have to send the whole pack back?,KB-022,interchangeable
+H06,semantic,One thing in my order is out of stock. Are you charging me for it now?,KB-027,not charged for a backordered item
+H07,multi_doc,"If you lower the price of something I bought last week, how do I get the difference, and how long until the money is back?",KB-029|KB-006,adjustment is not automatic
+H08,multi_doc,"My pack is the wrong torso size. Can I still return it, and how do I work out the right size?",KB-004|KB-022,within 60 days
+H09,cross_section,"I want to exchange my boots for a bigger size. How long do I have, and what if the bigger size costs more?",KB-008,same 60-day window
+H10,stale,"If I return a jacket in perfect condition, how much of the price do I get back?",KB-004,no restocking fee
+H11,restricted,What is the direct extension for your payments team?,,
+H12,unanswerable,Do you offer gift wrapping?,,

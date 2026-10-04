@@ -121,7 +121,7 @@ You want `cuda True` on an NVIDIA machine, `mps True` on an Apple Silicon Mac, a
 ## Step 4 — The rest of the packages
 
 ```bash
-pip install transformers sentence-transformers accelerate datasets peft sentencepiece huggingface-hub scikit-learn pandas matplotlib jupyter ipykernel ipywidgets pydantic tiktoken python-dotenv openai anthropic
+pip install transformers sentence-transformers rank-bm25 accelerate datasets peft sentencepiece huggingface-hub scikit-learn pandas matplotlib jupyter ipykernel ipywidgets pydantic tiktoken python-dotenv openai anthropic
 python -m ipykernel install --user --name ism6564 --display-name "Python (ism6564)"
 ```
 

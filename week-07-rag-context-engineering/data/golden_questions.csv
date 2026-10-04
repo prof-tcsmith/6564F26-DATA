@@ -1,0 +1,36 @@
+qid,qtype,question,relevant,answer_span
+G01,lexical,What does error code E-118 mean?,KB-020,E-118
+G02,lexical,What is the Bulky Item badge on a product page?,KB-001,Bulky Item badge
+G03,lexical,Which kind of seam sealer works on silnylon?,KB-023,silicone sealer for silnylon
+G04,lexical,What is EN/ISO 23537?,KB-024,EN/ISO 23537
+G05,lexical,Which serial prefix identifies a recalled Trailhead 45L pack?,KB-011,TH45-B
+G06,lexical,What is form LP-14 for?,KB-003,LP-14
+G07,lexical,Which form number do I use for a warranty claim?,KB-010,WC-22
+G08,lexical,What is the case code prefix for a billing dispute?,KB-014,BD-
+G09,semantic,The courier says it turned up but there is nothing on my doorstep. Now what?,KB-003,24 hours
+G10,semantic,How long do I get to change my mind and send something back?,KB-004,60 days
+G11,semantic,Is there a fee to send something back?,KB-006,7 dollars 95 cents
+G12,semantic,I bought it from someone else. Is it still guaranteed?,KB-009,not transferable
+G13,semantic,"If I write in, how quickly does somebody get back to me?",KB-028,one business day
+G14,semantic,Do you take Bitcoin?,KB-012,cryptocurrency
+G15,semantic,I want you to erase everything you hold about me.,KB-021,within 30 days
+G16,semantic,Which of the two numbers on a sleeping bag should I trust to sleep well?,KB-024,comfort rating
+G17,multi_doc,I am in Canada and want to return a tent. How long do I have and who pays the carriage?,KB-007|KB-004,90-day return window
+G18,multi_doc,"My stove arrived faulty. Do I pay for the return label, and is it a warranty case or a return?",KB-006|KB-009,waived entirely
+G19,multi_doc,"How long do I have to dispute a charge, and how long until the money is actually back?",KB-014|KB-006,60 days from the charge date
+G20,multi_doc,I cancelled an order an hour after placing it. Can I reuse the single-use code on a new order?,KB-030|KB-015,releases any single-use code
+G21,multi_doc,"Which is faster if I want my money back, posting the return or driving to a store?",KB-026|KB-006,fastest route to a refund
+G22,cross_section,What will an Expedited order to Alaska cost me in shipping?,KB-001,14 dollars 95 cents
+G23,cross_section,How long do I have to actually hand the parcel over once my RMA is issued?,KB-005,14 days from the day the RMA is issued
+G24,cross_section,"If I reach Alpine this year, do I keep it next year even if I spend nothing?",KB-016,held for the whole of the following
+G25,stale,What is Northwind's return window?,KB-004,60 days
+G26,stale,Is there a restocking fee when I return something?,KB-004,no restocking fee
+G27,stale,"Do I have to phone up to start a return, or can I do it online?",KB-005,Start a Return
+G28,restricted,How much goodwill credit can a tier 2 agent authorise on one case?,,
+G29,restricted,"Who is on call for weekend escalations, and on what extension?",,
+G30,restricted,At what order value does an order get held for manual fraud review?,,
+G31,restricted,How many orders in an hour trip the FR-TIER-3 velocity rule?,,
+G32,restricted,What is GW-OVR?,,
+G33,unanswerable,Does Northwind sell kayaks or canoes?,,
+G34,unanswerable,What is Northwind Outfitters' stock ticker symbol?,,
+G35,unanswerable,Can I rent a tent from Northwind for a weekend instead of buying one?,,
