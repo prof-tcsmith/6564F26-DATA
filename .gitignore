@@ -24,3 +24,6 @@ __pycache__/
 _work/
 Submissions/
 assignments/
+
+# Browser-automation session logs (Canvas work); never commit
+.playwright-mcp/
