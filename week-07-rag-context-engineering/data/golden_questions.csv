@@ -25,7 +25,7 @@ G23,cross_section,How long do I have to actually hand the parcel over once my RM
 G24,cross_section,"If I reach Alpine this year, do I keep it next year even if I spend nothing?",KB-016,held for the whole of the following
 G25,stale,What is Northwind's return window?,KB-004,60 days
 G26,stale,Is there a restocking fee when I return something?,KB-004,no restocking fee
-G27,stale,"Do I have to phone up to start a return, or can I do it online?",KB-005,Start a Return
+G27,stale,"Do I have to phone up to start a return, or can I do it online?",KB-005,then Start a Return
 G28,restricted,How much goodwill credit can a tier 2 agent authorise on one case?,,
 G29,restricted,"Who is on call for weekend escalations, and on what extension?",,
 G30,restricted,At what order value does an order get held for manual fraud review?,,

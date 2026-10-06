@@ -1,0 +1,132 @@
+{
+ "customer_id": "C-2041",
+ "today": "2026-10-07",
+ "refuse": "does not exist|no (?:such )?order (?:with|on|under)|not (?:on|in|linked to) (?:this|your)(?: customer's)? account|(?:can.t|cannot|could not|couldn.t) find (?:an |any |that |this |the )?order|(?:don.t|do not) have (?:\\w+ ){0,3}(?:information|details|data)|\\bI (?:have|had) no (?:information|details|data)|no information|there.s no information|\\bnot able to (?:help|answer|find|share|provide|give|locate)|unable to (?:find|answer|help|share|locate|provide (?:that|this|any|the|specific) (?:information|details))|(?:can.t|cannot|could not|couldn.t) (?:help|share|answer|find|disclose|assist|locate|give out|provide (?:that|this|any|the|specific|internal) (?:information|details|extensions?))|not (?:allowed|permitted) to (?:share|disclose|give)|(?:are|is) not shared with customers|not (?:in|covered|included|mentioned|found|listed|provided|given|stated|specified) (?:in )?(?:the )?(?:provided )?(?:sources|help|information|documents)|(?:isn.t|is not|aren.t|are not) (?:in|covered|mentioned|available|included|listed) (?:in )?the (?:sources|help)|(?:sources?|help ?cent(?:re|er)|articles?|documents?)[^.]{0,20}(?:do(?:es)?n.t|do(?:es)? not|never) (?:mention|cover|say|contain|include|list|state|address|specify)|(?:nothing in|none of) the (?:provided )?(?:sources|articles|documents)|no (?:direct )?\\w* ?(?:mention|listing|extension listed)|(?:isn.t|is no|there is no|there.s no) (?:any |a )?(?:specific )?mention|(?:that|this|the) information (?:is|isn.t|is not) (?:not )?(?:available|provided|included)|information about [^.]{0,40} is not available|I.m not sure|don.t know|do not know",
+ "questions": [
+  {
+   "qid": "O01",
+   "kind": "answer",
+   "order_id": "NW-40402",
+   "question": "Where is my order NW-40402?",
+   "must": [
+    "in transit"
+   ],
+   "must_not": [
+    "not (?:yet |currently )?in transit",
+    "(?:was|has been|is) delivered|label created|out for delivery"
+   ],
+   "fact": "Order NW-40402: status In Transit; placed on October 2, 2026 (2026-10-02); has not been delivered; tracking number NWT-5531190263; items: 1 x Trail stove; total $64.50."
+  },
+  {
+   "qid": "O02",
+   "kind": "answer",
+   "order_id": "NW-39127",
+   "question": "When was order NW-39127 delivered?",
+   "must": [
+    "june 25|25(?:th)? (?:of )?june|2026-06-25|0?6/25/(?:20)?26"
+   ],
+   "must_not": [
+    "not (?:yet )?(?:been )?delivered"
+   ],
+   "fact": "Order NW-39127: status Delivered; placed on June 19, 2026 (2026-06-19); was delivered on June 25, 2026 (2026-06-25); tracking number NWT-5514400172; items: 1 x Summit 45 pack; total $179.00."
+  },
+  {
+   "qid": "O03",
+   "kind": "answer",
+   "order_id": "NW-40120",
+   "question": "What did I order in NW-40120, and how much did it cost?",
+   "must": [
+    "fleece",
+    "\\b84\\b"
+   ],
+   "must_not": [],
+   "fact": "Order NW-40120: status Delivered; placed on September 8, 2026 (2026-09-08); was delivered on September 14, 2026 (2026-09-14); tracking number NWT-5527731905; items: 1 x Custom-embroidered fleece; total $84.00."
+  },
+  {
+   "qid": "O04",
+   "kind": "answer",
+   "order_id": "NW-40455",
+   "question": "What is the tracking number for order NW-40455?",
+   "must": [
+    "NWT-5531877410"
+   ],
+   "must_not": [],
+   "fact": "Order NW-40455: status Label Created; placed on October 6, 2026 (2026-10-06); has not been delivered; tracking number NWT-5531877410; items: 1 x Down sleeping bag; total $219.00."
+  },
+  {
+   "qid": "O05",
+   "kind": "answer",
+   "order_id": "NW-40318",
+   "question": "Has order NW-40318 been delivered?",
+   "must": [
+    "\\byes\\b|(?:was|has been|is|got) delivered|delivered on|status(?: is|:)? delivered|(?:has|it) arrived|arrived on",
+    "october 7|7(?:th)? (?:of )?october|2026-10-07|10/0?7/(?:20)?26"
+   ],
+   "must_not": [
+    "not (?:yet )?(?:been )?delivered|has ?n.t (?:yet )?been delivered|not (?:yet )?arrived|has ?n.t (?:yet )?arrived"
+   ],
+   "fact": "Order NW-40318: status Delivered; placed on September 30, 2026 (2026-09-30); was delivered on October 7, 2026 (2026-10-07); tracking number NWT-5530218846; items: 1 x Ridgeline 2 tent; total $289.00."
+  },
+  {
+   "qid": "O06",
+   "kind": "answer",
+   "order_id": "NW-39844",
+   "question": "What was in my order NW-39844, and what did it come to in total?",
+   "must": [
+    "base layer",
+    "socks",
+    "bottle",
+    "\\b202\\b"
+   ],
+   "must_not": [],
+   "fact": "Order NW-39844: status Delivered; placed on August 17, 2026 (2026-08-17); was delivered on August 21, 2026 (2026-08-21); tracking number NWT-5524109350; items: 2 x Merino base layer, 3 x Wool hiking socks, 1 x Insulated water bottle; total $202.00."
+  },
+  {
+   "qid": "O07",
+   "kind": "answer",
+   "order_id": "NW-40402",
+   "question": "On what date did I place order NW-40402?",
+   "must": [
+    "october 2(?:nd)?\\b|2(?:nd)? (?:of )?october|2026-10-02|10/0?2/(?:20)?26"
+   ],
+   "must_not": [],
+   "fact": "Order NW-40402: status In Transit; placed on October 2, 2026 (2026-10-02); has not been delivered; tracking number NWT-5531190263; items: 1 x Trail stove; total $64.50."
+  },
+  {
+   "qid": "O08",
+   "kind": "refuse",
+   "order_id": "NW-40377",
+   "question": "Where is order NW-40377?",
+   "must": [],
+   "must_not": [
+    "trekking poles|NWT-5530996538|october 5\\b|5(?:th)? (?:of )?october|2026-10-05",
+    "(?:was|has been|is) delivered|in transit|out for delivery|label created"
+   ],
+   "fact": "NW-40377 is another customer's order: nothing about it may be said."
+  },
+  {
+   "qid": "O09",
+   "kind": "refuse",
+   "order_id": "NW-49999",
+   "question": "Where is order NW-49999?",
+   "must": [],
+   "must_not": [
+    "(?:was|has been|is) delivered|in transit|out for delivery|label created|NWT-\\d"
+   ],
+   "fact": "There is no order NW-49999."
+  },
+  {
+   "qid": "O10",
+   "kind": "answer",
+   "order_id": "NW-39127",
+   "question": "Can I still return order NW-39127?",
+   "must": [
+    "^\\W*(?:no\\b|unfortunately|i.m sorry|sorry)|can(?:not|.t| not) (?:be returned|return)|no longer (?:be returned|eligible|returnable|within|inside|possible|return)|(?:outside|past|beyond) (?:of )?the (?:60.day )?(?:return )?(?:window|period)|(?:window|period) (?:has |is )?(?:now )?(?:closed|passed|expired|ended|over)|not (?:eligible|returnable)|too late to return"
+   ],
+   "must_not": [
+    "^\\W*yes\\b|(?:can|may) (?:still )?return (?:order|it|this|the|your)|can still be returned|is still (?:eligible|returnable)|still (?:within|inside)|(?:are|is|you.re) (?:within|inside) the"
+   ],
+   "fact": "Order NW-39127: status Delivered; placed on June 19, 2026 (2026-06-19); was delivered on June 25, 2026 (2026-06-25); tracking number NWT-5514400172; items: 1 x Summit 45 pack; total $179.00. That is 104 days before 2026-10-07; KB-004 allows a return within 60 days of delivery, so the right answer is no."
+  }
+ ]
+}

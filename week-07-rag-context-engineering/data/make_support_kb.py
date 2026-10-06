@@ -10,6 +10,8 @@ Writes, next to this file:
     answer_fixtures.json   15 candidate answers for the faithfulness step
     golden_heldout.csv     12 held-out questions the lecture never scores (Assignment 7 reports on them)
     answer_keys.json       how a generated answer to each question is scored (both sets)
+    northwind.db           a SQLite database of customers, orders and order lines (Assignment 7 looks orders up in it)
+    order_questions.json   10 messages about the signed-in customer's orders, with their answer keys
 
 Everything is hand-authored fiction about a fictional retailer. No real
 customer text, no scraped content, no real person, order, or payment detail.
@@ -1422,7 +1424,7 @@ GOLD: list[dict] = [
          relevant="KB-004", answer_span="no restocking fee"),
     dict(qid="G27", qtype="stale",
          question="Do I have to phone up to start a return, or can I do it online?",
-         relevant="KB-005", answer_span="Start a Return"),
+         relevant="KB-005", answer_span="then Start a Return"),
 
     # --- restricted: the correct answer is a refusal ------------------------
     dict(qid="G28", qtype="restricted",
@@ -1711,6 +1713,351 @@ DECLINE = (r"(?:don.t|do not) have (?:\w+ ){0,3}(?:information|details|data)|\bI
            r"|I.m not sure|don.t know|do not know")
 
 # ---------------------------------------------------------------------------
+# The order database (Assignment 7): northwind.db and order_questions.json
+# ---------------------------------------------------------------------------
+# Added 2026-10-06 (instructor: Assignment 7 augments the prompt with a row from a PROVIDED SQLite database,
+# as lecture notebook section 5.5 does). Everything here is deterministic: a fixed seed, and one fixed "today"
+# (the Week 7 class date), never the clock. The seven orders the lecture builds by hand are in the database
+# with exactly the lecture's values; the rest is generated around them.
+
+ORDERS_TODAY = "2026-10-07"
+SIGNED_IN = "C-2041"                    # Dana: the signed-in customer in the lecture and in the assignment
+ORDER_SEED = 6564
+STATUSES = ("Label Created", "In Transit", "Out for Delivery", "Delivered", "Exception")   # KB-002's vocabulary
+
+CUSTOMERS = [  # customer_id, name, email, rewards_tier (KB-016's tiers)
+    ("C-2041", "Dana Marlowe", "dana.marlowe@example.com", "Summit"),
+    ("C-3310", "Priya Nandakumar", "priya.nandakumar@example.com", "Base"),
+    ("C-1187", "Tomas Ibarra", "tomas.ibarra@example.com", "Base"),
+    ("C-1422", "Mei Tanaka", "mei.tanaka@example.com", "Alpine"),
+    ("C-1765", "Jonas Lindqvist", "jonas.lindqvist@example.com", "Summit"),
+    ("C-2209", "Aisha Bello", "aisha.bello@example.com", "Base"),
+    ("C-2530", "Rafael Quintero", "rafael.quintero@example.com", "Summit"),
+    ("C-2874", "Hannah Voss", "hannah.voss@example.com", "Base"),
+    ("C-3096", "Kofi Mensah", "kofi.mensah@example.com", "Alpine"),
+    ("C-3541", "Elena Petrova", "elena.petrova@example.com", "Base"),
+    ("C-3788", "Samir Haddad", "samir.haddad@example.com", "Summit"),
+    ("C-4012", "Lucy Carver", "lucy.carver@example.com", "Base"),
+]
+
+PRODUCTS = [  # sku, product, unit_price, final_sale. The first seven are the lecture's items, at the lecture's prices.
+    ("SKU-1001", "Ridgeline 2 tent", 289.00, 0),
+    ("SKU-1002", "Summit 45 pack", 179.00, 0),
+    ("SKU-1003", "Custom-embroidered fleece", 84.00, 1),      # KB-004: custom-embroidered items are final sale
+    ("SKU-1004", "Trail stove", 64.50, 0),
+    ("SKU-1005", "Down sleeping bag", 219.00, 0),
+    ("SKU-1006", "Trekking poles", 95.00, 0),
+    ("SKU-1007", "Headlamp", 42.00, 0),
+    ("SKU-1008", "Merino base layer", 58.00, 0),
+    ("SKU-1009", "Wool hiking socks", 18.00, 0),
+    ("SKU-1010", "Insulated water bottle", 32.00, 0),
+    ("SKU-1011", "Trail running shoes", 129.00, 0),
+    ("SKU-1012", "Camp chair", 49.50, 0),
+    ("SKU-1013", "Rain shell jacket", 149.00, 0),
+    ("SKU-1014", "Dry bag set", 36.00, 0),
+    ("SKU-1015", "Sleeping pad", 89.00, 0),
+    ("SKU-1016", "Cook set", 54.00, 0),
+    ("SKU-1017", "Water filter", 44.00, 0),
+    ("SKU-1018", "Daypack 22", 79.00, 0),
+    ("SKU-1019", "Tent footprint", 39.00, 0),
+    ("SKU-1020", "Camp lantern", 34.50, 0),
+    ("SKU-1021", "Monogrammed camp mug", 24.00, 1),           # personalised: final sale
+]
+
+LECTURE_ORDERS = [  # order_id, customer_id, placed_on, status, tracking_no, delivered_on, item, total: lecture notebook 5.5
+    ("NW-40318", "C-2041", "2026-09-30", "Delivered",     "NWT-5530218846", "2026-10-07", "Ridgeline 2 tent",          289.00),
+    ("NW-39127", "C-2041", "2026-06-19", "Delivered",     "NWT-5514400172", "2026-06-25", "Summit 45 pack",            179.00),
+    ("NW-40120", "C-2041", "2026-09-08", "Delivered",     "NWT-5527731905", "2026-09-14", "Custom-embroidered fleece",  84.00),
+    ("NW-40402", "C-2041", "2026-10-02", "In Transit",    "NWT-5531190263", None,         "Trail stove",                64.50),
+    ("NW-40455", "C-2041", "2026-10-06", "Label Created", "NWT-5531877410", None,         "Down sleeping bag",         219.00),
+    ("NW-40377", "C-3310", "2026-10-01", "Delivered",     "NWT-5530996538", "2026-10-05", "Trekking poles",             95.00),
+    ("NW-40391", "C-3310", "2026-10-01", "Exception",     "NWT-5531004417", None,         "Headlamp",                   42.00),
+]
+# One more order of Dana's, with three lines, so that a question about her orders can need the join.
+DANA_JOIN_ORDER = ("NW-39844", "C-2041", "2026-08-17", "Delivered", "NWT-5524109350", "2026-08-21",
+                   [("Merino base layer", 2), ("Wool hiking socks", 3), ("Insulated water bottle", 1)])
+NO_SUCH_ORDER = "NW-49999"              # the lecture's number that does not exist; it is never generated
+
+
+def build_orders() -> tuple[list[tuple], list[tuple]]:
+    """(orders, order_items) as rows, the same on every run: 40 orders and 70 lines."""
+    import random
+    from datetime import date, timedelta
+
+    rng = random.Random(ORDER_SEED)
+    today = date.fromisoformat(ORDERS_TODAY)
+    by_name = {p[1]: p for p in PRODUCTS}
+    orders: list[tuple] = []
+    items: list[tuple] = []
+
+    def add(order_id, customer_id, placed_on, status, tracking_no, delivered_on, lines):
+        total = 0.0
+        for n, (product, quantity) in enumerate(lines, start=1):
+            sku, _, price, final_sale = by_name[product]
+            items.append((order_id, n, sku, product, quantity, price, final_sale))
+            total += quantity * price
+        orders.append((order_id, customer_id, placed_on, status, tracking_no, delivered_on, round(total, 2)))
+
+    for order_id, customer_id, placed_on, status, tracking_no, delivered_on, item, _total in LECTURE_ORDERS:
+        add(order_id, customer_id, placed_on, status, tracking_no, delivered_on, [(item, 1)])
+    add(*DANA_JOIN_ORDER)
+
+    # Order numbers and tracking numbers rise with the date, through the lecture's orders.
+    anchors = [(date.fromisoformat(o[2]), int(o[0][3:]), int(o[4][4:])) for o in LECTURE_ORDERS]
+    anchors = sorted({a[0]: a for a in sorted(anchors)}.values())      # one anchor per day (the last of that day)
+
+    def on_the_line(day, which):
+        if day <= anchors[0][0]:
+            per_day = (12, 164_000)[which - 1]
+            return anchors[0][which] - (anchors[0][0] - day).days * per_day
+        for (d0, *v0), (d1, *v1) in zip(anchors, anchors[1:]):
+            if d0 <= day <= d1:
+                return v0[which - 1] + (v1[which - 1] - v0[which - 1]) * (day - d0).days // max((d1 - d0).days, 1)
+        return anchors[-1][which]
+
+    taken_ids = {o[0] for o in orders} | {NO_SUCH_ORDER}
+    taken_tracking = {o[4] for o in orders}
+    others = [c[0] for c in CUSTOMERS if c[0] != SIGNED_IN]
+    owners = ["C-3310"] * 2 + [c for c in others if c != "C-3310"] * 3          # 32 more orders
+    line_counts = [1] * 12 + [2] * 12 + [3] * 8                                 # 60 more lines: 70 in all
+    rng.shuffle(owners)
+    rng.shuffle(line_counts)
+    first_day = date(2026, 5, 4)
+    n_days = (today - first_day).days
+    # 29 distinct days up to nine days ago (all delivered by today, or an Exception), then three recent orders
+    # with fixed statuses, so that every status in KB-002 appears: placed 6, 4 and 1 day(s) before today.
+    days = sorted(rng.sample(range(n_days - 8), len(owners) - 3)) + [n_days - 6, n_days - 4, n_days - 1]
+    recent = {n_days - 6: "In Transit", n_days - 4: "Out for Delivery", n_days - 1: "Label Created"}
+    catalogue = [p[1] for p in PRODUCTS]
+    for n, (owner, offset, n_lines) in enumerate(zip(owners, days, line_counts)):
+        placed = first_day + timedelta(days=offset)
+        arrives = placed + timedelta(days=rng.randint(3, 8))
+        status = recent.get(offset) or ("Exception" if n % 11 == 5 else "Delivered")
+        order_no = on_the_line(placed, 1) + rng.randint(1, 9)
+        while f"NW-{order_no}" in taken_ids:
+            order_no += 1
+        tracking = on_the_line(placed, 2) + rng.randint(1, 90_000)
+        while f"NWT-{tracking}" in taken_tracking:
+            tracking += 1
+        taken_ids.add(f"NW-{order_no}")
+        taken_tracking.add(f"NWT-{tracking}")
+        lines = [(product, rng.choice([1, 1, 1, 2])) for product in rng.sample(catalogue, n_lines)]
+        add(f"NW-{order_no}", owner, placed.isoformat(), status, f"NWT-{tracking}",
+            arrives.isoformat() if status == "Delivered" else None, lines)
+    return sorted(orders, key=lambda o: (o[2], o[0])), sorted(items)
+
+
+ORDERS_SCHEMA = """
+CREATE TABLE customers (
+    customer_id  TEXT PRIMARY KEY,
+    name         TEXT NOT NULL,
+    email        TEXT NOT NULL,
+    rewards_tier TEXT NOT NULL
+);
+CREATE TABLE orders (
+    order_id     TEXT PRIMARY KEY,
+    customer_id  TEXT NOT NULL REFERENCES customers(customer_id),
+    placed_on    TEXT NOT NULL,
+    status       TEXT NOT NULL,
+    tracking_no  TEXT,
+    delivered_on TEXT,
+    total        REAL NOT NULL
+);
+CREATE TABLE order_items (
+    order_id     TEXT NOT NULL REFERENCES orders(order_id),
+    line_no      INTEGER NOT NULL,
+    sku          TEXT NOT NULL,
+    product      TEXT NOT NULL,
+    quantity     INTEGER NOT NULL,
+    unit_price   REAL NOT NULL,
+    final_sale   INTEGER NOT NULL,
+    PRIMARY KEY (order_id, line_no)
+);
+"""
+
+# What a reply says when it rightly refuses an order question: there is no such order on this account
+# (the lecture's SAID_NO), or it does not have the information at all (DECLINE, above).
+ORDER_REFUSE = (r"does not exist|no (?:such )?order (?:with|on|under)|not (?:on|in|linked to) (?:this|your)(?: customer's)? account"
+                r"|(?:can.t|cannot|could not|couldn.t) find (?:an |any |that |this |the )?order|" + DECLINE)
+
+# Ten messages from the signed-in customer. `must`: every pattern has to match a right answer, and is written so
+# that only a right answer satisfies it. `must_not`: no pattern may match (a wrong status, "yes" to a question whose
+# answer is no, another customer's details). `right` and `wrong` are example replies the generator grades with the
+# key before it writes anything: a key that passes a wrong reply, or fails a right one, stops the build.
+ORDER_QUESTIONS: list[dict] = [
+    dict(qid="O01", kind="answer", order_id="NW-40402", question="Where is my order NW-40402?",
+         must=[r"in transit"],
+         must_not=[r"not (?:yet |currently )?in transit", r"(?:was|has been|is) delivered|label created|out for delivery"],
+         right=["Your order NW-40402 is currently in transit."],
+         wrong=["Order NW-40402 was delivered on October 2.", "Your order NW-40402 is not yet in transit: a label was created."]),
+    dict(qid="O02", kind="answer", order_id="NW-39127", question="When was order NW-39127 delivered?",
+         must=[r"june 25|25(?:th)? (?:of )?june|2026-06-25|0?6/25/(?:20)?26"],
+         must_not=[r"not (?:yet )?(?:been )?delivered"],
+         right=["Order NW-39127 was delivered on June 25, 2026.", "It arrived on 25th June 2026."],
+         wrong=["Order NW-39127 was delivered on June 19, 2026.", "It has not been delivered yet; it should arrive by June 25."]),
+    dict(qid="O03", kind="answer", order_id="NW-40120", question="What did I order in NW-40120, and how much did it cost?",
+         must=[r"fleece", r"\b84\b"],
+         must_not=[],
+         right=["In NW-40120 you ordered a custom-embroidered fleece. The total was $84.00."],
+         wrong=["In NW-40120 you ordered a Summit 45 pack for $179.00.", "You ordered a custom-embroidered fleece for $48.00."]),
+    dict(qid="O04", kind="answer", order_id="NW-40455", question="What is the tracking number for order NW-40455?",
+         must=[r"NWT-5531877410"],
+         must_not=[],
+         right=["The tracking number for order NW-40455 is NWT-5531877410."],
+         wrong=["The tracking number for order NW-40455 is NWT-40455."]),
+    dict(qid="O05", kind="answer", order_id="NW-40318", question="Has order NW-40318 been delivered?",
+         must=[r"\byes\b|(?:was|has been|is|got) delivered|delivered on|status(?: is|:)? delivered|(?:has|it) arrived|arrived on",
+               r"october 7|7(?:th)? (?:of )?october|2026-10-07|10/0?7/(?:20)?26"],
+         must_not=[r"not (?:yet )?(?:been )?delivered|has ?n.t (?:yet )?been delivered|not (?:yet )?arrived|has ?n.t (?:yet )?arrived"],
+         right=["Yes, order NW-40318 was delivered on October 7, 2026.", "Order NW-40318 has the status Delivered; it arrived on 2026-10-07."],
+         wrong=["No, order NW-40318 has not been delivered yet; it is due on October 7.", "Yes, it was delivered on September 30.",
+                "It has not arrived yet. Delivery is expected on October 7."]),
+    dict(qid="O06", kind="answer", order_id="NW-39844", question="What was in my order NW-39844, and what did it come to in total?",
+         must=[r"base layer", r"socks", r"bottle", r"\b202\b"],
+         must_not=[],
+         right=["Order NW-39844 had 2 Merino base layers, 3 pairs of Wool hiking socks and an Insulated water bottle, $202.00 in total."],
+         wrong=["Order NW-39844 had a Merino base layer and Wool hiking socks, $76.00 in total.",
+                "Order NW-39844 had 2 Merino base layers, 3 Wool hiking socks and an Insulated water bottle, $108.00 in total."]),
+    dict(qid="O07", kind="answer", order_id="NW-40402", question="On what date did I place order NW-40402?",
+         must=[r"october 2(?:nd)?\b|2(?:nd)? (?:of )?october|2026-10-02|10/0?2/(?:20)?26"],
+         must_not=[],
+         right=["You placed order NW-40402 on October 2, 2026.", "Order NW-40402 was placed on October 2nd."],
+         wrong=["You placed order NW-40402 on October 20, 2026.", "Order NW-40402 is in transit."]),
+    dict(qid="O08", kind="refuse", order_id="NW-40377", question="Where is order NW-40377?",          # another customer's order
+         must=[],
+         must_not=[r"trekking poles|NWT-5530996538|october 5\b|5(?:th)? (?:of )?october|2026-10-05",
+                   r"(?:was|has been|is) delivered|in transit|out for delivery|label created"],
+         right=["I can't find order NW-40377 on this account, so I'm passing your question to a member of our support team.",
+                "Order NW-40377 does not exist on this customer's account."],
+         wrong=["Order NW-40377 was delivered on October 5, 2026.", "I don't have that information, but it has the Trekking poles in it."]),
+    dict(qid="O09", kind="refuse", order_id=NO_SUCH_ORDER, question=f"Where is order {NO_SUCH_ORDER}?",   # no such order
+         must=[],
+         must_not=[r"(?:was|has been|is) delivered|in transit|out for delivery|label created|NWT-\d"],
+         right=[f"Order {NO_SUCH_ORDER} does not exist on this customer's account. Please check the number."],
+         wrong=[f"Order {NO_SUCH_ORDER} is currently in transit.", f"I don't have that information; the tracking number is NWT-{NO_SUCH_ORDER[3:]}."]),
+    dict(qid="O10", kind="answer", order_id="NW-39127", question="Can I still return order NW-39127?",   # a row AND a rule
+         must=[r"^\W*(?:no\b|unfortunately|i.m sorry|sorry)|can(?:not|.t| not) (?:be returned|return)"
+               r"|no longer (?:be returned|eligible|returnable|within|inside|possible|return)"
+               r"|(?:outside|past|beyond) (?:of )?the (?:60.day )?(?:return )?(?:window|period)"
+               r"|(?:window|period) (?:has |is )?(?:now )?(?:closed|passed|expired|ended|over)|not (?:eligible|returnable)|too late to return"],
+         must_not=[r"^\W*yes\b|(?:can|may) (?:still )?return (?:order|it|this|the|your)|can still be returned"
+                   r"|is still (?:eligible|returnable)|still (?:within|inside)|(?:are|is|you.re) (?:within|inside) the"],
+         right=["No. Order NW-39127 was delivered on June 25, 2026, which is 104 days ago, and returns are accepted within 60 days of delivery.",
+                "Unfortunately the return window for order NW-39127 has closed: it was delivered 104 days ago and the window is 60 days."],
+         wrong=["Yes, you can still return order NW-39127. The return window is 60 days from the delivery date.",
+                "You may return order NW-39127 for a full refund; there is no restocking fee.",
+                "I'm sorry for the trouble. You can still return it within 60 days of delivery."]),
+]
+
+
+def grade_order_reply(q: dict, reply: str) -> bool:
+    """The grading Assignment 7 applies to a reply the model wrote (a hand-off is counted before this)."""
+    import re
+    if any(re.search(p, reply, re.I) for p in q["must_not"]):
+        return False
+    if q["kind"] == "refuse":
+        return bool(re.search(ORDER_REFUSE, reply, re.I))
+    return all(re.search(p, reply, re.I) for p in q["must"])
+
+
+def write_orders() -> dict:
+    """Check the orders and the question keys against each other, then write northwind.db and order_questions.json."""
+    import re
+    import sqlite3
+    from datetime import date
+
+    orders, items = build_orders()
+    assert len(CUSTOMERS) == 12 and len(orders) == 40 and len(items) == 70, (len(CUSTOMERS), len(orders), len(items))
+    assert len({o[0] for o in orders}) == 40 and len({o[4] for o in orders}) == 40, "order and tracking numbers are unique"
+    assert all(re.fullmatch(r"NW-\d{5}", o[0]) and re.fullmatch(r"NWT-\d{10}", o[4]) for o in orders)
+    assert NO_SUCH_ORDER not in {o[0] for o in orders}
+    assert {o[1] for o in orders} <= {c[0] for c in CUSTOMERS} and {i[0] for i in items} == {o[0] for o in orders}
+    assert dict((c[0], c[1]) for c in CUSTOMERS)[SIGNED_IN].startswith("Dana")
+    assert {o[3] for o in orders} == set(STATUSES), "every status in KB-002's vocabulary is used, and no other"
+    assert all(any(s in d["text"] for d in DOCS if d["doc_id"] == "KB-002") for s in STATUSES)
+    for order_id, _c, placed_on, status, _t, delivered_on, total in orders:
+        assert placed_on < ORDERS_TODAY, order_id
+        assert (delivered_on is not None) == (status == "Delivered"), order_id
+        assert delivered_on is None or placed_on <= delivered_on <= ORDERS_TODAY, order_id
+        assert abs(total - sum(i[4] * i[5] for i in items if i[0] == order_id)) < 0.005, f"{order_id}: total is not the sum of its lines"
+    by_order = {o[0]: o for o in orders}
+    for order_id, customer_id, placed_on, status, tracking_no, delivered_on, item, total in LECTURE_ORDERS:
+        assert by_order[order_id] == (order_id, customer_id, placed_on, status, tracking_no, delivered_on, total), order_id
+        assert [(i[3], i[4]) for i in items if i[0] == order_id] == [(item, 1)], order_id
+    assert [i[6] for i in items if i[0] == "NW-40120"] == [1], "the custom-embroidered fleece is final sale"
+
+    path = HERE / "northwind.db"
+    path.unlink(missing_ok=True)
+    con = sqlite3.connect(path)
+    con.executescript(ORDERS_SCHEMA)
+    con.executemany("INSERT INTO customers VALUES (?, ?, ?, ?)", CUSTOMERS)
+    con.executemany("INSERT INTO orders VALUES (?, ?, ?, ?, ?, ?, ?)", orders)
+    con.executemany("INSERT INTO order_items VALUES (?, ?, ?, ?, ?, ?, ?)", items)
+    con.commit()
+    con.execute("VACUUM")
+    con.close()
+
+    # The keys, checked against the database as it was written (read back through a read-only connection).
+    con = sqlite3.connect(f"{path.resolve().as_uri()}?mode=ro", uri=True)
+    con.row_factory = sqlite3.Row
+
+    def long_date(iso):
+        d = date.fromisoformat(iso)
+        return f"{d:%B} {d.day}, {d.year}"
+
+    def row_sentence(order_id):
+        """What the database says about one of the signed-in customer's orders, as a sentence a right answer could quote."""
+        o = con.execute("SELECT * FROM orders WHERE order_id = ? AND customer_id = ?", (order_id, SIGNED_IN)).fetchone()
+        if o is None:
+            return None
+        lines = con.execute("SELECT quantity, product FROM order_items WHERE order_id = ? ORDER BY line_no", (order_id,)).fetchall()
+        delivered = f"was delivered on {long_date(o['delivered_on'])} ({o['delivered_on']})" if o["delivered_on"] else "has not been delivered"
+        return (f"Order {order_id}: status {o['status']}; placed on {long_date(o['placed_on'])} ({o['placed_on']}); {delivered}; "
+                f"tracking number {o['tracking_no']}; items: {', '.join(f'{q} x {p}' for q, p in lines)}; total ${o['total']:.2f}.")
+
+    assert len({q["qid"] for q in ORDER_QUESTIONS}) == len(ORDER_QUESTIONS) == 10
+    out = []
+    for q in ORDER_QUESTIONS:
+        for p in q["must"] + q["must_not"]:
+            re.compile(p)
+        assert q["order_id"] in q["question"], q["qid"]
+        sentence = row_sentence(q["order_id"])
+        for reply in q["right"]:
+            assert grade_order_reply(q, reply), f"{q['qid']}: the key fails a right reply: {reply!r}"
+        for reply in q["wrong"]:
+            assert not grade_order_reply(q, reply), f"{q['qid']}: the key passes a wrong reply: {reply!r}"
+        if q["kind"] == "refuse":
+            assert sentence is None and not q["must"], f"{q['qid']}: a question to refuse names an order on the account"
+            hidden = con.execute("SELECT o.status, o.tracking_no, i.product FROM orders o JOIN order_items i USING (order_id) "
+                                 "WHERE o.order_id = ?", (q["order_id"],)).fetchall()
+            for status, tracking_no, product in hidden:       # another customer's row: each of its facts is a leak the key catches
+                for leak in (f"It is {status.lower()}." if status != "Exception" else None, f"Tracking number {tracking_no}.", f"It holds the {product}."):
+                    assert leak is None or not grade_order_reply(q, "I don't have that information. " + leak), f"{q['qid']}: {leak!r} gets past the key"
+            fact = (f"{q['order_id']} is another customer's order: nothing about it may be said." if hidden
+                    else f"There is no order {q['order_id']}.")
+        elif q["qid"] == "O10":                               # the row and the rule: 60 days from delivery (KB-004)
+            days = con.execute("SELECT CAST(julianday(?) - julianday(delivered_on) AS INTEGER) FROM orders WHERE order_id = ?",
+                               (ORDERS_TODAY, q["order_id"])).fetchone()[0]
+            assert days == 104 and "within 60 days of the delivery date" in " ".join(d["text"] for d in DOCS if d["doc_id"] == "KB-004").replace("\n", " ")
+            fact = (f"{sentence} That is {days} days before {ORDERS_TODAY}; KB-004 allows a return within 60 days of delivery, "
+                    "so the right answer is no.")
+        else:
+            assert sentence is not None, f"{q['qid']}: {q['order_id']} is not on the signed-in customer's account"
+            for p in q["must"]:
+                assert re.search(p, sentence, re.I), f"{q['qid']}: must pattern {p!r} does not match what the database holds"
+            assert not any(re.search(p, sentence, re.I) for p in q["must_not"]), f"{q['qid']}: must_not matches what the database holds"
+            fact = sentence
+        out.append({k: q[k] for k in ("qid", "kind", "order_id", "question", "must", "must_not")} | {"fact": fact})
+    counts = {t: con.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0] for t in ("customers", "orders", "order_items")}
+    con.close()
+
+    (HERE / "order_questions.json").write_text(json.dumps(
+        {"customer_id": SIGNED_IN, "today": ORDERS_TODAY, "refuse": ORDER_REFUSE, "questions": out},
+        indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    return counts
+
+
+# ---------------------------------------------------------------------------
 # Checks, then write
 # ---------------------------------------------------------------------------
 
@@ -1801,6 +2148,10 @@ def main() -> None:
     from collections import Counter
     print("  qtype:", dict(Counter(g["qtype"] for g in GOLD)))
     print("  label:", dict(Counter(f["label"] for f in FIXTURES)))
+
+    counts = write_orders()
+    print(f"northwind.db           {counts['customers']} customers, {counts['orders']} orders, {counts['order_items']} order lines")
+    print(f"order_questions.json   {len(ORDER_QUESTIONS)} order questions for {SIGNED_IN}")
 
 
 if __name__ == "__main__":
