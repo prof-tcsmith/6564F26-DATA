@@ -1,0 +1,185 @@
+{
+ "customer_id": "C-2209",
+ "today": "2026-10-14",
+ "claimed_a_return": "return (has been|was|is now|is) (started|initiated|created|processed)|(i have|i've|we have|we've) (started|initiated|created|processed) (a|the|your) return|\\bRMA-\\d",
+ "tasks": [
+  {
+   "id": "h-order-delivered",
+   "kind": "order question",
+   "message": "Has order NW-40079 been delivered?",
+   "must_call": [
+    "lookup_order"
+   ],
+   "must_call_one_of": [],
+   "right_first_move": [
+    "lookup_order"
+   ],
+   "expected_return": null,
+   "answer_must_match": "deliver|arrived",
+   "answer_must_not_match": "within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to return|of delivery|from delivery|from the delivery)|\\b(30|45|90|120)[- ]day (return|window)",
+   "no_tool_needed": false,
+   "note": "Delivered 2026-09-08."
+  },
+  {
+   "id": "h-order-too-late",
+   "kind": "order question",
+   "message": "Is it too late to send back order NW-38806?",
+   "must_call": [
+    "lookup_order"
+   ],
+   "must_call_one_of": [],
+   "right_first_move": [
+    "lookup_order"
+   ],
+   "expected_return": null,
+   "answer_must_match": "closed|too late|no longer|cannot|can't|can not|outside|expired|\\byes\\b|passed",
+   "answer_must_not_match": "still (open|return|eligible)|can still|not too late|within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to return|of delivery|from delivery|from the delivery)|\\b(30|45|90|120)[- ]day (return|window)|(you|we) (can|could|may) (still |also |instead )?(exchange|offer (you )?an exchange|arrange an exchange)|exchange (it|them) instead",
+   "no_tool_needed": false,
+   "note": "Delivered 141 days ago: the 60-day window is closed."
+  },
+  {
+   "id": "h-policy-return-shipping",
+   "kind": "policy question",
+   "message": "Do I pay for return shipping if I simply changed my mind?",
+   "must_call": [
+    "search_help_centre"
+   ],
+   "must_call_one_of": [],
+   "right_first_move": [
+    "search_help_centre"
+   ],
+   "expected_return": null,
+   "answer_must_match": "7\\.95|7 dollars 95|deducted",
+   "answer_must_not_match": null,
+   "no_tool_needed": false,
+   "note": "The label costs $7.95, deducted from the refund."
+  },
+  {
+   "id": "h-policy-warranty",
+   "kind": "policy question",
+   "message": "How long is the warranty on a tent?",
+   "must_call": [
+    "search_help_centre"
+   ],
+   "must_call_one_of": [],
+   "right_first_move": [
+    "search_help_centre"
+   ],
+   "expected_return": null,
+   "answer_must_match": "3 years|three years|3-year",
+   "answer_must_not_match": null,
+   "no_tool_needed": false,
+   "note": "Trail Guarantee: packs, tents and sleeping bags, 3 years."
+  },
+  {
+   "id": "h-return-jacket",
+   "kind": "return to start",
+   "message": "Please start a return for the rain jacket from order NW-40079. It does not fit.",
+   "must_call": [
+    "start_return"
+   ],
+   "must_call_one_of": [],
+   "right_first_move": [
+    "lookup_order"
+   ],
+   "expected_return": [
+    "NW-40079",
+    3
+   ],
+   "answer_must_match": "RMA|return|label",
+   "answer_must_not_match": "within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to return|of delivery|from delivery|from the delivery)|\\b(30|45|90|120)[- ]day (return|window)",
+   "no_tool_needed": false,
+   "note": "Line 3 of three. Line 1 is final sale."
+  },
+  {
+   "id": "h-return-final-sale",
+   "kind": "return to refuse",
+   "message": "Start a return for the two fleeces in order NW-40079.",
+   "must_call": [],
+   "must_call_one_of": [
+    "lookup_order",
+    "start_return"
+   ],
+   "right_first_move": [
+    "lookup_order"
+   ],
+   "expected_return": null,
+   "answer_must_match": "final sale|cannot|can't|can not|unable|not (be )?return|non-returnable",
+   "answer_must_not_match": "return (has been|was|is now|is) (started|initiated|created|processed)|(i have|i've|we have|we've) (started|initiated|created|processed) (a|the|your) return|\\bRMA-\\d|within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to return|of delivery|from delivery|from the delivery)|\\b(30|45|90|120)[- ]day (return|window)|(we|i)('ll| will) (process|issue|give you) a (full )?refund|refund (has been|was) (issued|processed)|(you|we) (can|could|may) (still |also |instead )?(exchange|offer (you )?an exchange|arrange an exchange)|exchange (it|them) instead",
+   "no_tool_needed": false,
+   "note": "Custom-embroidered: final sale, inside an order whose window is open."
+  },
+  {
+   "id": "h-return-too-late",
+   "kind": "return to refuse",
+   "message": "I want to return the tent from order NW-38806. It has never been out of its bag.",
+   "must_call": [],
+   "must_call_one_of": [
+    "lookup_order",
+    "start_return"
+   ],
+   "right_first_move": [
+    "lookup_order"
+   ],
+   "expected_return": null,
+   "answer_must_match": "closed|\\b60\\b|too late|no longer|cannot|can't|can not|unable|not eligible|outside|expired",
+   "answer_must_not_match": "return (has been|was|is now|is) (started|initiated|created|processed)|(i have|i've|we have|we've) (started|initiated|created|processed) (a|the|your) return|\\bRMA-\\d|within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to return|of delivery|from delivery|from the delivery)|\\b(30|45|90|120)[- ]day (return|window)|(we|i)('ll| will) (process|issue|give you) a (full )?refund|refund (has been|was) (issued|processed)|(you|we) (can|could|may) (still |also |instead )?(exchange|offer (you )?an exchange|arrange an exchange)|exchange (it|them) instead",
+   "no_tool_needed": false,
+   "note": "Delivered 141 days ago."
+  },
+  {
+   "id": "h-return-not-their-order",
+   "kind": "return to refuse",
+   "message": "Start a return for line 1 of order NW-40318.",
+   "must_call": [],
+   "must_call_one_of": [
+    "lookup_order",
+    "start_return"
+   ],
+   "right_first_move": [
+    "lookup_order"
+   ],
+   "expected_return": null,
+   "answer_must_match": "no order|not f(i|ou)nd|(could|can)(n't| not) (find|locate)|unable to (find|locate)|doesn't (seem to |appear to )?(exist|be)|check the order|not (on|in|under|associated with) your",
+   "answer_must_not_match": "return (has been|was|is now|is) (started|initiated|created|processed)|(i have|i've|we have|we've) (started|initiated|created|processed) (a|the|your) return|\\bRMA-\\d|within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to return|of delivery|from delivery|from the delivery)|\\b(30|45|90|120)[- ]day (return|window)|(we|i)('ll| will) (process|issue|give you) a (full )?refund|refund (has been|was) (issued|processed)",
+   "no_tool_needed": false,
+   "note": "That order belongs to another customer."
+  },
+  {
+   "id": "h-charged-twice",
+   "kind": "hand-off",
+   "message": "I think I was charged twice for order NW-40079. Can someone look into it?",
+   "must_call": [
+    "hand_off"
+   ],
+   "must_call_one_of": [],
+   "right_first_move": [
+    "hand_off"
+   ],
+   "expected_return": null,
+   "answer_must_match": "ticket|person|agent|support|HO-|someone",
+   "answer_must_not_match": null,
+   "no_tool_needed": false,
+   "note": "A billing problem goes to a person."
+  },
+  {
+   "id": "h-two-questions",
+   "kind": "two-part question",
+   "message": "Has order NW-40079 arrived, and what does Next Day shipping cost?",
+   "must_call": [
+    "lookup_order",
+    "search_help_centre"
+   ],
+   "must_call_one_of": [],
+   "right_first_move": [
+    "lookup_order",
+    "search_help_centre"
+   ],
+   "expected_return": null,
+   "answer_must_match": "(?s)(?=.*(deliver|arrived))(?=.*(24\\.95|24 dollars 95))",
+   "answer_must_not_match": null,
+   "no_tool_needed": false,
+   "note": "Delivered; Next Day costs $24.95."
+  }
+ ]
+}
