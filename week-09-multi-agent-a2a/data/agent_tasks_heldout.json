@@ -1,0 +1,153 @@
+{
+ "customer_id": "C-2209",
+ "today": "2026-10-14",
+ "claimed_a_change": "(?<!no )(?<!not )(return|exchange) (has been|was|is now|is) (started|initiated|created|processed|set up|arranged)|(i have|i've|we have|we've) (started|initiated|created|processed|arranged|set up) (a|the|your) (return|exchange)|\\bRMA-\\d|\\bEX-\\d|check your email for|label (has been|was|is being) (sent|emailed)|(has been|was) emailed to you",
+ "tasks": [
+  {
+   "id": "h-order-delivered",
+   "kind": "order question",
+   "message": "Has order NW-40079 been delivered?",
+   "needs": [
+    "orders"
+   ],
+   "expected_return": null,
+   "expected_exchange": null,
+   "answer_must_match": "deliver|arrived",
+   "answer_must_not_match": "within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to (return|exchange)|of delivery|from delivery)",
+   "no_tool_needed": false,
+   "note": ""
+  },
+  {
+   "id": "h-stock-jacket",
+   "kind": "stock question",
+   "message": "Do you have the Rain shell jacket in size M?",
+   "needs": [
+    "warehouse"
+   ],
+   "expected_return": null,
+   "expected_exchange": null,
+   "answer_must_match": "in stock|available|we have|have (some|it|them|\\d)|\\b\\d+ (left|units|in stock)",
+   "answer_must_not_match": "out of stock|(currently )?not (currently )?(in stock|available)|unavailable|(don't|do not|doesn't|does not) (currently )?have|none (left|available|in stock)|sold out|no (stock|units)|\\b0 (left|units|in stock)",
+   "no_tool_needed": false,
+   "note": "3 in stock."
+  },
+  {
+   "id": "h-stock-lantern",
+   "kind": "stock question",
+   "message": "Is the Camp lantern available in red?",
+   "needs": [
+    "warehouse"
+   ],
+   "expected_return": null,
+   "expected_exchange": null,
+   "answer_must_match": "out of stock|(currently )?not (currently )?(in stock|available)|unavailable|(don't|do not|doesn't|does not) (currently )?have|none (left|available|in stock)|sold out|no (stock|units)|\\b0 (left|units|in stock)",
+   "answer_must_not_match": "\\b(it|red) is (currently )?(in stock|available)|is available now|we have (some|it|them|\\d+) in red",
+   "no_tool_needed": false,
+   "note": "Red: 0."
+  },
+  {
+   "id": "h-policy-guest",
+   "kind": "policy question",
+   "message": "Can I exchange something I bought as a guest, without an account?",
+   "needs": [
+    "help"
+   ],
+   "expected_return": null,
+   "expected_exchange": null,
+   "answer_must_match": "\\bno\\b|\\bnot\\b|n't|cannot|unable|account",
+   "answer_must_not_match": "\\byes\\b,? you can",
+   "no_tool_needed": false,
+   "note": "Not available for guest orders."
+  },
+  {
+   "id": "h-exchange-jacket",
+   "kind": "exchange to start",
+   "message": "Please exchange the rain jacket from order NW-40079 for a size M.",
+   "needs": [
+    "orders",
+    "warehouse"
+   ],
+   "expected_return": null,
+   "expected_exchange": [
+    "NW-40079",
+    3,
+    "M"
+   ],
+   "answer_must_match": "exchange|replacement|EX-",
+   "answer_must_not_match": "within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to (return|exchange)|of delivery|from delivery)",
+   "no_tool_needed": false,
+   "note": "Line 3 of three; delivered 36 days ago; M: 3 in stock."
+  },
+  {
+   "id": "h-exchange-final-sale",
+   "kind": "exchange to refuse",
+   "message": "Exchange the two fleeces in order NW-40079 for size L.",
+   "needs": [
+    "orders"
+   ],
+   "expected_return": null,
+   "expected_exchange": null,
+   "answer_must_match": "final sale|cannot|can't|can not|unable|not (be )?(exchang|eligible|possible)",
+   "answer_must_not_match": "(?<!no )(?<!not )(return|exchange) (has been|was|is now|is) (started|initiated|created|processed|set up|arranged)|(i have|i've|we have|we've) (started|initiated|created|processed|arranged|set up) (a|the|your) (return|exchange)|\\bRMA-\\d|\\bEX-\\d|check your email for|label (has been|was|is being) (sent|emailed)|(has been|was) emailed to you|within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to (return|exchange)|of delivery|from delivery)",
+   "no_tool_needed": false,
+   "note": ""
+  },
+  {
+   "id": "h-exchange-too-late",
+   "kind": "exchange to refuse",
+   "message": "I want to exchange the tent from order NW-38806 for the green one.",
+   "needs": [
+    "orders"
+   ],
+   "expected_return": null,
+   "expected_exchange": null,
+   "answer_must_match": "closed|\\b60\\b|too late|no longer|cannot|can't|can not|unable|not eligible|outside|expired",
+   "answer_must_not_match": "(?<!no )(?<!not )(return|exchange) (has been|was|is now|is) (started|initiated|created|processed|set up|arranged)|(i have|i've|we have|we've) (started|initiated|created|processed|arranged|set up) (a|the|your) (return|exchange)|\\bRMA-\\d|\\bEX-\\d|check your email for|label (has been|was|is being) (sent|emailed)|(has been|was) emailed to you|within (30|45|90|120) days|\\b(30|45|90|120)[- ]days? (to (return|exchange)|of delivery|from delivery)|return it for a refund|request a refund instead|(you can|you may) (still )?(start a return|request a refund|get a refund|return (it|the item))",
+   "no_tool_needed": false,
+   "note": "Delivered 141 days ago."
+  },
+  {
+   "id": "h-exchange-out-of-stock",
+   "kind": "exchange to refuse",
+   "message": "Please exchange the camp lantern in order NW-40079 for a red one.",
+   "needs": [
+    "orders",
+    "warehouse"
+   ],
+   "expected_return": null,
+   "expected_exchange": null,
+   "answer_must_match": "out of stock|(currently )?not (currently )?(in stock|available)|unavailable|(don't|do not|doesn't|does not) (currently )?have|none (left|available|in stock)|sold out|no (stock|units)|\\b0 (left|units|in stock)",
+   "answer_must_not_match": "(?<!no )(?<!not )(return|exchange) (has been|was|is now|is) (started|initiated|created|processed|set up|arranged)|(i have|i've|we have|we've) (started|initiated|created|processed|arranged|set up) (a|the|your) (return|exchange)|\\bRMA-\\d|\\bEX-\\d|check your email for|label (has been|was|is being) (sent|emailed)|(has been|was) emailed to you",
+   "no_tool_needed": false,
+   "note": "Allowed by the rules; red is out of stock."
+  },
+  {
+   "id": "h-exchange-not-theirs",
+   "kind": "exchange to refuse",
+   "message": "Exchange line 1 of order NW-40318 for the green one.",
+   "needs": [
+    "orders"
+   ],
+   "expected_return": null,
+   "expected_exchange": null,
+   "answer_must_match": "no order|not f(i|ou)nd|(could|can)(n't| not) (find|locate)|unable to (find|locate)|doesn't (seem to |appear to )?(exist|be)|check the order|not (on|in|under|associated with) your",
+   "answer_must_not_match": "(?<!no )(?<!not )(return|exchange) (has been|was|is now|is) (started|initiated|created|processed|set up|arranged)|(i have|i've|we have|we've) (started|initiated|created|processed|arranged|set up) (a|the|your) (return|exchange)|\\bRMA-\\d|\\bEX-\\d|check your email for|label (has been|was|is being) (sent|emailed)|(has been|was) emailed to you",
+   "no_tool_needed": false,
+   "note": "That order belongs to another customer."
+  },
+  {
+   "id": "h-wrong-colour",
+   "kind": "hand-off",
+   "message": "My exchange arrived in the wrong colour. Can someone help?",
+   "needs": [
+    "person"
+   ],
+   "expected_return": null,
+   "expected_exchange": null,
+   "answer_must_match": "ticket|person|agent|support|HO-|someone",
+   "answer_must_not_match": null,
+   "no_tool_needed": false,
+   "note": ""
+  }
+ ]
+}
