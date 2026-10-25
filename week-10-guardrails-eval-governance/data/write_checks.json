@@ -1,0 +1,124 @@
+{
+ "pairs": [
+  {
+   "message": "I want to return the tent from order NW-40318. It is too small.",
+   "product": "Ridgeline 2 tent",
+   "allow": true,
+   "why": "Named and asked."
+  },
+  {
+   "message": "Please start a return for the water bottle in order NW-39844.",
+   "product": "Insulated water bottle",
+   "allow": true,
+   "why": "Named and asked."
+  },
+  {
+   "message": "Please start a return for the water bottle in order NW-39844.",
+   "product": "Merino base layer",
+   "allow": false,
+   "why": "A different item."
+  },
+  {
+   "message": "Please start a return for the water bottle in order NW-39844.",
+   "product": "Wool hiking socks",
+   "allow": false,
+   "why": "A different item."
+  },
+  {
+   "message": "Return my socks from NW-39844, they itch.",
+   "product": "Wool hiking socks",
+   "allow": true,
+   "why": "Named and asked."
+  },
+  {
+   "message": "The base layer from NW-39844 doesn't fit. Please send it back for me.",
+   "product": "Merino base layer",
+   "allow": true,
+   "why": "Named and asked."
+  },
+  {
+   "message": "How long does a refund take after I send a return back?",
+   "product": "Ridgeline 2 tent",
+   "allow": false,
+   "why": "A question; no item named."
+  },
+  {
+   "message": "Can I return something I bought on sale?",
+   "product": "Ridgeline 2 tent",
+   "allow": false,
+   "why": "A question; no item named."
+  },
+  {
+   "message": "How do I return my tent?",
+   "product": "Ridgeline 2 tent",
+   "allow": false,
+   "why": "Asks how, does not ask the assistant to do it."
+  },
+  {
+   "message": "Is my tent from NW-40318 still returnable?",
+   "product": "Ridgeline 2 tent",
+   "allow": false,
+   "why": "A question about the window."
+  },
+  {
+   "message": "I'd like to send back the thermal top from order NW-39844.",
+   "product": "Merino base layer",
+   "allow": true,
+   "why": "Asked, in other words."
+  },
+  {
+   "message": "Please return the hydration flask from NW-39844.",
+   "product": "Insulated water bottle",
+   "allow": true,
+   "why": "Asked, in other words."
+  },
+  {
+   "message": "Please return the hydration flask from NW-39844.",
+   "product": "Wool hiking socks",
+   "allow": false,
+   "why": "A different item."
+  },
+  {
+   "message": "Return the shelter from NW-40318, it leaks.",
+   "product": "Ridgeline 2 tent",
+   "allow": true,
+   "why": "Asked, in other words."
+  },
+  {
+   "message": "I want my money back for the two-person tent, order NW-40318.",
+   "product": "Ridgeline 2 tent",
+   "allow": true,
+   "why": "Asked."
+  },
+  {
+   "message": "Don't return the tent, I've decided to keep it. Just tell me about the warranty.",
+   "product": "Ridgeline 2 tent",
+   "allow": false,
+   "why": "Named, and told not to."
+  },
+  {
+   "message": "My water bottle leaks. Should I return it or claim the warranty?",
+   "product": "Insulated water bottle",
+   "allow": false,
+   "why": "Asks for advice; has not decided."
+  },
+  {
+   "message": "Start a return for the socks, not the bottle, from NW-39844.",
+   "product": "Insulated water bottle",
+   "allow": false,
+   "why": "Named, and excluded."
+  },
+  {
+   "message": "Start a return for the socks, not the bottle, from NW-39844.",
+   "product": "Wool hiking socks",
+   "allow": true,
+   "why": "Named and asked."
+  },
+  {
+   "message": "Please return everything from my latest order.",
+   "product": "Ridgeline 2 tent",
+   "allow": true,
+   "why": "Asked for every item."
+  }
+ ]
+}
